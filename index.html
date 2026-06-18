@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🧪 수의독성학 기말 — 개념·기출·예상문항</title>
+<style>
+:root{
+  --bg:#121212; --bg2:#181818; --card:#1f1f1f; --card2:#282828;
+  --txt:#fff; --dim:#b3b3b3; --line:#2a2a2a;
+  --accent:#1DB954; --accent2:#1ED760;
+  --ok:#1DB954; --okbg:#1db95422; --no:#f15e6c; --nobg:#f15e6c22;
+  --warn:#ffce54; --예상:#5b8def; --concept:#1DB954; --jokbo:#e0a44a;
+}
+[data-theme="light"]{
+  --bg:#f5f5f7; --bg2:#fff; --card:#fff; --card2:#f0f0f3;
+  --txt:#1a1a1a; --dim:#666; --line:#e2e2e6; --okbg:#1db95418; --nobg:#f15e6c18;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Pretendard','Apple SD Gothic Neo','맑은 고딕',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+.app{display:grid;grid-template-columns:280px 1fr;min-height:100vh}
+/* 사이드바 */
+.side{background:var(--bg2);border-right:1px solid var(--line);padding:16px;overflow-y:auto;height:100vh;position:sticky;top:0}
+.brand{font-size:18px;font-weight:800;margin-bottom:4px}
+.brand small{display:block;font-size:11px;color:var(--dim);font-weight:400;margin-top:2px}
+.modetab{display:flex;gap:6px;margin:14px 0}
+.modetab button{flex:1;padding:9px;border:0;border-radius:8px;background:var(--card);color:var(--dim);font-weight:700;cursor:pointer;font-size:13px}
+.modetab button.on{background:var(--accent);color:#000}
+.grp{margin:14px 0 6px;font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px;font-weight:700}
+.filt{display:block;width:100%;text-align:left;padding:8px 10px;margin:3px 0;border:0;border-left:3px solid transparent;border-radius:6px;background:transparent;color:var(--txt);cursor:pointer;font-size:13px}
+.filt:hover{background:var(--card)}
+.filt.on{background:var(--card2);border-left-color:var(--accent);font-weight:700}
+.filt .ct{float:right;color:var(--dim);font-size:11px}
+.prog{background:var(--card);border-radius:8px;padding:12px;margin-top:14px;font-size:12px}
+.prog .bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin:6px 0}
+.prog .bar i{display:block;height:100%;background:var(--accent)}
+.tog{margin-top:12px;display:flex;gap:6px}
+.tog button{flex:1;padding:7px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--txt);cursor:pointer;font-size:12px}
+/* 메인 */
+.main{padding:22px 26px;max-width:900px}
+.hd{font-size:22px;font-weight:800;margin-bottom:3px}
+.sub{color:var(--dim);font-size:13px;margin-bottom:18px}
+.q{background:var(--card);border-radius:12px;padding:18px;margin-bottom:16px;border-left:4px solid var(--line)}
+.q.예상{border-left-color:var(--예상)} .q.concept{border-left-color:var(--concept)} .q.jokbo{border-left-color:var(--jokbo)}
+.qmeta{font-size:11px;color:var(--dim);margin-bottom:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{padding:2px 8px;border-radius:10px;font-weight:700;font-size:10px}
+.tag.예상{background:var(--예상);color:#fff} .tag.concept{background:var(--concept);color:#000} .tag.jokbo{background:var(--jokbo);color:#000}
+.tag.flag{background:var(--warn);color:#000}
+.qtext{font-weight:600;margin-bottom:12px;white-space:pre-wrap}
+.opt{display:block;width:100%;text-align:left;padding:11px 13px;margin:6px 0;border:1px solid var(--line);border-radius:8px;background:var(--bg2);color:var(--txt);cursor:pointer;font-size:14px;transition:.12s}
+.opt:hover{border-color:var(--accent)}
+.opt.sel{border-color:var(--accent);background:var(--card2)}
+.opt.ok{border-color:var(--ok);background:var(--okbg)}
+.opt.no{border-color:var(--no);background:var(--nobg)}
+.opt .ci{font-weight:800;margin-right:8px}
+.btns{margin-top:10px;display:flex;gap:8px}
+.btn{padding:8px 16px;border:0;border-radius:8px;background:var(--accent);color:#000;font-weight:700;cursor:pointer;font-size:13px}
+.btn.ghost{background:var(--card2);color:var(--txt)}
+.exp{margin-top:12px;padding:13px;background:var(--bg2);border-radius:8px;font-size:13px;border:1px solid var(--line);display:none}
+.exp.show{display:block}
+.exp h4{color:var(--accent);margin:8px 0 4px;font-size:13px}
+.exp strong{color:var(--accent2)}
+.exp table{border-collapse:collapse;margin:8px 0;width:100%}
+.exp td,.exp th{border:1px solid var(--line);padding:4px 8px;font-size:12px}
+.concard{background:var(--card);border-radius:12px;padding:18px;margin-bottom:14px;border-left:4px solid var(--concept)}
+.concard h3{font-size:16px;margin-bottom:6px}
+.gist{color:var(--accent2);font-size:13px;margin-bottom:8px;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{background:var(--card2);color:var(--dim);padding:3px 9px;border-radius:12px;font-size:11px}
+.concept-body{font-size:13.5px}
+.concept-body h2{font-size:15px;margin:12px 0 6px;color:var(--accent2)}
+.concept-body strong{color:var(--txt);font-weight:700}
+.concept-body ul{margin:6px 0 6px 18px}
+.menuToggle{display:none}
+@media(max-width:760px){
+  .app{grid-template-columns:1fr}
+  .side{position:fixed;left:-300px;width:280px;z-index:50;transition:.2s;box-shadow:0 0 30px #000a}
+  .side.open{left:0}
+  .menuToggle{display:inline-block;position:fixed;top:12px;right:12px;z-index:60;background:var(--accent);color:#000;border:0;border-radius:8px;padding:9px 12px;font-weight:800;cursor:pointer}
+  .main{padding:60px 16px 30px}
+}
+</style>
+</head>
+<body data-theme="dark">
+<button class="menuToggle" onclick="document.querySelector('.side').classList.toggle('open')">☰</button>
+<div class="app">
+  <aside class="side">
+    <div class="brand">🧪 수의독성학 기말<small>강영선 · 개념·기출·예상문항 · 2026</small></div>
+    <div class="modetab">
+      <button id="mQ" class="on" onclick="setMode('quiz')">문제풀이</button>
+      <button id="mC" onclick="setMode('concept')">개념학습</button>
+    </div>
+    <div id="filterArea"></div>
+    <div class="prog" id="prog"></div>
+    <div class="tog">
+      <button onclick="toggleTheme()">🌙/☀️ 테마</button>
+      <button onclick="resetProg()">기록 초기화</button>
+    </div>
+  </aside>
+  <main class="main" id="main"></main>
+</div>
+
+<script src="questions_tox.js"></script>
+<script>
+const CIRC=['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'];
+const PARTORDER=['altmethod','cro','neuro','resp','cardio','hepato','renal','repro','eyeskin','hemato','immuno','genotox','gakron'];
+const PARTLBL={altmethod:'동물대체시험',cro:'임상시험·CRO',neuro:'신경독성',resp:'호흡기독성',cardio:'심혈관독성',hepato:'간독성',renal:'신장독성',repro:'생식발생독성',eyeskin:'눈·피부독성',hemato:'혈액·골수독성',immuno:'면역독성',genotox:'유전독성·발암',gakron:'각론(5-7단원)'};
+const PARTCOL={altmethod:'#ff6b6b',cro:'#ff924c',neuro:'#ffd93d',resp:'#6bcB77',cardio:'#f15e6c',hepato:'#e0a44a',renal:'#4d96ff',repro:'#a66cff',eyeskin:'#22c1c3',hemato:'#c0392b',immuno:'#9b59b6',genotox:'#e84393',gakron:'#74b9ff'};
+
+const LS='vettoxFinalV1';
+let state=JSON.parse(localStorage.getItem(LS)||'{}'); // id -> {sel:[],done:bool,correct:bool}
+let mode='quiz', curFilter='all', curPart=null;
+
+function save(){localStorage.setItem(LS,JSON.stringify(state))}
+function setEq(a,b){a=[...a].sort();b=[...b].sort();return a.length===b.length&&a.every((x,i)=>x===b[i])}
+function md(s){
+  if(!s)return'';
+  s=s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  // 표
+  s=s.replace(/^\|(.+)\|$/gm,m=>{
+    const cells=m.split('|').slice(1,-1).map(c=>c.trim());
+    if(cells.every(c=>/^-+$/.test(c)))return'';
+    return'<tr>'+cells.map(c=>'<td>'+c+'</td>').join('')+'</tr>';
+  });
+  s=s.replace(/(<tr>.*<\/tr>)/s,'<table>$1</table>');
+  s=s.replace(/^##\s*(.+)$/gm,'<h2>$1</h2>');
+  s=s.replace(/^###\s*(.+)$/gm,'<h4>$1</h4>');
+  s=s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/^\s*[-*]\s+(.+)$/gm,'<li>$1</li>');
+  s=s.replace(/(<li>.*?<\/li>)(\n(?!<li>))/gs,'<ul>$1</ul>$2');
+  s=s.replace(/\n{2,}/g,'<br><br>').replace(/\n/g,'<br>');
+  return s;
+}
+
+function curList(){
+  let arr=LABQ.filter(q=>{
+    if(curPart&&q.part!==curPart)return false;
+    if(curFilter==='all')return true;
+    if(curFilter==='예상')return q.origin==='예상';
+    if(curFilter==='concept')return q.origin==='concept';
+    if(curFilter==='jokbo')return q.origin==='jokbo';
+    if(curFilter==='flag')return q.flag;
+    if(curFilter==='wrong')return state[q.id]&&state[q.id].done&&!state[q.id].correct;
+    return true;
+  });
+  return arr;
+}
+
+function renderFilters(){
+  const a=document.getElementById('filterArea');
+  if(mode==='concept'){
+    let h='<div class="grp">단원 (개념학습)</div>';
+    h+=filtBtn('all','전체 개념',null);
+    PARTORDER.forEach(p=>{const n=CONCEPTS.filter(c=>c.part===p).length;if(n)h+=partBtn(p,n)});
+    a.innerHTML=h;return;
+  }
+  let h='<div class="grp">출처</div>';
+  h+=filtBtn('all','전체',LABQ.filter(byPart).length);
+  h+=filtBtn('예상','🎯 예상문항',LABQ.filter(q=>byPart(q)&&q.origin==='예상').length);
+  h+=filtBtn('jokbo','📜 기출(범위)',LABQ.filter(q=>byPart(q)&&q.origin==='jokbo').length);
+  h+=filtBtn('concept','📘 개념문항',LABQ.filter(q=>byPart(q)&&q.origin==='concept').length);
+  h+=filtBtn('flag','⚠️ 범위의심',LABQ.filter(q=>byPart(q)&&q.flag).length);
+  h+=filtBtn('wrong','❌ 틀린문항',LABQ.filter(q=>byPart(q)&&state[q.id]&&state[q.id].done&&!state[q.id].correct).length);
+  h+='<div class="grp">단원</div>';
+  h+='<button class="filt'+(!curPart?' on':'')+'" onclick="setPart(null)">전체 단원<span class="ct">'+LABQ.length+'</span></button>';
+  PARTORDER.forEach(p=>{const n=LABQ.filter(q=>q.part===p).length;if(n)h+=partBtn(p,n)});
+  a.innerHTML=h;
+}
+function byPart(q){return !curPart||q.part===curPart}
+function filtBtn(k,lbl,ct){return'<button class="filt'+(curFilter===k?' on':'')+'" onclick="setFilter(\''+k+'\')">'+lbl+(ct!=null?'<span class="ct">'+ct+'</span>':'')+'</button>'}
+function partBtn(p,n){return'<button class="filt'+(curPart===p?' on':'')+'" onclick="setPart(\''+p+'\')"><span style="color:'+(PARTCOL[p]||'#999')+'">●</span> '+PARTLBL[p]+'<span class="ct">'+n+'</span></button>'}
+
+function setMode(m){mode=m;curPart=null;curFilter='all';document.getElementById('mQ').classList.toggle('on',m==='quiz');document.getElementById('mC').classList.toggle('on',m==='concept');renderFilters();render()}
+function setFilter(k){curFilter=k;renderFilters();render()}
+function setPart(p){curPart=p;renderFilters();render();window.scrollTo(0,0)}
+
+function renderProg(){
+  const arr=curList();const done=arr.filter(q=>state[q.id]&&state[q.id].done);const ok=done.filter(q=>state[q.id].correct);
+  const pct=done.length?Math.round(ok.length/done.length*100):0;
+  document.getElementById('prog').innerHTML=
+    '<b>진행</b> '+done.length+' / '+arr.length+'<div class="bar"><i style="width:'+(arr.length?done.length/arr.length*100:0)+'%"></i></div>'+
+    '정답률 '+pct+'% ('+ok.length+'✓ / '+(done.length-ok.length)+'✗)';
+}
+
+function render(){
+  const m=document.getElementById('main');
+  if(mode==='concept'){renderConcept(m);return}
+  const arr=curList();
+  let h='<div class="hd">'+(curPart?PARTLBL[curPart]:'전체')+' · 문제풀이</div><div class="sub">'+arr.length+'문항 ('+filtLbl()+')</div>';
+  m.innerHTML=h+arr.map(qCard).join('');
+  renderProg();
+}
+function filtLbl(){return{all:'전체',예상:'예상문항',jokbo:'기출',concept:'개념문항',flag:'범위의심',wrong:'틀린문항'}[curFilter]||''}
+
+function qCard(q){
+  const st=state[q.id]||{sel:[],done:false};
+  const oc=q.origin;
+  let h='<div class="q '+oc+'" id="q'+q.id+'">';
+  h+='<div class="qmeta"><span class="tag '+oc+'">'+({예상:'예상',concept:'개념',jokbo:'기출'}[oc])+'</span>';
+  h+='<span style="color:'+(PARTCOL[q.part]||'#999')+'">●</span>'+PARTLBL[q.part];
+  if(q.exam)h+='<span>· '+q.exam+'</span>';
+  if(q.type==='multi')h+='<span>· 복수정답</span>';
+  if(q.flag)h+='<span class="tag flag">⚠️범위의심</span>';
+  h+='</div>';
+  h+='<div class="qtext">'+(q.topic?'<span style="color:var(--dim);font-size:12px">['+q.topic+']</span><br>':'')+q.q+'</div>';
+  q.choices.forEach((c,i)=>{
+    const n=i+1;let cls='opt';
+    if(st.done){if(q.answer.includes(n))cls+=' ok';else if(st.sel.includes(n))cls+=' no'}
+    else if(st.sel.includes(n))cls+=' sel';
+    h+='<button class="'+cls+'" onclick="pick('+q.id+','+n+')"><span class="ci">'+CIRC[i]+'</span>'+c+'</button>';
+  });
+  h+='<div class="btns">';
+  if(!st.done)h+='<button class="btn" onclick="checkQ('+q.id+')">정답 확인</button>';
+  else h+='<button class="btn ghost" onclick="retry('+q.id+')">다시</button>';
+  h+='<button class="btn ghost" onclick="toggleExp('+q.id+')">해설</button></div>';
+  h+='<div class="exp'+(st.done?' show':'')+'" id="e'+q.id+'">'+md(q.explain||'(해설 없음)')+'</div>';
+  h+='</div>';
+  return h;
+}
+function pick(id,n){
+  const q=LABQ.find(x=>x.id===id);const st=state[id]||(state[id]={sel:[],done:false});
+  if(st.done)return;
+  if(q.type==='multi'){st.sel=st.sel.includes(n)?st.sel.filter(x=>x!==n):[...st.sel,n]}
+  else{st.sel=[n]}
+  save();patch(id);
+}
+function checkQ(id){
+  const q=LABQ.find(x=>x.id===id);const st=state[id]||(state[id]={sel:[]});
+  st.done=true;st.correct=setEq(st.sel,q.answer);save();patch(id);renderProg();renderFilters();
+}
+function retry(id){state[id]={sel:[],done:false};save();patch(id);renderProg()}
+function patch(id){const el=document.getElementById('q'+id);if(el)el.outerHTML=qCard(LABQ.find(x=>x.id===id))}
+function toggleExp(id){document.getElementById('e'+id).classList.toggle('show')}
+
+function renderConcept(m){
+  let h='<div class="hd">'+(curPart?PARTLBL[curPart]:'전체')+' · 개념학습</div><div class="sub">조각이론 Unit + 개념확인문항</div>';
+  const cards=CONCEPTS.filter(c=>!curPart||c.part===curPart);
+  cards.forEach(c=>{
+    h+='<div class="concard"><h3>'+c.unit_title+'</h3>';
+    h+='<div class="gist">💡 '+c.gist+'</div>';
+    h+='<div class="chips">'+(c.chips||[]).map(x=>'<span class="chip">'+x+'</span>').join('')+'</div>';
+    h+='<div class="concept-body">'+md(c.concept)+'</div></div>';
+    // 해당 unit 개념문항
+    const qs=LABQ.filter(q=>q.origin==='concept'&&q.topic===c.unit_title&&q.part===c.part);
+    h+=qs.map(qCard).join('');
+  });
+  m.innerHTML=h;renderProg();
+}
+
+function toggleTheme(){const b=document.body;b.dataset.theme=b.dataset.theme==='dark'?'light':'dark';localStorage.setItem('vettoxTheme',b.dataset.theme)}
+function resetProg(){if(confirm('풀이 기록 전체 삭제?')){state={};save();render();renderProg();renderFilters()}}
+
+// init
+if(localStorage.getItem('vettoxTheme'))document.body.dataset.theme=localStorage.getItem('vettoxTheme');
+renderFilters();render();
+</script>
+</body>
+</html>
