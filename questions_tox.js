@@ -17214,6 +17214,7 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"image": "img/fig_metabolism.png",
 "id": 608
 },
 {
@@ -17298,6 +17299,7 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"image": "img/fig_metabolism.png",
 "id": 611
 },
 {

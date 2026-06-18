@@ -322,11 +322,18 @@ function load(){try{const j=JSON.parse(localStorage.getItem(LS));if(j&&j.ans){if
   return{ans:{},filter:4,theme:'dark',bookmarks:{},soloIdx:0};}
 function isSolo(){return typeof FILTERS[ST.filter][2]==='string';}
 function soloMode(){return FILTERS[ST.filter][2];}
+function soloSort(l){return l.sort((a,b)=>{
+  const pa=PARTORDER.indexOf(a.part),pb=PARTORDER.indexOf(b.part);
+  if(pa!==pb)return pa-pb;
+  if((a.cardOrder||0)!==(b.cardOrder||0))return (a.cardOrder||0)-(b.cardOrder||0);
+  return a.id-b.id;});}
 function soloListFor(m){
-  if(m==='EXAM')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='exam'&&['ox','single','multi'].includes(q.type));
-  if(m==='BASIC')return QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='basic'&&['ox','single','multi'].includes(q.type));
-  if(m==='JOKBO')return QUESTIONS.filter(q=>q.origin==='jokbo'&&['ox','single','multi'].includes(q.type));
-  return QUESTIONS.filter(q=>['ox','single','multi'].includes(q.type));}
+  let l;
+  if(m==='EXAM')l=QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='exam'&&['ox','single','multi'].includes(q.type));
+  else if(m==='BASIC')l=QUESTIONS.filter(q=>q.origin==='concept'&&q.level==='basic'&&['ox','single','multi'].includes(q.type));
+  else if(m==='JOKBO')l=QUESTIONS.filter(q=>q.origin==='jokbo'&&['ox','single','multi'].includes(q.type));
+  else l=QUESTIONS.filter(q=>['ox','single','multi'].includes(q.type));
+  return soloSort(l);}
 function soloList(){return soloListFor(soloMode());}
 function save(){localStorage.setItem(LS,JSON.stringify(ST));}
 const TOTALQ=QUESTIONS.filter(q=>q.type==='single'||q.type==='multi').length;
@@ -418,6 +425,7 @@ function cardHtml(q){
     return h+`</div>`;
   }
   h+=`<div class="qtext">${md(q.q)}</div>`;
+  if(q.image)h+=`<img src="${q.image}" alt="문항 그림" style="max-width:100%;border-radius:9px;margin:4px 0 12px;border:1px solid var(--border);background:#fff">`;
   if(q.exams&&q.exams.length>1)h+=`<div class="exams">출제: ${q.exams.join(' · ')}</div>`;
   if(q.type==='short'){
     if(st.checked){h+=`<div class="explanation"><div class="verdict correct">✍️ 모범답안</div>${md(q.explain)}</div>`+selfGrade(q,st);}
