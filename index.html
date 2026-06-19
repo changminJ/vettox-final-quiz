@@ -373,6 +373,7 @@ function md(s){
   }
   flush();return html;}
 function setEq(a,b){a=[...a].sort();b=[...b].sort();return a.length===b.length&&a.every((v,i)=>v===b[i]);}
+function patch(id){const el=document.getElementById('q'+id);if(el)el.outerHTML=cardHtml(QMAP[id]);}
 
 function renderSidebar(){
   const nav=document.getElementById('filterNav');nav.innerHTML='';
