@@ -11674,6 +11674,8 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"cid": 30,
+"theme": "생체변환 대사경로 도식(그림 5.1) 순서 배열",
 "image": "img/fig_metabolism.png",
 "id": 407
 },
@@ -11703,10 +11705,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"cid": 29,
+"theme": "생체변환(biotransformation) Phase I/II 개념 (틀린 것)",
 "id": 408
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "흡입경로(inhalation route)를 통한 생체이물 흡수 — 폐의 혈류·표면적, 모세혈관상 노출, 부위",
 "type": "single",
@@ -11731,6 +11735,8 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
+"cid": 60,
+"theme": "흡입(호흡)경로를 통한 생체이물 흡수 — 폐 혈류·표면적·간 일차통과 회피",
 "id": 409
 },
 {
@@ -11759,6 +11765,8 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"cid": 30,
+"theme": "생체변환 대사경로 도식(그림 5.1) 순서 배열",
 "image": "img/fig_metabolism.png",
 "id": 410
 },
@@ -11788,6 +11796,8 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"cid": 29,
+"theme": "생체변환(biotransformation) Phase I/II 개념 (틀린 것)",
 "id": 411
 },
 {
@@ -11816,6 +11826,8 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
+"cid": 26,
+"theme": "벤젠·TCDD 골수독성·면역독성 매칭",
 "id": 412
 },
 {
@@ -11843,35 +11855,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
+"cid": 8,
+"theme": "Ivermectin(거대고리락톤) 물질 식별",
 "id": 413
 },
 {
-"part": "resp",
-"unit": "",
-"topic": "호흡기독성 — Air-borne agents(석면 식별)",
-"type": "single",
-"q": "다음이 설명하는 물질의 이름을 고르시오.\n이 물질은 공기를 매개로 하는 독성 물질 중에서 대표적인 것으로, 석면 광산, 오래된 건물의 절연, 단열, 방화벽 철거 시 노출되는 경우가 많다. 이 물질은 섬유의 길이가 2um 이내로 폐포벽의 콜라겐을 축적시켜 섬유증을 일으키게 되며, 섬유와 둘러싼 단백질성 물질(asbestos bodies)를 관찰할 수 있다.",
-"choices": [
-"Naphthaline ②. Silica ③. Paraquat",
-"Asbestos ⑤. Ozone"
-],
-"answer": [
-1
-],
-"explain": "발문은 설명에 해당하는 물질 하나를 고르는 단일정답형. 강의안 Slide(3762~3773줄) \"6. 폐 독성물질 (1) Air-borne agents — 1) Asbestos(석면)\"에서 \"길이 2μm 이내: 폐포벽 콜라겐 축적, 섬유증 유발 (Asbestos bodies 관찰됨)\"이 문항 설명(\"섬유 길이 2um 이내로 폐포벽 콜라겐 축적, 섬유증, asbestos bodies\")과 글자 그대로 일치한다. 따라서 정답은 4번 Asbestos. 함정: ②Silica도 공기매개 입자상이나 직경 5μm·급성 규폐증·탐식 후 대식세포 사멸(3776~3780)로 콜라겐 축적·asbestos bodies와 무관; ⑤Ozone은 ROS·폐포-모세혈관막 손상(3784~3788), ③Paraquat은 비흡입 경로 폐축적·ROS(3719), ①Naphthalene은 CYP 대사활성화 기도상피 괴사(3837~3855)로 모두 설명과 불일치.\n\n**Claude 재판정 정답**: ①\n**족보 표기답**: ④ (일치)",
-"origin": "jokbo",
-"exam": "2024-기말",
-"exams": [
-"2024-기말"
-],
-"freq": 0,
-"cardOrder": 90,
-"flag": false,
-"flagReason": "",
-"id": 414
-},
-{
-"part": "resp",
+"part": "cardio",
 "unit": "",
 "topic": "심혈관(심장) 독성 작용기전 — 전도장애·수축기능장애·에너지대사장애·미세구조손상·2차적(간접) 요인",
 "type": "multi",
@@ -11896,32 +11885,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 415
-},
-{
-"part": "resp",
-"unit": "",
-"topic": "간 괴사 형태(구역별 분류) — 중심 소엽성(Zone 3) 괴사 식별",
-"type": "single",
-"q": "다음을 설명하는 것으로 옳은 것을 고르시오.\n- 가장 흔하게 발생하는 괴사 형태\n- 중심 정맥 주위에 괴사된 간세포가 특징적이다.\n- 손상된 간 실질은 다른 간세포들로 대체되어 쉽게 회복할 수 있다.\n- 중심정맥 지역에 인접해서 동양혈관 내피가 손상되었을 경우 섬유화가 일어난다.\n- 심장 독성물질 또는 조혈인자에 손상을 주는 독성물질이 주 원인이다.",
-"choices": [
-"중간 구역 괴사 ②. 문맥 주위 괴사 ③. 중심 소엽성 괴사",
-"소엽성 괴사 ⑤. 간 섬유모세포 괴사"
-],
-"answer": [
-1
-],
-"explain": "발문은 설명에 맞는 괴사 형태를 \"옳은 것\"으로 고르는 단일정답형. 강의안(line 7578-7591) \"3 중심 소엽성(Zone 3) 괴사\"는 위치=중심정맥 주위 간세포(line 7580), 특징=재생 회복 가능하나 내피 손상 시 섬유화 진행(line 7584), 주요 원인=심장/조혈 인자에 손상을 주는 독성물질(line 7587-88)로, 발문의 4개 단서(중심정맥 주위·간세포 대체 회복·동양혈관 내피 손상 시 섬유화·심장/조혈 독성물질)와 정확히 일치한다. 따라서 정답은 ③ 중심 소엽성 괴사. 함정: ①중간구역(Zone 2)·②문맥주위(Zone 1)는 위치·원인이 다르고, ④소엽성(광범위/전소엽성)은 재생 불가·전 소엽 손상(line 7593-7600)이라 \"쉽게 회복\"과 모순, ⑤간 섬유모세포 괴사는 강의안에 없는 비실재 항목이다.\n\n**Claude 재판정 정답**: ①\n**족보 표기답**: ③ (일치)",
-"origin": "jokbo",
-"exam": "2024-기말",
-"exams": [
-"2024-기말"
-],
-"freq": 0,
-"cardOrder": 90,
-"flag": false,
-"flagReason": "",
-"id": 416
+"cid": 62,
+"theme": "심혈관(심장) 독성 작용기전 4유형 — 수축장애·에너지대사·미세구조·2차적(간접) 요인",
+"id": 414
 },
 {
 "part": "eyeskin",
@@ -11951,7 +11917,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 417
+"cid": 3,
+"theme": "눈 독성 — 각막상피 투과성 + 산·알칼리 화학손상(pH 임계·음이온 결합력·후유증 주체)",
+"id": 415
 },
 {
 "part": "eyeskin",
@@ -11979,7 +11947,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 418
+"cid": 4,
+"theme": "피부 독성 — 경피 흡수 증가 요인 + 피부층별 대사능(표피 심층부 CYP 대사 O / 진피 대사 X)",
+"id": 416
 },
 {
 "part": "gakron",
@@ -12007,7 +11977,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 419
+"cid": 15,
+"theme": "고양이 glucuronidation(UGT) 결핍 — acetaminophen·salicylate 감수성",
+"id": 417
 },
 {
 "part": "gakron",
@@ -12035,7 +12007,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 420
+"cid": 5,
+"theme": "에틸렌글리콜(EG) 빈칸 물질식별",
+"id": 418
 },
 {
 "part": "resp",
@@ -12063,7 +12037,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 421
+"cid": 61,
+"theme": "세기관지-폐포관 접합부 CYP 고감수성 세포 — Clara(Club) 세포",
+"id": 419
 },
 {
 "part": "gakron",
@@ -12091,7 +12067,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 422
+"cid": 40,
+"theme": "간 기능 평가 — 알부민(반감기·만성 지표)",
+"id": 420
 },
 {
 "part": "gakron",
@@ -12119,7 +12097,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 423
+"cid": 17,
+"theme": "금속 화학적 형태(무기 vs 유기)에 따른 표적장기",
+"id": 421
 },
 {
 "part": "gakron",
@@ -12147,7 +12127,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 424
+"cid": 18,
+"theme": "철(Iron) 중독 치료 — 킬레이션(deferoxamine)",
+"id": 422
 },
 {
 "part": "gakron",
@@ -12175,7 +12157,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
-"id": 425
+"cid": 12,
+"theme": "유기인계 식별 + 생체활성화(parathion→paraoxon, P=S 탈황화)",
+"id": 423
 },
 {
 "part": "gakron",
@@ -12203,7 +12187,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 426
+"cid": 13,
+"theme": "유기염소계/EDC 빈칸 식별 (잔류성·지용성·먹이사슬 농축)",
+"id": 424
 },
 {
 "part": "gakron",
@@ -12231,7 +12217,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 427
+"cid": 9,
+"theme": "Ivermectin 작용기전 — GABA 효능제",
+"id": 425
 },
 {
 "part": "gakron",
@@ -12259,7 +12247,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 428
+"cid": 5,
+"theme": "에틸렌글리콜(EG) 빈칸 물질식별",
+"id": 426
 },
 {
 "part": "gakron",
@@ -12287,10 +12277,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 429
+"cid": 27,
+"theme": "다이옥신 독성등가계수(TEF) — 기준물질 2,3,7,8-TCDD",
+"id": 427
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "유전독성시험 배터리 식별 (Ames 복귀돌연변이 + 체외 염색체이상/마우스 림포마 TK + 체내 소핵시험 +",
 "type": "single",
@@ -12315,7 +12307,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 430
+"cid": 53,
+"theme": "유전독성시험 배터리 식별 (Ames+염색체이상/TK+소핵+S9 → '유전독성시험')",
+"id": 428
 },
 {
 "part": "neuro",
@@ -12343,7 +12337,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 431
+"cid": 47,
+"theme": "신경계의 고유한 취약성(Neural Vulnerability)·보호기전(Protection)",
+"id": 429
 },
 {
 "part": "gakron",
@@ -12369,7 +12365,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 432
+"cid": 25,
+"theme": "신경독성 — 축삭병변/신경세포병변 원인물질 매칭",
+"id": 430
 },
 {
 "part": "neuro",
@@ -12397,7 +12395,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 433
+"cid": 48,
+"theme": "흥분성 아미노산(EAAs)·Excitotoxicity·MSG Chinese restaurant syndrome",
+"id": 431
 },
 {
 "part": "resp",
@@ -12425,7 +12425,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
-"id": 434
+"cid": 58,
+"theme": "Paraquat 특이 폐독성 기전 (polyamine 흡수·redox cycling·ROS·type I/II 폐포세포)",
+"id": 432
 },
 {
 "part": "gakron",
@@ -12453,10 +12455,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 435
+"cid": 38,
+"theme": "석면(asbestos) 폐독성 — 공기매개 섬유증·폐암",
+"id": 433
 },
 {
-"part": "resp",
+"part": "cardio",
 "unit": "",
 "topic": "심혈관독성 작용기전 (심장수축 기능장애·에너지대사 장애·2차적 요인에 의한 간접 심장 독성)",
 "type": "multi",
@@ -12481,7 +12485,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 436
+"cid": 62,
+"theme": "심혈관(심장) 독성 작용기전 4유형 — 수축장애·에너지대사·미세구조·2차적(간접) 요인",
+"id": 434
 },
 {
 "part": "cardio",
@@ -12509,10 +12515,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 437
+"cid": 2,
+"theme": "혈관계 독성 4대 기전 + 심장중독 최대 생명위험요인(전도장애)",
+"id": 435
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "간독성 - 간 괴사 형태(구역별 분류): 중심소엽성(Zone 3) 괴사",
 "type": "single",
@@ -12537,10 +12545,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 438
+"cid": 63,
+"theme": "간 괴사 구역별 분류 — 중심 소엽성(Zone 3) 괴사 식별",
+"id": 436
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "간독성 - 간 섬유화(fibrosis)와 간경변, 간 구성세포(쿠퍼세포 vs 간 별세포 HSC), 감염성 간",
 "type": "multi",
@@ -12566,10 +12576,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 439
+"cid": 64,
+"theme": "간 섬유화·간경변 + 핵심 세포(쿠퍼 vs 간 별세포 HSC) + 감염성 간염(개 아데노바이러스)",
+"id": 437
 },
 {
-"part": "neuro",
+"part": "hepato",
 "unit": "",
 "topic": "간 기능과 간 손상의 평가 항목 — 간독성 평가 지표(적혈구 검사·혈청 효소·혈액 암모니아·혈장단백·빌리루빈",
 "type": "single",
@@ -12594,7 +12606,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 440
+"cid": 50,
+"theme": "장기별 독성 평가지표 매칭 — 간 기능 평가 항목 고르기(GFAP·NK·BUN·전도검사 함정)",
+"id": 438
 },
 {
 "part": "repro",
@@ -12622,7 +12636,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 441
+"cid": 54,
+"theme": "생식발생독성 — 배아·태아 발생기 감수성 (태반장벽·노출시기·형태/기능 변화)",
+"id": 439
 },
 {
 "part": "eyeskin",
@@ -12652,7 +12668,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 442
+"cid": 3,
+"theme": "눈 독성 — 각막상피 투과성 + 산·알칼리 화학손상(pH 임계·음이온 결합력·후유증 주체)",
+"id": 440
 },
 {
 "part": "eyeskin",
@@ -12680,7 +12698,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 443
+"cid": 4,
+"theme": "피부 독성 — 경피 흡수 증가 요인 + 피부층별 대사능(표피 심층부 CYP 대사 O / 진피 대사 X)",
+"id": 441
 },
 {
 "part": "genotox",
@@ -12708,7 +12728,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 444
+"cid": 42,
+"theme": "다단계 발암과정 — 개시제(initiator)·촉진제(promoter)·발암제(carcinogen)의 정의와 가역성",
+"id": 442
 },
 {
 "part": "gakron",
@@ -12736,7 +12758,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 445
+"cid": 15,
+"theme": "고양이 glucuronidation(UGT) 결핍 — acetaminophen·salicylate 감수성",
+"id": 443
 },
 {
 "part": "gakron",
@@ -12764,7 +12788,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 446
+"cid": 12,
+"theme": "유기인계 식별 + 생체활성화(parathion→paraoxon, P=S 탈황화)",
+"id": 444
 },
 {
 "part": "gakron",
@@ -12792,7 +12818,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 447
+"cid": 13,
+"theme": "유기염소계/EDC 빈칸 식별 (잔류성·지용성·먹이사슬 농축)",
+"id": 445
 },
 {
 "part": "gakron",
@@ -12819,7 +12847,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 448
+"cid": 8,
+"theme": "Ivermectin(거대고리락톤) 물질 식별",
+"id": 446
 },
 {
 "part": "gakron",
@@ -12847,10 +12877,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 449
+"cid": 5,
+"theme": "에틸렌글리콜(EG) 빈칸 물질식별",
+"id": 447
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "호흡기 노출 경로를 통한 생체이물 흡수(폐 구조·모세혈관 노출·확산·부위별 침착·간 일차통과 회피)",
 "type": "multi",
@@ -12876,7 +12908,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
-"id": 450
+"cid": 60,
+"theme": "흡입(호흡)경로를 통한 생체이물 흡수 — 폐 혈류·표면적·간 일차통과 회피",
+"id": 448
 },
 {
 "part": "hepato",
@@ -12905,7 +12939,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 451
+"cid": 46,
+"theme": "반응성 대사산물(ROS/RNS) 생성 기전 — redox cycling·전이금속 Fenton·질산염 환원·ONOO⁻",
+"id": 449
 },
 {
 "part": "gakron",
@@ -12933,7 +12969,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 452
+"cid": 15,
+"theme": "고양이 glucuronidation(UGT) 결핍 — acetaminophen·salicylate 감수성",
+"id": 450
 },
 {
 "part": "gakron",
@@ -12961,7 +12999,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 453
+"cid": 12,
+"theme": "유기인계 식별 + 생체활성화(parathion→paraoxon, P=S 탈황화)",
+"id": 451
 },
 {
 "part": "gakron",
@@ -12989,10 +13029,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 454
+"cid": 13,
+"theme": "유기염소계/EDC 빈칸 식별 (잔류성·지용성·먹이사슬 농축)",
+"id": 452
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "유전독성시험 배터리 식별 (Ames 복귀돌연변이 + 체외 염색체이상시험/마우스 림포마 TK + 체내 소핵시험",
 "type": "single",
@@ -13017,7 +13059,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 455
+"cid": 53,
+"theme": "유전독성시험 배터리 식별 (Ames+염색체이상/TK+소핵+S9 → '유전독성시험')",
+"id": 453
 },
 {
 "part": "neuro",
@@ -13045,7 +13089,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
-"id": 456
+"cid": 47,
+"theme": "신경계의 고유한 취약성(Neural Vulnerability)·보호기전(Protection)",
+"id": 454
 },
 {
 "part": "gakron",
@@ -13073,7 +13119,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 457
+"cid": 25,
+"theme": "신경독성 — 축삭병변/신경세포병변 원인물질 매칭",
+"id": 455
 },
 {
 "part": "resp",
@@ -13101,7 +13149,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 458
+"cid": 57,
+"theme": "호흡기독성 종합 OX (기도 상피 장벽·세포 감수성·자극성 기체·경구 폐독성)",
+"id": 456
 },
 {
 "part": "resp",
@@ -13130,7 +13180,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": true,
 "flagReason": "⚠️ 교차판정 불일치 — 답 신중 확인",
-"id": 459
+"cid": 58,
+"theme": "Paraquat 특이 폐독성 기전 (polyamine 흡수·redox cycling·ROS·type I/II 폐포세포)",
+"id": 457
 },
 {
 "part": "resp",
@@ -13158,7 +13210,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 460
+"cid": 59,
+"theme": "Air-borne agent 물질 식별 — 석면(Asbestos)",
+"id": 458
 },
 {
 "part": "cardio",
@@ -13186,10 +13240,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 461
+"cid": 1,
+"theme": "심장혈관계의 중독 취약성 (5대 장기적 특성)",
+"id": 459
 },
 {
-"part": "resp",
+"part": "cardio",
 "unit": "",
 "topic": "심혈관계 독성 작용기전 — 심장전도/수축장애, 에너지대사장애, 미세구조손상, 2차적(간접) 요인",
 "type": "multi",
@@ -13214,7 +13270,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 462
+"cid": 62,
+"theme": "심혈관(심장) 독성 작용기전 4유형 — 수축장애·에너지대사·미세구조·2차적(간접) 요인",
+"id": 460
 },
 {
 "part": "cardio",
@@ -13242,7 +13300,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 463
+"cid": 2,
+"theme": "혈관계 독성 4대 기전 + 심장중독 최대 생명위험요인(전도장애)",
+"id": 461
 },
 {
 "part": "hepato",
@@ -13271,10 +13331,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 464
+"cid": 45,
+"theme": "간 비실질세포 기능 매칭 — 쿠퍼세포(Kupffer) vs 간별세포(HSC/Ito)",
+"id": 462
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "간 괴사 구역별 분류 — 중심 소엽성(Zone 3) 괴사의 특징 식별",
 "type": "single",
@@ -13299,10 +13361,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 465
+"cid": 63,
+"theme": "간 괴사 구역별 분류 — 중심 소엽성(Zone 3) 괴사 식별",
+"id": 463
 },
 {
-"part": "resp",
+"part": "hepato",
 "unit": "",
 "topic": "간독성 — 간 섬유화(fibrosis)·간경변, 쿠퍼세포 vs 간 별세포(HSC), 감염성/바이러스성 간염(",
 "type": "multi",
@@ -13328,10 +13392,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 466
+"cid": 64,
+"theme": "간 섬유화·간경변 + 핵심 세포(쿠퍼 vs 간 별세포 HSC) + 감염성 간염(개 아데노바이러스)",
+"id": 464
 },
 {
-"part": "neuro",
+"part": "hepato",
 "unit": "",
 "topic": "간 기능과 간 손상의 평가 항목 (적혈구 검사·혈청 효소·혈액 암모니아·혈장 단백·빌리루빈·콜레스테롤)",
 "type": "single",
@@ -13356,7 +13422,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 467
+"cid": 50,
+"theme": "장기별 독성 평가지표 매칭 — 간 기능 평가 항목 고르기(GFAP·NK·BUN·전도검사 함정)",
+"id": 465
 },
 {
 "part": "repro",
@@ -13384,7 +13452,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 468
+"cid": 54,
+"theme": "생식발생독성 — 배아·태아 발생기 감수성 (태반장벽·노출시기·형태/기능 변화)",
+"id": 466
 },
 {
 "part": "repro",
@@ -13412,7 +13482,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 469
+"cid": 56,
+"theme": "환경호르몬(내분비계 장애물질 EDCs)의 특성",
+"id": 467
 },
 {
 "part": "eyeskin",
@@ -13442,7 +13514,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 470
+"cid": 3,
+"theme": "눈 독성 — 각막상피 투과성 + 산·알칼리 화학손상(pH 임계·음이온 결합력·후유증 주체)",
+"id": 468
 },
 {
 "part": "eyeskin",
@@ -13469,7 +13543,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 471
+"cid": 4,
+"theme": "피부 독성 — 경피 흡수 증가 요인 + 피부층별 대사능(표피 심층부 CYP 대사 O / 진피 대사 X)",
+"id": 469
 },
 {
 "part": "genotox",
@@ -13497,10 +13573,12 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 472
+"cid": 41,
+"theme": "Ames test (원핵세포 복귀돌연변이 시험) — 원리·균주·His⁻ 영양요구성·S9 대사활성화",
+"id": 470
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "다단계 발암과정(Multistage carcinogenesis): 개시제(initiator)·촉진제(prom",
 "type": "single",
@@ -13525,7 +13603,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 473
+"cid": 55,
+"theme": "다단계 발암과정 — 개시제·촉진제·완전발암제 구분",
+"id": 471
 },
 {
 "part": "gakron",
@@ -13553,7 +13633,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 474
+"cid": 15,
+"theme": "고양이 glucuronidation(UGT) 결핍 — acetaminophen·salicylate 감수성",
+"id": 472
 },
 {
 "part": "gakron",
@@ -13580,7 +13662,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 475
+"cid": 8,
+"theme": "Ivermectin(거대고리락톤) 물질 식별",
+"id": 473
 },
 {
 "part": "gakron",
@@ -13608,7 +13692,9 @@ const LABQ = [
 "cardOrder": 90,
 "flag": false,
 "flagReason": "",
-"id": 476
+"cid": 5,
+"theme": "에틸렌글리콜(EG) 빈칸 물질식별",
+"id": 474
 },
 {
 "part": "gakron",
@@ -13639,7 +13725,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
-"id": 477
+"cid": 28,
+"theme": "선택적 독성(selective toxicity)",
+"id": 475
 },
 {
 "part": "gakron",
@@ -13671,7 +13759,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c, d, e",
-"id": 478
+"cid": 32,
+"theme": "독성에 영향을 미치는 요인 (총론: 숙주·환경·투여경로)",
+"id": 476
 },
 {
 "part": "gakron",
@@ -13702,7 +13792,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③",
-"id": 479
+"cid": 31,
+"theme": "독성물질-표적분자 짝짓기",
+"id": 477
 },
 {
 "part": "gakron",
@@ -13733,7 +13825,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ④, ⑤",
-"id": 480
+"cid": 26,
+"theme": "벤젠·TCDD 골수독성·면역독성 매칭",
+"id": 478
 },
 {
 "part": "gakron",
@@ -13765,7 +13859,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, e, g",
-"id": 481
+"cid": 23,
+"theme": "해독제(antidote)-중독물질 짝짓기",
+"id": 479
 },
 {
 "part": "neuro",
@@ -13794,7 +13890,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ③, ④, ⑤",
-"id": 482
+"cid": 49,
+"theme": "파상풍(tetanus) 독소의 억제성 신경전달물질(glycine) 분비 차단",
+"id": 480
 },
 {
 "part": "gakron",
@@ -13826,7 +13924,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b-ㄴ, d-ㄹ, a-ㄱ",
-"id": 483
+"cid": 24,
+"theme": "산화적 스트레스 방어계 — 물질·기능 짝짓기",
+"id": 481
 },
 {
 "part": "gakron",
@@ -13858,7 +13958,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d, e",
-"id": 484
+"cid": 11,
+"theme": "유기인계·카바메이트 AChE 억제 가역성 + parathion→paraoxon (틀린 것)",
+"id": 482
 },
 {
 "part": "gakron",
@@ -13888,7 +13990,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, e",
-"id": 485
+"cid": 14,
+"theme": "유기염소계 특성 (틀린 것 고르기)",
+"id": 483
 },
 {
 "part": "genotox",
@@ -13916,10 +14020,12 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①",
-"id": 486
+"cid": 41,
+"theme": "Ames test (원핵세포 복귀돌연변이 시험) — 원리·균주·His⁻ 영양요구성·S9 대사활성화",
+"id": 484
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "유전독성평가의 문제점(한계) — 유전독성시험의 예측력·종간 차이·발암성 상관관계 비판",
 "type": "multi",
@@ -13947,7 +14053,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
-"id": 487
+"cid": 52,
+"theme": "유전독성평가의 문제점·한계 (위양성·종간외삽·규제판정의 한계)",
+"id": 485
 },
 {
 "part": "gakron",
@@ -13979,7 +14087,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ④",
-"id": 488
+"cid": 16,
+"theme": "메틸 잔틴(methylxanthine) 유도체 식별",
+"id": 486
 },
 {
 "part": "gakron",
@@ -14008,7 +14118,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 489
+"cid": 12,
+"theme": "유기인계 식별 + 생체활성화(parathion→paraoxon, P=S 탈황화)",
+"id": 487
 },
 {
 "part": "gakron",
@@ -14038,7 +14150,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 490
+"cid": 35,
+"theme": "파라쿼트 dithionite 정성 검출법",
+"id": 488
 },
 {
 "part": "gakron",
@@ -14067,7 +14181,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ⑤",
-"id": 491
+"cid": 22,
+"theme": "살서제(rodenticide) 종류 — 저항성으로 거의 미사용",
+"id": 489
 },
 {
 "part": "gakron",
@@ -14096,7 +14212,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 492
+"cid": 21,
+"theme": "이산화탄소(CO2) 가스 식별 — 마취·도축 질식가스",
+"id": 490
 },
 {
 "part": "gakron",
@@ -14125,7 +14243,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 493
+"cid": 19,
+"theme": "일산화탄소(CO) 물리·화학적 성질 식별",
+"id": 491
 },
 {
 "part": "gakron",
@@ -14156,7 +14276,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 494
+"cid": 20,
+"theme": "CO 독성의 non-hypoxic 기전 — 표적 globin(myoglobin·neuroglobin)",
+"id": 492
 },
 {
 "part": "gakron",
@@ -14187,7 +14309,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 495
+"cid": 7,
+"theme": "메탄올 해독 — 에탄올의 ADH 경쟁억제",
+"id": 493
 },
 {
 "part": "neuro",
@@ -14215,7 +14339,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ③, ④",
-"id": 496
+"cid": 49,
+"theme": "파상풍(tetanus) 독소의 억제성 신경전달물질(glycine) 분비 차단",
+"id": 494
 },
 {
 "part": "gakron",
@@ -14245,7 +14371,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d, e, f, g",
-"id": 497
+"cid": 34,
+"theme": "신약개발 규제 — GLP·IACUC·임상시험 1~4상",
+"id": 495
 },
 {
 "part": "genotox",
@@ -14274,7 +14402,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 498
+"cid": 43,
+"theme": "장기 발암성시험(carcinogenicity bioassay) 프로토콜 설계 — 동물종 수·투여 개시 시기·용량설정·종료기준(MTD)",
+"id": 496
 },
 {
 "part": "resp",
@@ -14306,7 +14436,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d",
-"id": 499
+"cid": 57,
+"theme": "호흡기독성 종합 OX (기도 상피 장벽·세포 감수성·자극성 기체·경구 폐독성)",
+"id": 497
 },
 {
 "part": "hepato",
@@ -14337,7 +14469,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 500
+"cid": 44,
+"theme": "간 구조·구역화 종합 오류찾기 (이중혈액공급·Zone1/2/3·소엽vs세엽·창자간순환)",
+"id": 498
 },
 {
 "part": "renal",
@@ -14371,7 +14505,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ⑥",
-"id": 501
+"cid": 51,
+"theme": "신장기능 평가 표지자·지표 매칭 (GFR·청소율·inulin/creatinine/PAH·BUN·erythropoietin)",
+"id": 499
 },
 {
 "part": "genotox",
@@ -14401,10 +14537,12 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 502
+"cid": 41,
+"theme": "Ames test (원핵세포 복귀돌연변이 시험) — 원리·균주·His⁻ 영양요구성·S9 대사활성화",
+"id": 500
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "유전독성평가(genotoxicity testing)의 문제점·한계",
 "type": "multi",
@@ -14433,7 +14571,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
-"id": 503
+"cid": 52,
+"theme": "유전독성평가의 문제점·한계 (위양성·종간외삽·규제판정의 한계)",
+"id": 501
 },
 {
 "part": "gakron",
@@ -14463,7 +14603,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ④",
-"id": 504
+"cid": 36,
+"theme": "기관지확장제(β-agonist) 중독 — albuterol",
+"id": 502
 },
 {
 "part": "gakron",
@@ -14495,7 +14637,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④, ⑤",
-"id": 505
+"cid": 33,
+"theme": "부식성 물질(산·알칼리) 제염법 선택",
+"id": 503
 },
 {
 "part": "gakron",
@@ -14527,7 +14671,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d, e",
-"id": 506
+"cid": 11,
+"theme": "유기인계·카바메이트 AChE 억제 가역성 + parathion→paraoxon (틀린 것)",
+"id": 504
 },
 {
 "part": "gakron",
@@ -14558,7 +14704,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c, e",
-"id": 507
+"cid": 14,
+"theme": "유기염소계 특성 (틀린 것 고르기)",
+"id": 505
 },
 {
 "part": "gakron",
@@ -14586,7 +14734,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ⑤",
-"id": 508
+"cid": 10,
+"theme": "메트알데하이드(연체동물 살충제) 식별",
+"id": 506
 },
 {
 "part": "gakron",
@@ -14618,7 +14768,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, c, d",
-"id": 509
+"cid": 6,
+"theme": "알코올·글리콜 종합 (틀린 것 고르기)",
+"id": 507
 },
 {
 "part": "gakron",
@@ -14650,7 +14802,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ④",
-"id": 510
+"cid": 28,
+"theme": "선택적 독성(selective toxicity)",
+"id": 508
 },
 {
 "part": "gakron",
@@ -14682,7 +14836,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): 1, 2, 3, 4, 5",
-"id": 511
+"cid": 32,
+"theme": "독성에 영향을 미치는 요인 (총론: 숙주·환경·투여경로)",
+"id": 509
 },
 {
 "part": "gakron",
@@ -14712,7 +14868,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): 1, 2",
-"id": 512
+"cid": 31,
+"theme": "독성물질-표적분자 짝짓기",
+"id": 510
 },
 {
 "part": "gakron",
@@ -14742,7 +14900,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d, e, f, g",
-"id": 513
+"cid": 34,
+"theme": "신약개발 규제 — GLP·IACUC·임상시험 1~4상",
+"id": 511
 },
 {
 "part": "gakron",
@@ -14774,7 +14934,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d",
-"id": 514
+"cid": 37,
+"theme": "조류 호흡기 생리학적 차이와 흡입독성 감수성",
+"id": 512
 },
 {
 "part": "gakron",
@@ -14806,7 +14968,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): A, B, D, E",
-"id": 515
+"cid": 39,
+"theme": "용량-반응 독성 지표 용어 정의 매칭",
+"id": 513
 },
 {
 "part": "hepato",
@@ -14838,7 +15002,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 516
+"cid": 44,
+"theme": "간 구조·구역화 종합 오류찾기 (이중혈액공급·Zone1/2/3·소엽vs세엽·창자간순환)",
+"id": 514
 },
 {
 "part": "renal",
@@ -14870,10 +15036,12 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, f",
-"id": 517
+"cid": 51,
+"theme": "신장기능 평가 표지자·지표 매칭 (GFR·청소율·inulin/creatinine/PAH·BUN·erythropoietin)",
+"id": 515
 },
 {
-"part": "repro",
+"part": "genotox",
 "unit": "",
 "topic": "유전독성평가의 문제점(한계) — 돌연변이 복구능력 vs 유발횟수, 원핵-포유류 시스템 차이, 양성 결과의 규",
 "type": "multi",
@@ -14899,7 +15067,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④",
-"id": 518
+"cid": 52,
+"theme": "유전독성평가의 문제점·한계 (위양성·종간외삽·규제판정의 한계)",
+"id": 516
 },
 {
 "part": "gakron",
@@ -14927,7 +15097,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ④, ①",
-"id": 519
+"cid": 16,
+"theme": "메틸 잔틴(methylxanthine) 유도체 식별",
+"id": 517
 },
 {
 "part": "gakron",
@@ -14959,7 +15131,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④, ⑤",
-"id": 520
+"cid": 33,
+"theme": "부식성 물질(산·알칼리) 제염법 선택",
+"id": 518
 },
 {
 "part": "gakron",
@@ -14991,7 +15165,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ③, ④, ⑤",
-"id": 521
+"cid": 11,
+"theme": "유기인계·카바메이트 AChE 억제 가역성 + parathion→paraoxon (틀린 것)",
+"id": 519
 },
 {
 "part": "gakron",
@@ -15023,7 +15199,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c",
-"id": 522
+"cid": 14,
+"theme": "유기염소계 특성 (틀린 것 고르기)",
+"id": 520
 },
 {
 "part": "gakron",
@@ -15051,7 +15229,9 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ①, ⑤",
-"id": 523
+"cid": 10,
+"theme": "메트알데하이드(연체동물 살충제) 식별",
+"id": 521
 },
 {
 "part": "gakron",
@@ -15083,7 +15263,705 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, e",
-"id": 524
+"cid": 6,
+"theme": "알코올·글리콜 종합 (틀린 것 고르기)",
+"id": 522
 }
 ];
 const CORE = [];
+const CLUSTERS = [
+{
+"cid": 1,
+"part": "cardio",
+"theme": "심장혈관계의 중독 취약성 (5대 장기적 특성)",
+"concept": "**심장은 5가지 장기적 특성 때문에 독성에 매우 취약하다** (강의안 Slide 071).\n\n1. **에너지 의존성(높은 에너지 요구량)** — 지속적 수축을 위해 막대한 O₂·ATP·기질·칼슘이 필요. 미토콘드리아 산화적 인산화가 교란되거나 에너지 공급이 차단되면 즉각 기능장애(예: 사이안화물→심정지, 독소루비신→심부전).\n2. **높은 노출 가능성** — 전신순환계 모든 혈액이 심장을 통과하므로 혈관계로 유입된 고농도 독극물·대사산물에 오래 노출됨.\n3. **상대적으로 낮은 대사능력** — 간 등에 비해 독극물을 불활성화하는 대사능력이 약함. 해독효소(GST, P450) 발현이 낮아 제거능 제한 → 세포 내 축적·만성독성.\n4. **조직 재생 불가** — 골격근과 달리 손상 시 재생이 안 됨. 손상부위는 섬유화되고 남은 심근세포가 비대(hypertrophy)로 채우므로 **구조적 결손이 곧 기능적 결손으로 직결**(보상적 회복 없음).\n5. **산화성 스트레스(ROS) 취약성** — catalase·glutathione peroxidase 양이 제한적이라 ROS 방어가 약함.\n\n**함정 포인트**: (a) '대사능력이 높아 독극물을 잘 불활성화한다'는 정반대(낮다)이므로 틀림. (b) '심장조직은 재생이 잘 되어 보상적 회복이 수반된다'도 정반대(재생 불가, 구조결손=기능결손)이므로 틀림. 즉 ③·④번처럼 능력을 '강하다/잘 된다'로 뒤집은 선지가 오답 정답.",
+"variant_note": "심장의 취약성 4~5개 특성 중 일부 선지를 '대사능력이 높다(c)', '재생이 잘 된다(d)'처럼 정반대로 뒤집어 '틀린 것 모두 고르기'로 출제. [2022-기말] #(Q0358)에서는 c,d가 정답(③ c,d). 향후 '에너지 의존성·노출 가능성·낮은 대사능력·재생 불가·ROS 취약성' 5개 중 어느 것이든 반대로 서술해 변형 가능.",
+"qids": [
+"Q0358"
+]
+},
+{
+"cid": 2,
+"part": "cardio",
+"theme": "혈관계 독성 4대 기전 + 심장중독 최대 생명위험요인(전도장애)",
+"concept": "**혈관계 독성은 단일이 아닌 대사·구조/기능·면역·2차적 요인 4가지 복합 기전**으로 작용한다 (강의안 Slide 075).\n\n① **대사작용 손상** — 내피세포·평활근세포가 외래물질을 대사(생물활성화 bioactivation)하면 독성이 오히려 높아져 혈관 손상·염증·투과성 증가. → '혈관세포는 대사능력이 없어 불활성화시킨다'는 **틀림**(대사능력이 있고 그게 손상 원인).\n② **구조·기능 이상** — 고장액(소금·요소·mannitol)이 내피 수축·막투과성↑, **내독소(endotoxin)는 내피 손상→혈전증(thrombosis)** 유발(참).\n③ **면역반응 손상** — 민감화→면역복합체 침착→보체 활성→제3형 과민성 혈관염.\n④ **2차적 요인** — 정수압·삼투압 변화로 혈장단백 농도↓ → 결합능 감소, **유리(free) 독극물 농도↑** → 독성반응 '증폭/악화'(참). → '유리 독극물이 늘어 배출이 빨라져 독성이 감소한다'는 **틀림**(증가가 정답).\n\n**심장중독 최대 생명위험요인** = **전도장애(부정맥)** (Slide 076·078). '심근경색이 가장 심각한 생명위험'은 **틀림** — 강의안은 전도장애 및 부정맥을 가장 심각한 생명 위험 요인으로 명시.\n\n**함정 포인트**: a(대사능력 없다), d(유리독극물↑→배출↑→독성감소), e(심근경색이 최대 위험) 3개가 전형적 오답 선지. b(생물활성화로 독성↑), c(내독소→혈전증)는 참이므로 빼야 함.",
+"variant_note": "동일 본질 문항이 회차별로 선지 조합만 바꿔 반복 출제되는 대표 변형 계열. 5개 보기(a~e)는 거의 동일하고 '틀린 것 모두 고르기'의 정답 조합만 변동: [2023-기말](Q0290)=a,c,d,e(③ acde), [2022-기말](Q0360)=a,d,e(④ a,d,e). 핵심 함정 3종(a 대사능력 없음, d 유리독극물↑→독성감소, e 심근경색=최대위험)이 항상 오답이고, b(생물활성화)·c(내독소→혈전증)는 항상 참. 선지 조합·회차만 달라도 본질은 동일하므로 묶음.",
+"qids": [
+"Q0290",
+"Q0360"
+]
+},
+{
+"cid": 3,
+"part": "eyeskin",
+"theme": "눈 독성 — 각막상피 투과성 + 산·알칼리 화학손상(pH 임계·음이온 결합력·후유증 주체)",
+"concept": "**각막상피(corneal epithelium)는 수용성 물질에 고도로 비투과성**이며, 가장 잘 흡수되는 것은 **작은 친지질성(lipophilic) 분자**다(강의안 Slide 152, '각막상피 - 수용성 물질에 고도 비투과성 / 작은 친지질성 분자 가장 잘 흡수'). 즉 친지질성 분자는 세포막을 직접 통과하지, '세포 간(intercellular) 공간을 통해 이동'하는 것이 아니다 → 이 표현이 1차 함정.\n\n**산(Acids)**: 독력은 'pH와 각막조직에 결합하는 음이온의 결합력'에 좌우된다(예: 황산 > 염산)(Slide 155 산 항목). 각막상피의 물리적 손상이 시작되는 임계 pH는 **pH 3.5 이하**이다(강의안: pH 4.5 불쾌감 → pH 3.5 이하 각막상피 물리적 손상). 따라서 'pH 2.5 이하'라는 숫자는 틀린 함정 숫자.\n\n**산 vs 알칼리 후유증 주체 뒤바꾸기**: '즉각적 병변보다 더 심각한 후유증을 초래'하는 주체는 **알칼리(Alkalis)**다(Slide 155 알칼리: '즉각적 병변보다 후유증이 심각, 빠르고 깊게 침투, 조직 용해·석회화'). 산은 응고괴사로 표면에서 차단되는 경향. 그러므로 '산이 후유증의 원인'이라는 진술은 산·알칼리를 뒤바꾼 오답.\n\n정리: 옳지 않은 것 = ②(세포 간 공간 이동 친지질 분자 표현) + ③(pH 2.5 숫자 오류, 정답은 3.5) + ⑤(후유증 주체를 산으로 바꿈, 실제는 알칼리). 옳은 것 = ①(수용성 비투과성) + ④(독력 = pH + 음이온 결합력).",
+"variant_note": "동일 문항이 회차만 바꿔 3회 반복 출제(2024-기말 Q0242, 2023-기말 Q0300, 2022-기말 Q0370). 본문·선지·정답[②③⑤] 모두 동일한 '복수 정답 고르기' 형태. 변형 포인트는 세 군데 함정 숫자/주체뿐: (1) 친지질 분자 흡수 경로를 '세포 간 공간 이동'으로 서술(②), (2) 손상 임계 pH를 2.5로 낮춰 표기(실제 3.5)(③), (3) 후유증 심각 주체를 산↔알칼리로 뒤바꿈(⑤). 향후 변형 시 'pH 2.5→3.5 다른 숫자', '음이온→양이온 결합력', '알칼리가 후유증' 식으로 참/거짓만 뒤집을 가능성 높으므로, 숫자·주체·이온 종류 3축을 기준으로 판단할 것.",
+"qids": [
+"Q0242",
+"Q0370",
+"Q0300"
+]
+},
+{
+"cid": 4,
+"part": "eyeskin",
+"theme": "피부 독성 — 경피 흡수 증가 요인 + 피부층별 대사능(표피 심층부 CYP 대사 O / 진피 대사 X)",
+"concept": "경피(percutaneous) 흡수와 피부층별 대사능을 묻는 개념. **흡수 증가 요인**(모두 옳은 진술): ① 해부학적 위치에 따라 다름 — 액와부·서혜부·유방·음낭이 투과성 높음(Slide 161). ② 외부 온도 상승 → 피부충혈로 흡수 증가(예: 더운 기후 소의 유기인계 살충제 흡수 증가). ③ 조류는 발(foot) 피부를 통해 더 쉽게 흡수.\n\n**핵심 함정 = 피부층별 대사 능력의 주체 바꾸기**: 강의안은 '표피 심층부: 외부물질 대사 기능 있음(CYP 효소 존재, 국소 대사 가능)' / '**진피(dermis): 생체이물질(xenobiotic) 대사 능력 없음**'이라고 명시한다(Slide 161 생물학적 변화). 따라서 '진피가 외부 물질과 대사하는 역할을 한다'는 진술은 **틀림** — 대사 기능을 가진 곳은 진피가 아니라 표피 심층부다.\n\n또한 '진피를 통해 흡수된다'는 선지는 흡수 경로를 진피로 단정하는 표현인데, 1차 장벽·흡수 통과층은 표피 각질층(stratum corneum)이며 흡수는 표피를 거쳐 일어나므로 이 표현도 주의 대상이나, 본 족보 정답군에서는 '진피가 대사한다'는 선지를 유일 오답으로 채점한다.\n\n정답: 틀린 것 = '진피는 외부 물질과 대사하는 역할을 한다'(대사 주체를 진피로 둔 진술). 나머지 해부학적 위치·온도·조류 발 흡수는 모두 옳음.",
+"variant_note": "동일 개념이 회차마다 선지 개수만 바꿔 3회 출제(2024-기말 Q0243, 2023-기말 Q0301, 2022-기말 Q0371). Q0301·Q0243은 5지선다('진피를 통해 흡수된다' 선지 포함), Q0371은 4지선다(그 선지 빠짐)이지만 본질은 동일 — 정답은 항상 '진피가 대사 역할을 한다'(거짓). 변형 핵심은 '대사 주체를 진피로 두는 함정' 한 개로 고정. 향후 변형 시 '표피 심층부에 CYP 없다', '진피에 CYP 있다', '조류는 부리로 흡수' 식으로 대사층/흡수경로 주체를 바꿔 거짓 선지를 만들 가능성. 표피 심층부=대사 O(CYP), 진피=대사 X를 한 쌍으로 암기하면 모든 변형 방어 가능.",
+"qids": [
+"Q0371",
+"Q0243",
+"Q0301"
+]
+},
+{
+"cid": 5,
+"part": "gakron",
+"theme": "에틸렌글리콜(EG) 빈칸 물질식별",
+"concept": "**핵심**: 에틸렌글리콜(ethylene glycol)은 \"2가 알코올 중 가장 간단한 형태\"의 화합물로, 자동차 부동액·세정제로 쓰이며 약한 녹색을 띤다. 가장 빈번한 중독 요인이며 봄철(부동액 교환기)에 호발한다.\n**대사·기전**: EG 자체보다 대사산물 oxalate(옥살산)가 독성의 본체. oxalate가 Ca와 결합해 calcium oxalate crystal을 형성 → 급성 신부전(다뇨→핍뇨→신부전). (강의안 Slide 226 자일리톨·EG 표, Slide 229 알코올/글리콜 비교표 \"에틸렌글리콜→Oxalate→신장→Calcium oxalate crystal\")\n**종 감수성**: 단맛 때문에 개·고양이·어린이를 유인. 사람과 고양이가 특히 민감하고, 고양이는 oxalate 생성률이 높아 가장 취약.\n**해독제**: ethanol, 4-MP(fomepizole) — ADH 경쟁억제로 oxalate 생성을 막음.\n**함정**: 선택지 \"에틸렌 알코올\"(Q0316)·\"알코올\"은 오답 유도용 변형 명칭. \"2가 알코올 중 가장 간단\"=ethylene glycol(에탄올/메탄올은 1가 알코올). 빈칸 문항은 항상 정답이 \"에틸렌 글리콜\".",
+"variant_note": "동일 지문(\"2가 알코올·부동액·녹색·oxalate·고양이 민감\")을 거의 그대로 반복. 정답 항상 \"에틸렌 글리콜\". 회차: 2022-기말(Q0383), 2023-기말(Q0316, 오답유도 선지 \"에틸렌 알코올\" 삽입), 2024-기말(Q0268, Q0251 2문항 중복 출제). 변형은 선지 명칭 미세 변경(알코올/에틸렌 알코올)뿐.",
+"qids": [
+"Q0383",
+"Q0316",
+"Q0268",
+"Q0251"
+]
+},
+{
+"cid": 6,
+"part": "gakron",
+"theme": "알코올·글리콜 종합 (틀린 것 고르기)",
+"concept": "**핵심 판정 포인트**:\n1) 애완동물 알코올 중독 주원인 = 에탄올, 메탄올, 이소프로필 알코올.\n2) 에탄올은 \"직접 발암제가 아니다\" → \"에탄올은 직접 발암제\"라는 진술은 틀림(에탄올은 대사산물 acetaldehyde 경유 간접).\n3) 메탄올 종간 차이: 개·고양이의 메탄올 독성은 사람보다 \"낮다\"(영장류가 민감). \"개·고양이가 사람보다 높다\"는 틀림.\n4) 비영장류는 포름산(formic acid)을 효율적으로 배설 → 실명·뇌괴사 잘 안 일으킴 (옳은 진술).\n5) 사람 메탄올: formic acid가 시신경 손상 → 영구 실명·대사성 산증 (옳음).\n(강의안 Slide 229 \"메탄올→Formic acid→눈/CNS→시신경 위축→실명\")\n**함정**: \"비영장류 포름산 배설로 실명 잘 안일으킴\"은 참인데 거짓 보기로 착각하기 쉬움. 핵심 오류 진술은 항상 b(에탄올 직접발암)·c(개고양이>사람).",
+"variant_note": "같은 5개 진술(a~e)을 묻되 정답조합만 다름. 2023-기말 Q0315(틀린것 답 abcd), 2022-기말 Q0382(맞지않는것 b,c,e). 핵심 변별점은 항상 \"에탄올 직접발암(거짓)\"·\"개고양이 메탄올독성>사람(거짓)\". 선지 묶음만 재배열.",
+"qids": [
+"Q0315",
+"Q0382"
+]
+},
+{
+"cid": 7,
+"part": "gakron",
+"theme": "메탄올 해독 — 에탄올의 ADH 경쟁억제",
+"concept": "**핵심**: 메탄올 자체는 비교적 무독, 대사산물 formic acid(포름산)가 독성 본체(시신경 손상→실명, 대사성 산증). 따라서 해독 전략은 메탄올→포름알데히드→포름산 산화를 차단하는 것.\n**기전**: 에탄올은 alcohol dehydrogenase(ADH)/aldehyde dehydrogenase 계열에 메탄올보다 친화도가 ~20배 높아 경쟁적으로 효소를 점유 → 메탄올 산화 억제 → 독성 대사물 전환 지연. 동일 원리로 EG 해독에도 ethanol/4-MP(fomepizole) 사용.\n(강의안 Slide 229 알코올/글리콜 표 \"해독제 Ethanol, 4-MP\")\n**함정**: Q0267 정답 선지는 \"Aldehyde dehydrogenase\"로 기재되었으나 메탄올 산화 1차 효소는 ADH. 출제 의도는 \"알코올 대사 dehydrogenase 계열\" 식별. COX·alkaline phosphatase 등은 무관한 오답.",
+"variant_note": "단독. 2024-기말. \"에탄올이 ~효소에 친화도 20배 높아 메탄올 산화 억제\" 빈칸형. dehydrogenase 계열(ADH/ALDH) 식별. 향후 \"4-MP(fomepizole) 작용기전\"으로 변형 가능.",
+"qids": [
+"Q0267"
+]
+},
+{
+"cid": 8,
+"part": "gakron",
+"theme": "Ivermectin(거대고리락톤) 물질 식별",
+"concept": "**핵심**: Ivermectin = avermectin계 거대고리락톤(macrocyclic lactone) 내·외부기생충약. 흡충(trematode)·조충(cestode) 제외 모든 외부·내부기생충(응애·진드기·해충·선충)에 효과. 소·양·돼지·말·개·고양이 허가, 개 심장사상충 예방약으로 허가.\n**민감 품종**: Collie, Old English Sheepdog, Murray grey cattle, 어린 동물. MDR1(ABCB1) 유전자 결함 시 BBB 통과 증가 → CNS 독성(산동·서맥·호흡억제·떨림·혼수).\n(강의안 Slide 228 Ivermectin vs Selamectin 비교표: \"민감품종 Collie/Old English Sheepdog, MDR1·BBB 매우 큼\")\n**함정**: 오답 선지 Arvitol/Avritol(가공 명칭), Rotenone(미토콘드리아 complex I 억제 살충제), Nicotine(니코틴성 수용체)은 전혀 다른 물질. \"흡충·조충 제외\"가 결정적 식별 문구.",
+"variant_note": "거의 동일 지문(\"흡충·조충 제외·콜리 민감·심장사상충 예방\") 3회 반복. 정답 항상 Ivermectin. 회차: 2022-기말(Q0380), 2023-기말(Q0313), 2024-중간(Q0218). 오답 선지 철자만 Avritol/Arvitol로 변형.",
+"qids": [
+"Q0380",
+"Q0313",
+"Q0218"
+]
+},
+{
+"cid": 9,
+"part": "gakron",
+"theme": "Ivermectin 작용기전 — GABA 효능제",
+"concept": "**핵심**: Ivermectin은 무척추동물의 GABA성/glutamate-gated Cl- channel에 작용하여 Cl- 유입↑ → 과분극 → 신경마비. 즉 GABA 수용체 효능제(agonist)처럼 작용.\n**흡충·조충 무효 이유**: 흡충류·조충류는 GABA성(억제성 아미노산) 신경계를 갖지 않아 약물 표적이 없음 → 효과 없음.\n**포유류 안전역**: 정상 포유류는 BBB가 ivermectin의 CNS 진입을 막아 비교적 안전하나, MDR1 결함견(Collie)·어린 동물은 BBB 미성숙/결함으로 GABA계 CNS 억제 독성.\n(강의안 Slide 228 \"작용수용체 GABA 관련 / 독성기전 GABA 활성 증가→CNS 억제\")\n**함정**: 빈칸 정답은 \"GABA\"(또는 억제성 아미노산). \"콜린성 수용체·도파민·부교감\"은 오답. selamectin은 glutamate-gated Cl- channel로 기재되는 점과 구분.",
+"variant_note": "단독. 2024-기말. \"GABA 효능제처럼 작용 / 흡충·조충은 GABA 신경계 없음\" 이중 빈칸. 식별형(Q0380계열)과 달리 기전을 직접 물음 → 변형 축. 향후 selamectin(glutamate-gated Cl-)과의 대비 매칭으로 확장 가능.",
+"qids": [
+"Q0260"
+]
+},
+{
+"cid": 10,
+"part": "gakron",
+"theme": "메트알데하이드(연체동물 살충제) 식별",
+"concept": "**핵심**: 메트알데하이드(metaldehyde) = 살패제(molluscicide). 전 세계 정원·농경지·온실에서 민달팽이(slug)·달팽이(snail) 구제용. 물고기·거머리·개구리 구제에도 사용. 펠렛/곡물 미끼(밀기울·당밀로 풍미) 형태라 개가 사료로 오인·섭취 → 중독. 대동물 중독도 빈번.\n**독성**: GABA·세로토닌 감소로 추정되는 흥분성 신경독 → 경련·고체온(\"shake and bake\" 양상).\n(교재 33장 메트알데하이드; 목차 Slide 219 \"33장 메트알데하이드 361\")\n**함정**: 오답 로테논(rotenone, 식물성 살충제·complex I 억제), 니코틴류, 나프탈렌(방충볼·산화성 용혈), 폴리브롬화 비페닐(난연제)과 구분. \"민달팽이·달팽이 구제\"가 결정 키워드.",
+"variant_note": "완전 동일 지문·동일 선지 2회. 정답 항상 메트알데하이드(②). 회차: 2023-기말(Q0314), 2022-기말(Q0381). 변형 없이 그대로 재출제되는 전형적 식별형.",
+"qids": [
+"Q0314",
+"Q0381"
+]
+},
+{
+"cid": 11,
+"part": "gakron",
+"theme": "유기인계·카바메이트 AChE 억제 가역성 + parathion→paraoxon (틀린 것)",
+"concept": "**핵심 진술 진위**:\n1) 유기인계(OP)는 AChE를 \"비가역적\"으로 억제 (\"가역적\"이라 하면 거짓).\n2) 카바메이트는 AChE를 \"가역적\"으로 억제 (\"비가역적\"이라 하면 거짓).\n3) parathion(파라티온)→paraoxon(파라옥손) 전환 시 독성 10배↑(생체활성화/산화 탈황화). \"파라옥손→파라티온\"으로 쓰면 방향 거짓.\n4) 카바메이트는 농약·해충퇴치 목걸이·파리/개미 미끼 주성분 → 광범위 중독원 (옳음).\n(강의안 Slide 227 \"유기인계=비가역 억제, 카바메이트=가역 억제 / AChE억제→ACh축적→콜린성 과흥분\")\n**해독**: Atropine(무스카린 길항) + 2-PAM(pralidoxime, AChE 재활성, OP에만 유효).\n**함정**: OP=비가역/카바메이트=가역이 핵심 변별. 둘을 바꿔치기하고 paraoxon↔parathion 방향을 뒤집는 것이 단골 함정.",
+"variant_note": "동일 a~e 진술셋(OP가역성·카바메이트가역성·parathion방향)을 재배열해 \"틀린 것 모두\" 형식. 회차: 2023-기말(Q0311), 2024-중간(Q0216), 2022-기말(Q0378). 매 회차 가역/비가역 뒤바꾸기 + 파라옥손↔파라티온 방향 반전이 고정 함정.",
+"qids": [
+"Q0311",
+"Q0216",
+"Q0378"
+]
+},
+{
+"cid": 12,
+"part": "gakron",
+"theme": "유기인계 식별 + 생체활성화(parathion→paraoxon, P=S 탈황화)",
+"concept": "**핵심**: 유기인산염(organophosphate)은 AChE를 비가역 억제 → ACh 축적 → 콜린성 과흥분(무스카린: 침흘림·축동·서맥·설사 / 니코틴: 근떨림·마비 / CNS: 경련).\n**생체활성화**: P=S(thion) ester가 제1상 산화 탈황화(desulfuration, CYP)로 P=O(oxon)형으로 전환되면 AChE 억제력↑ → 독성 10배↑. 대표 예 parathion→paraoxon. 즉 모물질보다 대사산물이 더 독성(대사적 활성화).\n**기타 특성**: 산성 토양에서 안정성↑, 알칼리에서 분해 속도↑. 살서제 오용, 죽은 동물 내장(위 내 고농도 저류) 섭취로 2차(relayed) 중독 — 근육보다 내장 위험.\n(강의안 Slide 227 유기인계 표; Q0257/Q0258 \"P=S 탈황화→AChE 억제력↑\")\n**함정**: 표적효소는 acetylcholinesterase(AChE)이지 AST/ALT/COX가 아님. paraoxon이 활성형 정답(파라쿼트·페노티아진 등 유사 명칭 오답).",
+"variant_note": "한 주제를 4가지 방식으로 변형: 물질 식별형(Q0344 분류 선택, Q0308 지문 설명→유기인산염), 표적효소 빈칸(Q0257 P=S탈황화→AChE), 활성형 빈칸(Q0258 parathion→paraoxon). 회차: 2022-중간/2023-기말/2024-기말. 동일 사실(parathion→paraoxon 10배, AChE 억제)을 식별·기전·산물 세 각도로 회전.",
+"qids": [
+"Q0344",
+"Q0308",
+"Q0257",
+"Q0258"
+]
+},
+{
+"cid": 13,
+"part": "gakron",
+"theme": "유기염소계/EDC 빈칸 식별 (잔류성·지용성·먹이사슬 농축)",
+"concept": "**핵심**: 유기염소계(organochlorine, 대표 DDT)는 1950~70년대 초 광범위 농약 사용. 자연계 분해기전 거의 없어 토양·호수 침전물에 장기 잔류. \"매우 높은 지용성\"으로 지방조직 축적 → 먹이사슬 상위(생물농축·biomagnification)로 갈수록 농축 → 내분비계 장애물질(EDCs, 환경호르몬)의 주종.\n**기전·환경독성**: Na+ channel 이상→신경흥분·경련(Lindane·Heptachlor는 GABA 수용체 억제). 환경독성으로 난각 얇아짐·부화율 감소(맹금류).\n(강의안 Slide 227 유기염소계 표 \"지용성→지방축적→먹이사슬 농축, 환경호르몬·난각 얇아짐\")\n**함정**: 같은 지문에 정답 선지 위치만 바뀜(organochlorines/유기염소). 유기인산염·피프로닐·피레스린·아미트라즈·카바메이트는 오답. \"지용성·먹이사슬 농축·EDCs\"가 결정 키워드.",
+"variant_note": "동일 지문(\"1950~70년대 농약·분해 안됨·지용성·먹이사슬·EDCs\") 빈칸/선택형 3회. 정답 항상 유기염소계. 회차: 2022-중간(Q0345), 2023-기말(Q0309), 2024-기말(Q0259). 선지 순서·후보 명칭만 교체.",
+"qids": [
+"Q0345",
+"Q0309",
+"Q0259"
+]
+},
+{
+"cid": 14,
+"part": "gakron",
+"theme": "유기염소계 특성 (틀린 것 고르기)",
+"concept": "**핵심 진술 진위**:\n1) 자연계 분해기전 \"거의 없음\"이 옳음 → \"분해기전이 있으며\"라 하면 거짓(Q0312 a).\n2) 1950~70년대 농약 광범위 사용·누출 (옳음).\n3) 화학분류: 디페닐 지방족 화합물 + 방향족 탄화수소 + 사이클로디엔 화합물 포함 (옳음).\n4) \"수용성이 높아 축적\"은 거짓 → 실제는 \"지용성\"이 높아 축적 (Q0217 d, Q0312 d, Q0379 d 모두 핵심 함정).\n5) \"현재 전혀/모두 사용하지 않는다\"는 거짓 → 거의 사용 안 하나 완전 금지·전무는 아님(Q0217 e, Q0312 e, Q0379 e).\n(강의안 Slide 227 유기염소계)\n**함정**: 단골 거짓 = \"수용성(d)\" + \"완전 미사용(e)\". \"지용성\"을 \"수용성\"으로 바꾸는 것이 최다 함정.",
+"variant_note": "동일 a~e 진술을 \"틀린것 모두\" 형식으로 반복. 회차: 2024-중간(Q0217 답 a,d), 2023-기말(Q0312 답 d,e), 2022-기말(Q0379). 고정 함정은 d(수용성↔지용성)와 e(완전미사용). a를 \"분해기전 있음\"으로 변조하기도 함.",
+"qids": [
+"Q0217",
+"Q0312",
+"Q0379"
+]
+},
+{
+"cid": 15,
+"part": "gakron",
+"theme": "고양이 glucuronidation(UGT) 결핍 — acetaminophen·salicylate 감수성",
+"concept": "**핵심**: 고양이는 선천적으로 글루쿠론산 전이효소(glucuronyl transferase, UGT) 활성이 낮음(제2상 포합 결손). 그 결과:\n1) Acetaminophen: 빠른 포합·배설 불가 → NAPQI 해독 부족 → methemoglobinemia + 간괴사로 진행, 고양이 절대 금기.\n2) Salicylate: 간 glucuronidation 활성 저하로 반감기 연장 → 고양이 특히 민감.\n(강의안 Slide 224 \"Acetaminophen 고양이 NAPQI 해독능 부족, glucuronidation 능력 낮아 반감기 연장\"; Slide 225 에센셜오일 \"고양이 UGT 결핍\")\n**개 vs 고양이**: 개는 아세트아미노펜에서 간독성 우세, 고양이는 MetHb 우세.\n**함정**: 두 빈칸 모두 정답 = 글루쿠론산 전이효소(UGT/GT). COX·AST·ALT·ALP는 오답. \"methemoglobinemia\"+\"salicylate 민감\"이 동시에 나오면 무조건 UGT.",
+"variant_note": "동일 지문(아세트아미노펜 MetHb + salicylate 민감)으로 빈칸 효소 식별. 정답 항상 glucuronyl transferase(UGT). 회차: 2022-기말(Q0375), 2024-기말(Q0247), 2022-중간(Q0343), 2023-기말(Q0305). 선지에서 효소명 표기(GT/글루쿠론산 전이·전달효소)만 미세 변형.",
+"qids": [
+"Q0375",
+"Q0247",
+"Q0343",
+"Q0305"
+]
+},
+{
+"cid": 16,
+"part": "gakron",
+"theme": "메틸 잔틴(methylxanthine) 유도체 식별",
+"concept": "**핵심**: theophylline·caffeine·theobromine은 모두 식물 추출 알칼로이드로 \"메틸 잔틴(methylxanthine)\" 유도체. 식품·음료(커피·차·초콜릿) 및 의약품 성분.\n**독성**: phosphodiesterase 억제·아데노신 수용체 길항 → cAMP↑ → 교감신경 흥분(빈맥·부정맥·CNS 흥분·발작). theobromine은 초콜릿 중독 주성분(개에서 대사 느려 민감).\n(강의안 목차 Slide 219 \"22장 의약품 5.메틸 잔틴 239\")\n**함정**: 오답 선지 \"아드레날린성 베타수용체 효현제\"(=albuterol 등 별개), 삼환계 항우울제(TCA), 바비투레이트, Digitalis(강심배당체)는 다른 약물군. \"theophylline+caffeine+theobromine 공통 모분류\"=메틸 잔틴이 정답.",
+"variant_note": "완전 동일 지문·선지 2회. 정답 항상 메틸 잔틴(④). 회차: 2022-기말(Q0376), 2024-기말(Q0248). 변형 없는 그대로 재출제.",
+"qids": [
+"Q0376",
+"Q0248"
+]
+},
+{
+"cid": 17,
+"part": "gakron",
+"theme": "금속 화학적 형태(무기 vs 유기)에 따른 표적장기",
+"concept": "**핵심**: 금속 독성은 화학적 형태·산화상태(원자가)에 따라 표적장기가 달라짐.\n- \"무기(inorganic)\" 형태의 비소·수은 → 간·신장·소화기계에 주로 작용.\n- \"유기(organic)/메틸\" 형태 → 신경계에 축적·작용(예: 메틸수은→뇌, 무기수은→신장).\n(강의안 Slide 226 금속표 \"수은: 무기수은→신장, 메틸수은→뇌\")\n**함정**: 괄호 순서 = (무기, 유기). \"유기·킬레이트화\", \"산화·환원\" 같은 선지는 오답. 메틸수은(유기)=신경독·미나마타병, 무기수은=신장이라는 대비가 핵심.",
+"variant_note": "단독. 2024-기말. \"(무기)형 비소·수은→간신장소화기 / (유기)형→신경계 축적\" 빈칸. 향후 메틸수은 미나마타(신경독성 클러스터)와 교차 변형 가능.",
+"qids": [
+"Q0254"
+]
+},
+{
+"cid": 18,
+"part": "gakron",
+"theme": "철(Iron) 중독 치료 — 킬레이션(deferoxamine)",
+"concept": "**핵심**: 철 과잉 중독은 자유철(free iron)에 의한 산화손상(위장관·간·심혈관) → 혈변·쇼크·대사성 산증. 개 60 mg/kg 이상에서 중증.\n**치료**: 심각한 철 중독 위험 동물에 \"킬레이션(chelation)\" — deferoxamine이 Fe와 킬레이트 결합해 배설 촉진.\n(강의안 Slide 226 \"철(Iron): 자유철 산화손상, 개 60mg/kg 이상 중증\")\n**함정**: 정답은 \"킬레이션\". 비타민치료·미네랄검사·대증요법·보조요법은 핵심 치료가 아님. 금속별 킬레이터(납·아연→EDTA, 비소·수은→dimercaprol, 철→deferoxamine) 매칭 변형 주의.",
+"variant_note": "단독. 2024-기말. \"심각한 철 중독에 (킬레이션) 사용\" 빈칸. 해독제-금속 매칭 클러스터(Q0170)와 교차될 수 있음.",
+"qids": [
+"Q0255"
+]
+},
+{
+"cid": 19,
+"part": "gakron",
+"theme": "일산화탄소(CO) 물리·화학적 성질 식별",
+"concept": "**핵심**: 일산화탄소(CO)는 무색·무취 기체, 공기보다 약간 가벼움, 공기 중 점화 시 청색 불꽃을 내며 연소. 같은 환경에서 애완동물이 사람보다 더 빠르고 극심하게 영향받음(수의사 유의).\n**독성 기전**: Hb과 결합(carboxyhemoglobin) → 산소 운반능 저하(저산소). + non-hypoxic 기전(아래 클러스터).\n(강의안 목차 Slide 219 \"38장 가스 5.일산화탄소 399\")\n**함정**: 오답 H2S(달걀 썩은 냄새), O2, NO, CO2(공기보다 무거움). \"무색무취+청색불꽃+공기보다 가벼움\"이 CO 식별 키워드.",
+"variant_note": "단독. 2024-기말 빈칸 식별. CO 기전 클러스터(Q0266)와 한 쌍으로 출제되는 경향 — 성질 식별 vs 기전 표적, 서로 다른 각도.",
+"qids": [
+"Q0265"
+]
+},
+{
+"cid": 20,
+"part": "gakron",
+"theme": "CO 독성의 non-hypoxic 기전 — 표적 globin(myoglobin·neuroglobin)",
+"concept": "**핵심**: CO 독성은 단순 저산소(Hb 결합)뿐 아니라 non-hypoxic 기전이 있음. 뇌·근육에서 산소 저장·이용을 담당하는 globin 단백질과 세포 내 효소를 표적으로 함.\n- 근육: myoglobin\n- 뇌(신경): neuroglobin\n이들 globin과 cytochrome 등 세포 내 효소에 결합해 세포 호흡·산소 이용을 직접 방해.\n(강의안 38장 일산화탄소; Slide 226 금속/가스 맥락)\n**함정**: Q0266 정답이 복수(myoglobin/neuroglobin 조합) — neuroglobin·myoglobin이 핵심. methemoglobin·oxyhemoglobin은 \"산소 저장·이용 담당 globin\"의 표적 설명과 어긋남. \"뇌+근육 산소저장 globin\" = neuroglobin+myoglobin.",
+"variant_note": "단독. 2024-기말. \"non-hypoxic 표적 = 뇌·근육의 (    )과 (    )\" 이중 빈칸, neuroglobin/myoglobin. CO 성질 식별(Q0265)과 짝. 표적분자 매칭(Q0337/Q0157, CO-Hb)과도 연결.",
+"qids": [
+"Q0266"
+]
+},
+{
+"cid": 21,
+"part": "gakron",
+"theme": "이산화탄소(CO2) 가스 식별 — 마취·도축 질식가스",
+"concept": "**핵심**: 이산화탄소(CO2)는 과거 의료용 마취가스로 쓰였고, 가축 도축 시 질식(stunning)용 가스로 사용. 공기보다 무거움.\n(강의안 목차 Slide 219 \"38장 가스 2.이산화탄소 394\")\n**함정**: 오답 anhydrous ammonia(무수암모니아), 메탄, 황화수소(H2S), 이산화질소(NO2). \"마취가스+도축 질식용\"=CO2 식별 키워드. CO(저산소독)와 혼동 주의 — CO2는 질식/마취 용도.",
+"variant_note": "단독. 2024-기말 빈칸 식별. 가스 단원(38장) 다른 가스(CO=Q0265, H2S, NO2)와 묶어 \"성질·용도→가스명\" 변형 출제 가능.",
+"qids": [
+"Q0263"
+]
+},
+{
+"cid": 22,
+"part": "gakron",
+"theme": "살서제(rodenticide) 종류 — 저항성으로 거의 미사용",
+"concept": "**핵심**: warfarin(와파린)은 1세대 항응고제 살서제인데, 저항성을 나타내는 설치류가 발생하여 현재 거의 사용하지 않음. 이 때문에 더 강력한 2세대 항응고제(brodifacoum 등)로 대체됨.\n**기전**: 항응고제 살서제는 vitamin K 재활성(epoxide reductase) 억제 → 응고인자 결핍 → 출혈. 해독제 vitamin K1, PT가 가장 먼저 연장.\n(강의안 Slide 225 \"항응고제 쥐약: Vit K 재활성 억제, 해독 Vit K1, brodifacoum 중요, PT 먼저 연장\"; 목차 36장 살서제)\n**함정**: 정답 warfarin(저항성 발생). strychnine·cholecalciferol(D3)·항vitamin K(일반 분류)·heparin과 구분. heparin은 살서제가 아님.",
+"variant_note": "단독. 2024-기말. \"저항성으로 거의 안 쓰는 살서제 = warfarin\" 빈칸. 항응고제 살서제 기전(Vit K/PT/brodifacoum)으로 변형 확장 가능.",
+"qids": [
+"Q0262"
+]
+},
+{
+"cid": 23,
+"part": "gakron",
+"theme": "해독제(antidote)-중독물질 짝짓기",
+"concept": "**핵심 매칭**:\n- atropine sulfate ↔ 유기인계/콜린에스테라제 억제제 중독의 무스카린 수용체 길항제.\n- EDTA ↔ 납·아연 중독 킬레이트화.\n- dimercaprol(BAL) ↔ 비소 중독 우수 해독제, 수은·안티몬·납에도.\n- 에탄올(20%) ↔ ethylene glycol 중독 영향 감소(ADH 경쟁).\n- methylene blue ↔ 질산염·아질산염·염소산염 → 메트헤모글로빈증 치료.\n- 2-PAM(pralidoxime) ↔ 유기인계 AChE 재활성(반작용제).\n- sodium thiosulfate ↔ 청산(cyanide) 중독 처치.\n(강의안 Slide 227 \"유기인계 해독 Atropine+2-PAM\"; Slide 226 금속·킬레이터)\n**함정**: Q0170은 복수정답([2,3])으로 채점 — 정합 조합 2개. atropine=무스카린길항 vs 2-PAM=AChE재활성(반작용제) 구분, dimercaprol=비소가 핵심 키.",
+"variant_note": "단독(종합 매칭형). 2025-중간, 복수정답. 7개 해독제↔7개 설명 매칭. 향후 일부 행만 바꾼 부분 매칭(철→deferoxamine, cyanide→thiosulfate 등)으로 변형. 철 킬레이션(Q0255)·금속 무기유기(Q0254)와 지식 공유.",
+"qids": [
+"Q0170"
+]
+},
+{
+"cid": 24,
+"part": "gakron",
+"theme": "산화적 스트레스 방어계 — 물질·기능 짝짓기",
+"concept": "**핵심 매칭**:\n- GSH(glutathione): 비효소적 자유기 포착자, 산화된 단백질 sulfhydryl기를 환원.\n- SOD(superoxide dismutase): Cu·Zn 의존 효소, O2- → H2O2 전환 촉매.\n- Catalase: 과산화소체(peroxisome)에 고농도, H2O2 → H2O 전환 촉매.\n- Metallothionein: Zn·Cd 투여 시 급속 출현하는 금속결합 단백질, 중금속(특히 Cd) 격리.\n(강의안 산화스트레스/항산화 방어 섹션; Slide 226 카드뮴 \"Metallothionein 결합 후 신독성\")\n**함정**: SOD=O2-→H2O2 vs Catalase=H2O2→H2O 단계 구분이 핵심. GSH는 \"비효소적\" 포착자. metallothionein=중금속 격리. 정답 매칭 a-ㄱ,b-ㄴ,c-ㄷ,d-ㄹ(순서대로).",
+"variant_note": "단독(매칭형). 2024-중간. 4개 방어물질↔기능. 카드뮴-metallothionein은 금속 클러스터(Q0254)와 교차. 향후 행 일부 교란(SOD↔Catalase 단계 뒤바꾸기)으로 변형.",
+"qids": [
+"Q0203"
+]
+},
+{
+"cid": 25,
+"part": "gakron",
+"theme": "신경독성 — 축삭병변/신경세포병변 원인물질 매칭",
+"concept": "**핵심 매칭**:\n- 메틸수은(methyl mercury): 미나마타병(1950~60s 일본, 70s 이라크). 대뇌 시각피질·소뇌 과립세포 손상 → 실명·운동실조, 태아노출 시 미만성 뇌병변(diffuse encephalopathy) = 신경세포병변(neuronopathy).\n- γ-Diketones(n-hexane 대사산물, 2,5-hexanedione): 본드 흡입 → neurofilament 교차결합(cross-linking)·응집 → 원위부 축삭 팽대·위축(축삭병변, axonopathy), 사지마비.\n- Acrylamide: vinyl monomer(종이·방수·전기영동 젤, 구운 식품). 신경말단 변성, synaptic vesicle·미토콘드리아 감소, dying-back neuropathy(원위부 축삭병변), 발암성.\n- 유기인제: AChE 억제 급성독성 외 지연성 하반신 마비(OPIDN), Gulf war syndrome 연관.\n(강의안 신경독성 섹션; 축삭/세포체 병변 분류)\n**함정**: 메틸수은=신경세포체(neuronopathy), γ-diketone/acrylamide=축삭(axonopathy)으로 병변 부위 구분. n-hexane 대사산물=γ-diketones가 핵심 빈칸.",
+"variant_note": "동일 매칭 풀(메틸수은·γ-diketones·acrylamide·유기인제·이황화탄소·IDPN·pyridinethione)에서 보기 ㄱ~ㄷ 항목과 정답조합만 교체. 회차: 2022-기말(Q0354 ㄱ-d,ㄴ-c,ㄷ-b), 2023-기말(Q0283). 미나마타=메틸수은, n-hexane=γ-diketones는 고정. Q0283은 원본 answer 비어있음(미표기).",
+"qids": [
+"Q0354",
+"Q0283"
+]
+},
+{
+"cid": 26,
+"part": "gakron",
+"theme": "벤젠·TCDD 골수독성·면역독성 매칭",
+"concept": "**핵심**:\n- Benzene(벤젠): CYP에 의해 hydroquinone으로 대사 → 골수에서 myeloperoxidase가 반응성 quinoid 대사체로 활성화 → ROS 생산 → 골수 원조세포(progenitor) 손상 → 범혈구감소증(pancytopenia), 림프구 전구세포(T·B) 감소.\n- TCDD(다이옥신): 가장 강력한 면역억제 독성물질, 소량으로 조혈계·면역계 독성. 흉선 피질 상피세포 포함 T세포 분화 억제, 흉선 T세포 성숙·분화기 영향, Ca2+ 의존 endonuclease 활성화 → 피질세포 apoptosis 유도. AhR 경유.\n(강의안 혈액·면역독성 섹션; Slide 230 다이옥신 \"AhR 통해 독성, 면역억제·생식독성\")\n**함정**: 빈칸 순서 = (Benzene)-(TCDD). 벤젠=hydroquinone/myeloperoxidase/범혈구감소, TCDD=흉선/T세포/면역억제가 식별 키. TRAIL·Caspase는 오답.",
+"variant_note": "완전 동일 이중지문(benzene→hydroquinone→pancytopenia / TCDD→흉선 T세포 억제) 2회. 정답 항상 Benzene-TCDD(④). 회차: 2024-중간(Q0209), 2025-중간(Q0165). 변형 없는 반복. TCDD는 다이옥신 TEF 클러스터(Q0269)와 지식 연결.",
+"qids": [
+"Q0209",
+"Q0165"
+]
+},
+{
+"cid": 27,
+"part": "gakron",
+"theme": "다이옥신 독성등가계수(TEF) — 기준물질 2,3,7,8-TCDD",
+"concept": "**핵심**: 다이옥신류(PCDDs 7종, PCDFs 10종, PCBs 12종 독성 이성체)의 독성 비교·규제를 위해 독성등가계수(TEF) 사용. TEF는 동물 생체독성 결과를 근거로 \"가장 독성이 강한 2,3,7,8-TCDD\"를 기준으로 산정하며, 2,3,7,8-TCDD의 TEF = 1.\n**기전·특성**: 대부분 AhR(aryl hydrocarbon receptor) 경유 독성 발현. 지용성·환경잔류성(POPs)·생체축적(bioaccumulation)·생체확대(biomagnification). 2,3,7,8 위치 염소 치환이 독성 결정, AhR 친화도 최고.\n(강의안 Slide 230 \"기준물질 2,3,7,8-TCDD의 TEF=1, 가장 독성 강함; AhR; POPs\")\n**함정**: 정답 2,3,7,8-TCDD. 2,3,7,8-TCDF·PeCDD·HpCDD·TCB는 오답(TEF<1). \"TEF=1 기준=가장 독성\"이 결정 키.",
+"variant_note": "단독. 2024-기말. \"TEF 기준물질=가장 독성 강한 (2,3,7,8-TCDD), TEF=1\" 이중 빈칸. TCDD 면역독성(Q0209/Q0165)과 같은 물질 다른 각도. 향후 AhR 기전·POPs/biomagnification으로 변형.",
+"qids": [
+"Q0269"
+]
+},
+{
+"cid": 28,
+"part": "gakron",
+"theme": "선택적 독성(selective toxicity)",
+"concept": "**핵심 정의**: 독성물질이 특정 종/특정 조직에서만 손상을 일으키는 현상.\n**발생 이유**(옳은 진술): ① 표적 수용체가 일부 생물체에만 존재·친화 → \"표적 수용체와 관련 없다\"는 거짓. ② 독성물질 분해(대사) 능력이 종·조직마다 다름(높거나 낮음).\n**표적장기 예시**:\n- 파라쿼트(paraquat, 제초제): 노출경로 의존적으로 \"폐\"에서 선택적 고독성(polyamine transporter로 폐세포 축적, ROS 생성). (강의안 \"파라콰트→폐세포 축적, ROS\" 3924~3994행)\n- 카드뮴 경구 노출 → \"신장\"이 1차 표적.\n- 납 표적장기는 CNS·조혈계·신장. \"납 경구노출 시 신장이 일차표적\"이라는 단정형 진술은 함정으로 처리됨(Q0135).\n**함정**: \"표적 수용체와 관련 없다\"(거짓), \"파라쿼트 노출경로 무관\"(거짓), 납/카드뮴 일차표적 단정 진술이 단골 오류 보기.",
+"variant_note": "동일 골격(선택독성 정의 + 파라쿼트→폐 + 금속 표적장기)에서 보기를 카드뮴(Q0321)↔납(Q0135)으로 바꿔 \"틀린 것\" 형식. 회차: 2025-중간(Q0135 다수정답), 2022-중간(Q0321). 파라쿼트-폐는 고정, 금속 표적장기 진술을 변조해 함정 구성.",
+"qids": [
+"Q0135",
+"Q0321"
+]
+},
+{
+"cid": 29,
+"part": "gakron",
+"theme": "생체변환(biotransformation) Phase I/II 개념 (틀린 것)",
+"concept": "**핵심 진술 진위**:\n1) \"친수성·분자량 큰 물질이 대사로 지용성으로 바뀌어 흡수 어렵고 배설 용이\"는 거짓 → 실제는 \"지용성 물질이 수용성으로\" 변환되어 배설 용이(방향 반대). 이것이 매 회차 정답(틀린 보기).\n2) 대사적 활성화(bioactivation): 모물질이 대사 거쳐 더 독성 높은 물질로 변환 → 생성물=반응성 대사산물(reactive metabolite) (옳음).\n3) 외래물질은 비활성화/해독(bioinactivation/detoxification)될 수도, 더 독성화될 수도 있음 (옳음).\n4) 대사는 배설·덜 유해한 물질로의 변환을 통한 방어기전 (옳음).\n(강의안 생체변환 섹션 \"지용성→수용성 변환, 대사적 활성화·반응성 대사산물\" 4940행 등)\n**함정**: 1번 진술의 \"친수성→지용성\" 방향 뒤집기가 고정 함정(정답). 나머지는 모두 참.",
+"variant_note": "동일 5개 진술에서 \"틀린 것 모두\" 형식, 정답은 항상 1번(친수성↔지용성 방향 반전, [1]). 회차: 2025-중간(Q0153), 2024-중간(Q0197). 진술 표현만 살짝 다듬고 함정 동일.",
+"qids": [
+"Q0153",
+"Q0197"
+]
+},
+{
+"cid": 30,
+"part": "gakron",
+"theme": "생체변환 대사경로 도식(그림 5.1) 순서 배열",
+"concept": "**핵심 흐름(그림 5.1)**: 약물·외래물질(지용성·비극성·비이온화)에서 출발 →\nA(고지용성) → E(제1상 반응) → D(산화·환원·가수분해, 기능기 첨가·노출=비합성적) → [극성 1차 대사산물] → B(제2상 반응: 생합성) → C(포합) → [수용성 2차 대사산물].\n**개념**: 제1상(Phase I)=산화/환원/가수분해로 작용기 노출(비생합성적), 대사적 활성화 또는 비활성화 가능. 제2상(Phase II)=포합(conjugation, 생합성적)으로 수용성↑ → 배설 용이. 최종 지용성→수용성 전환.\n(강의안 그림 5.1; 제1상 CYP450, 포합 5794·6036행 등)\n**함정**: 보기 라벨 정의(E=제1상, B=제2상, D=산화환원가수분해, C=포합)가 회차마다 미세 변경되어 정답 배열이 달라짐. \"제1상=비합성적/Phase II=생합성\" 라벨을 헷갈리게 배치. 핵심 원칙: 제1상이 제2상보다 먼저, 포합이 마지막. Q0152 정답 A-E-D-B-C, Q0196 채점 정답 A-D-E-C-B(라벨 재정의 때문).",
+"variant_note": "같은 그림 5.1 대사경로의 빈칸 라벨 순서 배열. 회차: 2024-중간(Q0196 answer [4]=A-D-E-C-B), 2025-중간(Q0152 answer [4]=A-E-D-B-C). 라벨 기호 정의를 미세 변경해 정답 배열이 회차마다 달라지는 함정형 — 라벨 정의 먼저 확인 필수.",
+"qids": [
+"Q0196",
+"Q0152"
+]
+},
+{
+"cid": 31,
+"part": "gakron",
+"theme": "독성물질-표적분자 짝짓기",
+"concept": "**핵심 매칭**:\n- CO ↔ 적혈구 혈색소(Hb) (carboxyhemoglobin) — 옳음.\n- 복어독 tetrodotoxin(TTX) ↔ 전압의존성 Na+ channel 차단 (acetylcholinesterase가 아님 → \"TTX-AChE\"는 거짓).\n- 사염화탄소(CCl4) ↔ 막지질(lipid), 지질과산화 (\"CCl4-지질\"은 옳음).\n- 유기인제 ↔ acetylcholinesterase(AChE) (\"유기인계-Na+ channel\"은 거짓).\n- aflatoxin ↔ DNA(구아닌, 부가체 형성). \"aflatoxin-DNA 아데닌\"은 통상 구아닌 표적이라 변별 포인트.\n(강의안 표적분자/독성기전 섹션; Slide 227 유기인계-AChE)\n**함정**: Q0157 정답 [3,5] — TTX-AChE(거짓)·유기인계-Na+channel(거짓)이 잘못된 짝. TTX=Na채널, 유기인=AChE를 서로 바꿔치기하는 것이 핵심 함정. Q0337은 표적분자 일부가 공란(불완전 보기).",
+"variant_note": "동일 매칭 풀(CO-Hb, TTX-Na채널, CCl4-지질, 유기인-AChE, aflatoxin-DNA)에서 \"잘못 짝지어진 것\" 고르기. 회차: 2022-중간(Q0337 보기 일부 공란, answer [1,2,3,4]), 2025-중간(Q0157 answer [3,5]). TTX↔유기인의 표적(Na채널↔AChE) 뒤바꾸기가 고정 함정.",
+"qids": [
+"Q0337",
+"Q0157"
+]
+},
+{
+"cid": 32,
+"part": "gakron",
+"theme": "독성에 영향을 미치는 요인 (총론: 숙주·환경·투여경로)",
+"concept": "**핵심 진술 진위**:\n- 투여경로별 독성차: 경구 LD50이 정맥(혈관내)보다 높음(흡수·초회통과로 경구 독성↓).\n- 아플라톡신 B1 종간 감수성: 랫드(민감, 낮은 ppb) vs 마우스(저항). 수치 방향 주의.\n- 다이옥신: 대사 활성화·투여경로 의존(경구 독성).\n- 말라티온: 포유류는 분해효소(carboxylesterase) 있어 해충보다 독성 \"낮음\" → \"포유류 독성 높다\"는 거짓.\n- 반추류 고사리 중독: thiaminase가 thiamine(B1) 파괴 → 독성. \"thiamine을 가져 독성 덜하다\"는 거짓.\n- 건강·환경요인: 고단백 식이로 아세트아미노펜 독성 변화, 안티피린 육류섭취 대사, 암페타민·DDT는 \"고체온\"에서 독성↑(저체온이라 하면 거짓).\n(강의안 총론 숙주·환경요인 섹션)\n**함정**: 말라티온 종간 분해효소·고사리 thiaminase·체온 방향(고체온↑)이 단골 거짓 보기.",
+"variant_note": "총론 \"독성 영향 요인\" 진술 모음을 회차별로 다른 항목(투여경로·종간감수성·식이·체온)으로 구성해 \"옳지 않은 것\" 고르기. 회차: 2022-중간(Q0331 다답 [1,4,5]), 2025-중간(Q0149 체온/식이 중심 [2,5]). 말라티온·고사리·체온 방향이 반복 함정.",
+"qids": [
+"Q0331",
+"Q0149"
+]
+},
+{
+"cid": 33,
+"part": "gakron",
+"theme": "부식성 물질(산·알칼리) 제염법 선택",
+"concept": "**핵심**: 산·알칼리(부식성/corrosive) 경구 노출 시 제염 원칙 — 부식성 물질은 \"구토 유발·위세척 금기\"(재노출로 식도·기도 추가 손상, 천공 위험). 활성탄도 부착력 낮아 효과 미미.\n가장 효과적: 즉시 \"물\" 또는 \"우유\"로 희석(dilution)이 권장. (강의안 Slide 225 생활용품 \"산·알칼리 세정제: 희석, 내시경 평가 / 버튼배터리 즉시 제거 / 표백제 세척·대증\")\n**함정**: 위세척·구토는 금기인데 \"가장 효과적\"으로 오인 유도. 정답은 희석계열(물·우유). 단, 본 족보의 answer 배열은 전체 선지([1,2,3,4,5])로 기재되어 채점 신뢰도 낮음 — 실제 정답은 \"물·우유\"(희석) 2개로 판단해야 함.",
+"variant_note": "완전 동일 문항(\"산·알칼리 제염 가장 효과적 2개\") 2회. 회차: 2023-기말(Q0310), 2022-기말(Q0377). 두 문항 모두 answer가 [1~5] 전체로 잘못 기재됨(원본 채점 오류) — 강의안 근거로는 물·우유(희석)가 정답. 변형 없이 반복.",
+"qids": [
+"Q0310",
+"Q0377"
+]
+},
+{
+"cid": 34,
+"part": "gakron",
+"theme": "신약개발 규제 — GLP·IACUC·임상시험 1~4상",
+"concept": "**핵심 진술 진위**:\n- a. \"효능은 인증기관이 과학적 방법으로 검증하면 된다\" → 효능은 임상시험 등 별도 절차 필요, 부적절(거짓).\n- b. 전임상 안전성시험은 GLP(우수실험실관리기준) 시설에서 수행(\"개별 기관 인증을 받은 GLP에서만\" 표현 함정).\n- c. GLP 기관에 IACUC(동물실험윤리위) 설치(\"권장\" 표현 함정 — 사실상 필수).\n- d. 1상: 정상인 지원자, 안전성·체내동태 (옳음).\n- e. 2상: 환자 대상 유효성 확인 (옳음).\n- f. 3상: 다기관 다수 환자, 유효성·용법용량·주의사항 (옳음).\n- g. 4상(시판 후): 부작용 증례 수집, 그러나 \"부작용 나타나면 곧바로 판매취소\"는 과장(거짓).\n(강의안 총론 신약개발·안전성평가 섹션)\n**함정**: 정답조합 a,b,c (Q0346/Q0275 모두 [1]=a,b,c). a(효능검증 단순화)·b(GLP 표현)·c(IACUC 권장)가 틀린 보기.",
+"variant_note": "완전 동일 a~g 진술 매칭. 정답 항상 a,b,c(①). 회차: 2022-기말(Q0346), 2023-기말(Q0275). 변형 없는 반복. 1~4상 정의는 옳고 a/b/c가 고정 오답.",
+"qids": [
+"Q0346",
+"Q0275"
+]
+},
+{
+"cid": 35,
+"part": "gakron",
+"theme": "파라쿼트 dithionite 정성 검출법",
+"concept": "**핵심**: paraquat 정성 검출 — 시료(산)에 알칼리화 시약을 가해 알칼리성으로 만든 뒤 sodium dithionite를 첨가하면 파란색(blue) 발색 → 양성. 알칼리화 시약으로 \"수산화나트륨(NaOH)\" 사용.\n**배경**: paraquat(dipyridyl 제초제)는 폐 선택독성(ROS·NADPH 소모, 산화손상). (강의안 파라콰트 3924~3994행; 34장 Dipyridyl 제초제)\n**함정**: 정답 수산화나트륨. 수산화칼슘·칼륨·암모늄·알루미늄은 오답. \"dithionite + 알칼리화 → 청색\"이 검출 키. 검출법(분석화학)과 폐독성 기전을 구분.",
+"variant_note": "단독. 2024-기말 빈칸(알칼리화 시약=NaOH). 파라쿼트는 선택독성 클러스터(Q0135/Q0321 폐 선택독성)와 같은 물질 다른 각도(검출법). 향후 폐 기전·해독 무특이성으로 변형.",
+"qids": [
+"Q0261"
+]
+},
+{
+"cid": 36,
+"part": "gakron",
+"theme": "기관지확장제(β-agonist) 중독 — albuterol",
+"concept": "**핵심**: albuterol(살부타몰)은 adrenergic β-receptor agonist 기관지확장제. 우연한 사고 노출이나 기관지수축(bronchoconstriction) 치료 목적 투여 시 중독. 동물 중 개에서 albuterol 중독 발생이 가장 빈번(흡입기 흡입 사고).\n**독성**: β자극 → 빈맥·부정맥·저칼륨혈증·흥분·진전.\n(강의안 22장 의약품 심혈관/호흡 약물 맥락; Slide 222 약물표)\n**함정**: 정답 albuterol. theobromine(메틸잔틴), digoxin(강심배당체), caffeine(메틸잔틴), verapamil(Ca채널차단제)은 다른 약물군. \"β-agonist 기관지확장제+개 최다\"가 식별 키.",
+"variant_note": "단독. 2023-기말 빈칸. β-agonist=albuterol. 메틸잔틴(Q0376/Q0248)·강심배당체(digoxin)와 같은 의약품 단원이라 약물군 매칭형으로 변형 가능.",
+"qids": [
+"Q0307"
+]
+},
+{
+"cid": 37,
+"part": "gakron",
+"theme": "조류 호흡기 생리학적 차이와 흡입독성 감수성",
+"concept": "**핵심 진술 진위(틀린 것 고르기)**:\n- a. 탄광 카나리아=흡입독성 지표 → 조류 고감수성 예시 (옳음).\n- b. 횡류(cross-current)·역류(counter-current) 가스교환 기전이 효율적이라 흡입독성 감수성 \"증가\" (옳음).\n- c. \"가스확산장벽이 포유류와 비슷해서 감수성과 무관\" → 거짓(조류는 확산장벽 얇고 표면적 커서 감수성↑).\n- d. \"절대분당환기량이 감수성과 상관없다\" → 거짓(높은 환기량이 흡입독성 감수성을 높임).\n- e. 유기인계(OP)는 포유류보다 조류에 더 독성 (옳음).\n(강의안 44장 조류독성학 \"독성과 관련된 생리학적 차이점 475\")\n**함정**: 핵심 거짓은 \"비슷·무관\" 표현이 든 c·d. \"증가/더 독성\"은 참. Q0347 채점 answer [2,3]은 선지 묶음(c,d / c,e) 번호.",
+"variant_note": "단독. 2022-기말 \"틀린 것 모두\". 조류는 환경독성학(국시 제외)이나 강의 강조 범위. c(확산장벽 무관)·d(환기량 무관)가 고정 거짓. 선지 묶음(c,d / c,e) 배열로 변형. answer 표기 [2,3]은 묶음번호.",
+"qids": [
+"Q0347"
+]
+},
+{
+"cid": 38,
+"part": "gakron",
+"theme": "석면(asbestos) 폐독성 — 공기매개 섬유증·폐암",
+"concept": "**핵심**: 석면(asbestos)은 대표적 공기매개(air-borne) 폐 독성물질. 석면 광산·오래된 건물 절연/단열/방화벽 철거 시 노출. 섬유 길이 ~2μm 이내가 폐포벽에 collagen 축적 → 폐섬유증(asbestosis). 섬유를 둘러싼 단백질성 물질(asbestos bodies/ferruginous bodies) 관찰. 폐암(중피종 포함) 유발.\n(강의안 탄화수소·산업물질 폐독성 섹션; 공기매개 agent)\n**함정**: 정답 Asbestos. Naphthalene(방충볼·용혈), Silica(규폐증), Paraquat(폐 ROS), Ozone(산화성 폐손상)과 구분. \"섬유증+asbestos bodies+폐암\"이 결정 키. 같은 폐독성이라도 paraquat(ROS)·silica(규폐)와 기전 다름.",
+"variant_note": "단독. 2023-기말 지문→물질 식별. 폐 독성물질군(paraquat·silica·ozone·naphthalene)을 오답으로 묶음 → 폐독성 기전별 식별 매칭으로 변형 가능.",
+"qids": [
+"Q0287"
+]
+},
+{
+"cid": 39,
+"part": "gakron",
+"theme": "용량-반응 독성 지표 용어 정의 매칭",
+"concept": "**핵심 매칭**:\n- LD50(반수치사량): 투여동물의 절반이 사망하는 용량(ㅁ).\n- MTD(최대내성용량): 대조군 대비 10% 이내 체중증가 억제하며 사망에 이르지 않는, 독성증상이 나타날 최소용량(ㄷ).\n- NOAEL(무관찰부작용량): 어떤 독성증상도 나타나지 않을 것으로 기대되는 최대용량(ㄱ).\n- ED50(반수유효용량): 투여동물 절반에서 효과를 나타내는 용량(ㄹ).\n- TDI(1일섭취허용량): 생애 전 기간 매일 섭취해도 위해 없는 용량(ㄴ).\n(강의안 총론 용량-반응·안전성 지표 섹션)\n**함정**: NOAEL(=최대 무영향용량) vs MTD(=독성 최소용량) 방향 혼동, TDI(매일 섭취 허용) vs NOAEL 구분이 핵심. 정답 A-ㅁ,B-ㄷ,C-ㄱ,D-ㄹ,E-ㄴ.",
+"variant_note": "단독(매칭형). 2022-기말. 5개 지표↔정의. 향후 LOAEL·ADI·RfD 등 추가하거나 일부 행 교란(NOAEL↔MTD 뒤바꾸기)으로 변형. 총론 핵심 용어.",
+"qids": [
+"Q0348"
+]
+},
+{
+"cid": 40,
+"part": "gakron",
+"theme": "간 기능 평가 — 알부민(반감기·만성 지표)",
+"concept": "**핵심**: 간 기능 단백 지표 중 albumin(알부민)은 반감기가 길어(14~20일) 급성 간기능장애의 좋은 지표가 되지 못하고, 만성 간질환의 중증도·예후 판단 지표로 유용. (간이 albumin 합성 → 만성 간부전 시 저알부민혈증)\n(강의안 간독성 평가/혈장단백 섹션; Slide 223~224 간독성 약물 맥락)\n**함정**: 정답 albumin. 빌리루빈·마이오글로빈·글루타티온·콜레스테롤은 \"긴 반감기·만성 지표\" 설명에 부합하지 않음. \"반감기 14~20일·만성 예후\"가 albumin 식별 키. (급성 지표는 ALT·AST 등 효소)",
+"variant_note": "단독. 2024-기말 빈칸(=albumin). 간독성 평가군(효소 vs 단백)에서 \"급성 지표(효소)\" 대비형으로 변형 가능. 고양이 UGT(간 대사) 클러스터와 같은 간 단원.",
+"qids": [
+"Q0253"
+]
+},
+{
+"cid": 41,
+"part": "genotox",
+"theme": "Ames test (원핵세포 복귀돌연변이 시험) — 원리·균주·His⁻ 영양요구성·S9 대사활성화",
+"concept": "**Ames test = prokaryotic 복귀(역)돌연변이 시험.** *S. typhimurium*(원문 Salmonella, 신표기 *S. enterica*) 또는 *E. coli* 균주를 써서 박테리아의 **복귀돌연변이(reverse/back mutation) 콜로니를 계수**한다(강의안 slide 206, KEY POINT).\n\n**핵심 원리(가장 빈번한 함정 선지):** 균주는 his 유전자가 이미 돌연변이된 **His⁻ 영양요구주**다. 즉 \"정상에서는 히스티딘이 **있어야** 증식 → 돌연변이가 일어나면 His⁺로 복귀해 히스티딘 **없이도** 증식\"이 옳다. 시험은 **히스티딘 없는 최소배지**에서 His⁺ 복귀집락이 농도의존적으로 늘면 양성으로 판정한다(slide 206 '돌연변이로 His⁻ 상태된 균주', '복귀돌연변이 발생 시 His⁺로 회복').\n  - 🔴 **출제자 단골 뒤집기**: \"정상 상태에서는 histidine이 없이도/없어도 증식하나 돌연변이에 의해 histidine이 있어야만 증식\" — **앞뒤가 바뀐 거짓 진술**. His⁻ 균주는 원래 his를 만들지 못해 히스티딘이 필수이며, 복귀돌연변이가 일어나야 비로소 무(無)히스티딘 배지에서 자란다.\n\n**대사활성화(S9 mix):** 일부 물질은 원물질 자체가 아니라 **체내 대사로 활성화되어야** 변이원이 된다. 간 S9 분획(microsomal fraction)+NADPH 등을 첨가해 **대사활성화 상황을 in vitro로 재현**한다(slide 206 '대사활성화 (S9 mix)의 필요성'). → \"원물질 자체로도, 대사활성화로도 변이 유발 가능\", \"Ames test로 대사활성화 재현 가능\" 모두 **옳음**.\n\n**식품·천연물도 변이원성:** 우리가 즐기는 많은 식품·천연물도 변이원 성분을 함유한다(slide 206 임상 중요성 맥락) → **옳은 진술**.\n\n**균주별 검출 돌연변이(slide 206 표):** TA-98/1537/1538 = **frameshift**, TA-100/1535 = **base-pair substitution**. → Ames는 점돌연변이·염기치환 수준의 **미세손상** 검출용 1차 스크리닝(발암성 평가의 첫 관문).",
+"variant_note": "완전 동일한 5개 선지(a~e: 균주/Ames명칭, His⁻ 원리, 대사활성화 변환, S9로 대사활성화 재현, 식품·천연물 변이원성)를 회차마다 '발문만' 바꿔 반복 출제. [2022-기말]Q0372='틀린 것 모두'(정답 b,d), [2024-기말]Q0244='옳지 않은 것 모두'(정답 = His⁻ 원리를 뒤집은 b 단독), [2023-기말]Q0302='옳은 것 모두'(정답 a,c,d). 변하지 않는 정오 진실: b(His⁻ 원리 뒤집기)=항상 거짓 / a·c·d·e=항상 참. 단 Q0244 선지는 d(S9 재현)·e(식품 변이원성)도 정답군에서 빠질 수 있게 발문이 'His⁻ 원리 한 개'만 오답으로 구성됨. ★발문(틀린것/옳은것/옳지않은것)을 먼저 확인하고, 'His⁻ 균주는 히스티딘이 필수다'라는 본질만 잡으면 선지가 어떻게 섞여도 풀린다.",
+"qids": [
+"Q0372",
+"Q0244",
+"Q0302"
+]
+},
+{
+"cid": 42,
+"part": "genotox",
+"theme": "다단계 발암과정 — 개시제(initiator)·촉진제(promoter)·발암제(carcinogen)의 정의와 가역성",
+"concept": "**개시(Initiation):** 개시제가 일으키는 **단발성·비가역적 DNA 손상(돌연변이 고정)**. 한 번 작용하면 즉시 제거돼도 효과가 남는다(slide 211·212 '비가역적', slide 212 '개시제는 단기(단발성) 작용으로 비가역적 유전자 변화').\n\n**촉진(Promotion):** 촉진제가 일으키는 **가역적 세포 증식·클론 확장**으로 전암병변(PNL)을 형성. **유전자 돌연변이를 새로 일으키는 단계가 아니라** 비유전적(epigenetic)·증식 신호 단계이며, **반복적·지속적 자극이 있어야** 종양으로 진행한다(slide 211 표 '가역적', slide 212 '핵심: 지속적/반복적 자극이 있어야 종양으로 진행').\n  - 🔴 함정1: \"촉진은 유전자 돌연변이 등 지속적 작용을 필요로 한다\" → **'지속적 작용 필요'는 맞지만 '유전자 돌연변이'로 규정하면 틀림**. 촉진은 가역적 증식 촉진이지 돌연변이 유발이 아니다.\n  - 🔵 함정2: \"Promoter로 작용하는 물질은 체내에서 활성되는 물질만이다\" → **거짓**. 페놀·TPA·스테로이드 호르몬뿐 아니라 외부 식품 성분·생체 호르몬(prolactin 등)도 촉진제로 작용(slide 212 '외부 식품 성분·생체 호르몬도 촉진제로 작용').\n  - 🔴 함정3: \"Carcinogen은 개시와 촉진능력을 모두 가지고 있어야 한다\" → **이건 참(Key Insight)**. 완전한 발암제는 개시+촉진을 모두 가져야 한다(slide 211 'Key Insight', slide 212 PNL 형성 표: ↓만/■만=형성 안 됨, ↓+■=잘 형성). 이 진술을 '틀린 것'으로 묶으면 함정.\n\n**옳은 정의(참 진술):** \"개시만 유발=개시제, 촉진만 유발=촉진제\"(slide 212 정의), \"종양 형성 촉진은 지속적 작용을 필요로 한다\"(촉진의 본질, slide 212)는 **모두 참**.",
+"variant_note": "[2023-기말]Q0304='틀린 것들을 모두'(정답 b,c,d). 5선지(a~e)가 개시/촉진/발암제 정의를 미묘하게 섞어 출제됨. 변형 축: ①촉진제를 '체내 활성 물질만'으로 좁히는 거짓(a), ②촉진을 '유전자 돌연변이 필요'로 규정하는 거짓(d), ③발암제 개시+촉진 동시보유 요건을 거짓처럼 위장(c). 항상 참인 핵심: 개시=비가역·단발성, 촉진=가역·지속적·증식촉진(돌연변이 아님), 완전 발암제=개시+촉진 모두 보유. 동일 표(slide 211·212)에서 '가역/비가역'·'단발/지속'·'돌연변이 유무'를 바꿔치기하는 셀조합형으로 재출제 가능.",
+"qids": [
+"Q0304"
+]
+},
+{
+"cid": 43,
+"part": "genotox",
+"theme": "장기 발암성시험(carcinogenicity bioassay) 프로토콜 설계 — 동물종 수·투여 개시 시기·용량설정·종료기준(MTD)",
+"concept": "**장기발암성시험 설계 원칙(강의안 slide 별도 발암성시험 항목 + slide 211·212 발암 단계 맥락).**\n\n**① 사용 동물종:** 마우스 등 **1종 이상(설치류 2종이 통상)** 사용 → \"1종 이상 사용\"은 **옳음**.\n\n**② 투여 개시 시기:** 발암은 장기간 노출에 따른 누적 과정이므로 **가능한 한 어린(이유 직후·성숙 전) 시기에 투여를 시작**해 평생에 가까운 노출 기간을 확보한다. → 🔴 \"이유 후 12주 이상 최대한 성숙한 시기에 투여 시작이 바람직하다\"는 **거짓**(성숙 후가 아니라 어린 시기 시작이 원칙).\n\n**③ 용량 설정(예비시험 단계):** **단회투여 예비시험 → 반복투여 예비시험 → 본시험** 순으로 용량을 좁혀간다. \"단회투여 예비시험으로 반복투여 예비시험의 최고용량을 결정\"은 **옳음**.\n\n**④ 최고용량 = 최대내성용량(MTD):** 본시험 최고용량은 **임의(arbitrary)로 정하는 것이 아니라** 예비시험에 근거해 **체중·생존에 과도한 영향 없이 견딜 수 있는 최대용량(MTD)**으로 과학적으로 설정한다. → 🔴 \"최고용량(MTD)은 임의로 결정해 시험을 수행한다\"는 **거짓**.\n\n**⑤ 종료 기준:** 시험은 정해진 기간(예 2년) 또는 군의 **생존율이 충분히 떨어졌을 때** 종료한다. → 🔴 \"저용량군 또는 음성대조군의 누적사망률이 95%가 되면 종료\"는 **거짓**(대조·저용량군이 95% 죽을 때까지 끌면 비교 불가; 정상적으로는 생존 25% 내외 수준에서 종료). 음성대조군이 거의 전멸하는 시점을 종료 기준으로 삼는다는 진술은 비논리적.\n  - 🔵 참고: Ito 중기발암성시험(slide 215)은 장기시험(3년↑)의 시간·비용 한계를 보완해 부분 간절제로 촉진을 증폭, 8주 내 전암병변을 정량하는 단기 대체모델. 장기시험 프로토콜과 혼동 주의.",
+"variant_note": "[2023-기말]Q0280='틀린 것을 모두 고르시오'(정답 a,b,d,e + c,d,e 두 보기, answer=[1,5]). a~e 각 진술의 정오: a(1종 이상)=참, b(성숙기 투여시작)=거짓, c(단회→반복 예비시험 용량결정)=참, d(MTD 임의결정)=거짓, e(대조/저용량군 누적사망 95%서 종료)=거짓 → 틀린 것 = b,d,e. 보기 ①'a,b,d,e'와 ⑤'c,d,e'가 둘 다 정답 처리된 것은 족보 표기 특성(복수정답 허용/원본 그대로). Claude 독립판정상 '틀린 것=b,d,e'가 본질이며 a·c는 참. 변형 축: '투여 시작 시기(어린 vs 성숙)', 'MTD 산정(예비시험 근거 vs 임의)', '종료 사망률 기준 수치'를 바꿔 셀조합형으로 재출제 가능. ★주의: 족보 정답 신뢰도 낮음 — 강의안 근거로 b·d·e가 거짓임을 직접 판정할 것.",
+"qids": [
+"Q0280"
+]
+},
+{
+"cid": 44,
+"part": "hepato",
+"theme": "간 구조·구역화 종합 오류찾기 (이중혈액공급·Zone1/2/3·소엽vs세엽·창자간순환)",
+"concept": "간 구조 단원의 6개 진술(a~f)을 한꺼번에 던지고 '틀린 것 모두'를 고르게 하는 대표 통문항. 강의안 기준 핵심 사실은 다음과 같다.\n- **혈액 유입 경로(a 오류 포인트)**: 간으로 정맥혈이 들어오는 통로는 간정맥이 아니라 **간 문맥(portal vein, 70%)**이다(강의안 Slide086 p.86). 간정맥은 중심정맥→하대정맥으로 나가는 **배출** 경로다. 'a'는 유입을 간정맥이라 해서 틀림.\n- **Zone1 = 문맥 인접(periportal)**: 미토콘드리아 풍부, 당 합성·지방산 산화·암모니아 해독(요소회로), 산소·영양 풍부, 독성 내성 높음(Slide088). 'b'는 이 내용을 맞게 서술 → b는 옳음.\n- **Zone3 = 중심정맥 주변(centrilobular)**: CYP450(제1상 반응) 풍부, 외인성 독성물질 대사 중심, 저산소 취약 → acetaminophen·CCl4·halothane 손상의 주표적(Slide088, 089). 'c'는 '말단 간정맥 주변=제1상 효소 풍부'로 맞게 서술 → c는 옳음.\n- **함정 핵심: Zone2를 Zone3/Zone1로 바꿔치기**. 'd'는 '고농도 독성물질 노출+에너지대사 효소 풍부+독성 일차 표적'을 Zone2(중간구역)에 갖다 붙였는데, 이는 사실상 Zone3(독성 일차표적)·Zone1(에너지 효소) 특성 → d 틀림. 'e'는 'GSH 농도 높고 재생 왕성'을 Zone2라 했으나 실제 GSH 풍부·재생 왕성은 Zone1(periportal) → e 틀림.\n- **창자간 순환(f)**: 담즙→장 재흡수→간 반복으로 반감기 연장·독성 증폭·발암 위험 증가(Slide090,091). 'f'는 옳음(단, Q0292는 'f'에서 '창자간 순환'을 '장시간 순환'으로 오타 변형).\n결론: 강의안 근거 실제 오류는 **a, d, e** 3개. 둘 다 정답 키가 a,d,e를 포함하는 선택지(④ a,d,e)로 수렴해야 하나, 족보 기재 정답은 회차별로 흔들린다(아래 variant_note 참조).",
+"variant_note": "동일 문항의 회차 재출제. 2022-기말(Q0362)·2023-기말(Q0292) 모두 a~f 6진술 '틀린 것 모두 고르기'로 본문이 거의 글자단위로 같음. 변형 포인트는 두 군데뿐: (1) Q0292는 f를 '장시간 순환'으로, Q0362는 '창자간 순환'으로 표기(오타성 변형) (2) 족보 기재 정답 배열이 회차마다 달라 신뢰 불가 — Q0292 answer=[1,2,4,5], Q0362 answer=[1,2,3,4,5]로 서로 모순. 강의안 독립 재판정상 실제 오류는 a·d·e 3개뿐이므로 정답 선지는 'a,d,e'(보기 ④)가 옳다. 출제자는 선지 묶음(a,b,c / c,d,e / d,e / a,d,e / a,b,e)을 그대로 두고 정답키만 바꾸는 방식으로 재활용하므로, 선지 묶음을 외우지 말고 'a·d·e가 왜 틀린지(유입혈관=문맥, Zone2↔Zone1/3 바꿔치기)'를 본질로 잡아야 변형에 안 흔들린다.",
+"qids": [
+"Q0292",
+"Q0362"
+]
+},
+{
+"cid": 45,
+"part": "hepato",
+"theme": "간 비실질세포 기능 매칭 — 쿠퍼세포(Kupffer) vs 간별세포(HSC/Ito)",
+"concept": "간 비실질세포의 기능을 짝지어 묻는 빈칸/매칭형. 강의안(Slide087 p.87)이 '오류 수정 박스(Correction Box)'로 직접 강조한 단골 함정이다.\n- **쿠퍼세포(Kupffer cell) = 간 내 대식세포**: 간문맥 순환으로 들어오는 입자·이물질(bacterial endotoxin) 정화, 과산소 음이온 자유기·과산화수소·가수분해효소·eicosanoids 유리, 염증매개인자(IL, TNF-α) 생산·면역반응 담당.\n- **간별세포(Hepatic Stellate Cell, HSC = Ito cell) = 문맥/디세강(Disse)에 위치**: **비타민 A 저장 + 콜라겐 합성 → 간 섬유화(fibrosis) 관여**.\n- **출제자의 전형 함정**: '문맥에 있는 OO세포가 비타민 A 저장·콜라겐 합성' 자리에 **쿠퍼세포를 끼워넣어 오답 유도**(강의안이 취소선으로 '쿠퍼세포는 비타민A 저장·콜라겐 합성한다'를 명시적으로 틀린 문장으로 박제). 따라서 이 자리는 반드시 **간별세포(HSC)**.\n- 나머지 비실질세포: 내피세포(굴모세혈관 벽), 담관세포, 섬유모세포는 위 두 기능과 무관 → 오답 소거 근거.\n빈칸 정답: 첫 칸(정화·자유기·염증매개인자 생산)=쿠퍼세포, 둘째 칸(비타민A 저장·콜라겐 합성)=간별세포.",
+"variant_note": "2022-기말(Q0361) 빈칸 채우기형으로 출제(answer=[3,4] → ③쿠퍼세포·④간별세포). 변형 가능성: (1) 빈칸형↔'틀린 설명 고르기'형 전환 — '쿠퍼세포가 비타민A 저장·콜라겐 합성'을 틀린 선지로 심는 형태(강의안 Correction Box가 그대로 출제소스) (2) HSC를 'Ito cell'·'간 별세포'·'지방저장세포' 등 동의어로 바꿔 표기 (3) 쿠퍼세포 기능에 'TNF-α·IL 분비/endotoxin 정화'를 추가·삭제해 변별. 본질은 '정화·면역매개=쿠퍼 / 비타민A·콜라겐·섬유화=HSC' 2분법. 이 짝만 고정하면 표기·형식 변형에 안 흔들린다.",
+"qids": [
+"Q0361"
+]
+},
+{
+"cid": 46,
+"part": "hepato",
+"theme": "반응성 대사산물(ROS/RNS) 생성 기전 — redox cycling·전이금속 Fenton·질산염 환원·ONOO⁻",
+"concept": "활성산소/질소종(ROS·RNS)을 만드는 여러 물질·경로를 한 문항에 모아 '틀린 것 고르기'로 묻는 기전 종합형(간 괴사기전 표15.1 E·F 범주 + 파라콰트 redox cycle 슬라이드 근거).\n- **Redox cycling(산화-환원 순환)**: paraquat, diquat, adriamycin, mitomycin C, bleomycin, acetaminophen, alloxan 등이 전자를 주고받는 순환으로 O2·⁻(superoxide)를 대량 생성(강의안 Slide107 표15.1; 파라콰트 Slide). **단, paraquat의 선택적 표적은 '폐(lung)'다 — polyamine transporter로 폐포 type I/II 세포에 축적되어 막대한 ROS 생성·광범위 폐 괴사**. '간독성(부종)'이라 하면 틀림(b의 함정).\n- **전이 금속(Cr·Cu·Fe·Mn·Ni)**: H2O2와 반응하는 **Fenton 반응(H2O2 + Fe²⁺ → ·OH + OH⁻ + Fe³⁺)**으로 강력한 hydroxyl radical(·OH) 생성(Slide107 표·세부설명). 제1상·제2상 '대사 반응을 촉진'시키는 게 아니라 **금속 촉매에 의한 자유기 생성**이 본질 → d 틀림(함정: 'Fenton'을 'Phase I/II 촉진'으로 바꿔치기).\n- **RNS / 대식세포 경로**: NO·+O2·⁻→ONOO⁻(peroxynitrite)→이후 NO2·, ·OH 분해. 대식세포(쿠퍼세포 포함)는 RNS 생성의 주요 경로(파라콰트 Slide의 ONOO⁻ 경로 + 간염 심화 'ROS/RNS 추가 유리') → a는 옳음.\n- **질산염→아질산염 환원**: 장내 세균총이 NO3⁻를 더 독성 강한 NO2⁻로 환원, 메트헤모글로빈혈증 유발(반추동물 취약, 강의안 메트헤모글로빈 섹션) → c는 옳음.\n- **Quinone/Benzene redox**: quinone이 CYP 등으로 전자 받아 semiquinone→O2와 반응해 O2·⁻ 생성(Slide107 ⑧) → e는 옳음.\n결론: 틀린 2개 = **b(paraquat 선택적 '간'독성→실제 폐), d(전이금속 Phase I/II 촉진→실제 Fenton)**. 족보 정답 [2,4]와 일치.",
+"variant_note": "2022-중간(Q0335) '반응성 대사산물 생성 물질 설명 중 틀린 것 2개'로 출제(answer=[2,4]=②paraquat·④전이금속). 기말 재출제 시 예상 변형: (1) 표적장기 바꿔치기 — paraquat을 '폐'로 맞게 쓰고 다른 물질(CCl4=간, 6-OHDA=신경 등)을 엉뚱한 장기로 옮겨 함정 (2) 기전명 바꿔치기 — 전이금속을 'Fenton'으로 맞게 두고 quinone을 'Phase II 포합'으로 틀리게 서술, 또는 redox cycling 물질 목록에 비해당 물질 추가 (3) 'O2·⁻ vs ·OH vs ONOO⁻' 생성 산물 헷갈리기(SOD→H2O2, Fenton→·OH, NO+O2·⁻→ONOO⁻ 경로 순서). 본질 고정점: 'paraquat=폐·redox cycling / 전이금속=Fenton·OH / NO3⁻→NO2⁻=장내균·메트헤모글로빈 / quinone→semiquinone→O2·⁻'. 이 4쌍만 정확히 짝지으면 선지 위치를 바꿔도 정오 판정 가능.",
+"qids": [
+"Q0335"
+]
+},
+{
+"cid": 47,
+"part": "neuro",
+"theme": "신경계의 고유한 취약성(Neural Vulnerability)·보호기전(Protection)",
+"concept": "**핵심 4취약성 (강의안 lec-03 Slide 034 / global p.34)**\n- ① **막대한 에너지 요구량**: 흥분 시 타 기관의 5배 이상 에너지 요구 → 산소/포도당 결핍에 극도로 민감. 저산소·청산·일산화탄소 중독 시 **해마 추체세포(pyramidal cell)·대뇌겉질·소뇌 푸르키네세포(Purkinje cell)**가 가장 먼저 치명상.\n- ② **비가역성(Irreversibility)**: 중추 신경세포는 출생 후 증식하지 않고 재생이 매우 느려 기능 복구가 어렵다.\n- ③ **해독 기전 결손(Metabolic deficit)**: 타 기관 대비 해독효소가 부족하고 **지질이 풍부**해 지용성 독성물질이 장기간 잔류·축적된다.\n- ④ **초정밀 수용체(Receptor sensitivity)**: 고도로 정밀한 구조라서 **최소한의 독성작용에도 기능 변화**가 일어난다.\n\n**3보호기전 (같은 슬라이드)**\n- **물리적 차단**: BBB + 뇌척수액(CSF) 완충으로 지용성/독성물질 침입 제한.\n- **기능적 중복(Redundancy)**: 일부 손상 시 타 부위가 기능 보완, 활동에 필요한 수 이상의 수용체/신경전달물질 보유.\n- **낮은 과민반응**: 면역계가 신경계 **밖**에 있어 항체 생산능력이 저조 → 과민반응이 적다.\n\n**🔴 출제 함정(역명제 4종)**: 정상 명제를 뒤집어 오답으로 만든다.\n1) \"③ 정밀구조라 최소 독성에는 기능변화 없다\" → ✗(거꾸로, 작은 독성에도 변한다).\n2) \"④ 정밀구조라 지용성 물질이 잔류·축적될 수 없다\" → ✗(거꾸로, 지질 많아 잘 축적).\n3) \"⑤ CSF가 지용성 물질을 차단한다\" → ✗(CSF는 완충일 뿐, 지용성은 오히려 잘 통과).\n4) \"면역계가 신경계 안에 발달해 항체 생산능력이 발달\" → ✗(밖에 있어 저조). 단, 회차별로 \"중복기능이 없어 보완 못한다(f)\"처럼 보호기전 자체를 부정하는 변형도 섞인다(이것도 ✗).\n→ a/b/h(해독결손·저산소 취약·과민반응)는 **맞는 명제**, c/d/e(역명제)는 항상 **틀린 명제**임을 외워두면 회차가 바뀌어도 흔들리지 않는다.",
+"variant_note": "동일한 a~h 8지문 표를 제시하고 '틀린 것을 모두 고른 것은?'으로 묻는 복수정답 묶음형. 회차마다 지문 배열·문자(a/c/d/e vs f 포함)와 보기 조합만 살짝 바꿔 반복 출제됨. [2022-기말]Q0353(8개 항목 a~h, 정답 보기2='c,d,e,f'), [2023-기말]Q0282(a~h 재배열, f를 '중복기능 없어 보완 못함'으로 부정형 변형, 정답 보기4='a,b,e,f,g,h' 형태로 정/오 조합 뒤섞음). 본질은 '역명제(c·d·e)와 면역계 위치(안/밖)·중복기능 부정'을 골라내는 것으로 동일.",
+"qids": [
+"Q0353",
+"Q0282"
+]
+},
+{
+"cid": 48,
+"part": "neuro",
+"theme": "흥분성 아미노산(EAAs)·Excitotoxicity·MSG Chinese restaurant syndrome",
+"concept": "**EAAs와 흥분독성 (강의안 lec-03 Slide 039 / global p.39, '4. 신경전도 이상')**\n- 중추신경계는 **Glutamatergic(흥분성)** vs **GABAergic(억제성)** 균형을 유지한다.\n- Glutamate 수용체: 이온성(NMDA→Na⁺·Ca²⁺, AMPA·Kainate→Na⁺) + 대사성(mGluR).\n- **과도한 glutamatergic 활성화 = Excitotoxicity(흥분독성)**: Non-NMDA는 과다 Na⁺ 유입→세포 팽대, **NMDA는 과다 Ca²⁺ 유입→Ca²⁺ 의존 효소(endonuclease·NOS·PLA·calpain 등) 활성화→apoptosis**. 관련 질환: 뇌전증·뇌졸중·알츠하이머·파킨슨.\n- 이런 **수용체 작용제를 흥분독(excitotoxin)**이라 부른다.\n\n**자연독(Excitotoxins) 4종 (같은 슬라이드)**\n- 🔴 **MSG(monosodium glutamate) 과다 섭취 → Chinese restaurant syndrome**: 얼굴·목·흉부의 **작열감(burning sensation)**. (정답 직결)\n- Kainate(일본 seaweed 중독)·Domoate(캐나다 mussels 중독) → 기억력 결핍.\n- α-Amino-methylpropionic acid(소철/cycad, 괌) → 퇴행성 뇌질환.\n\n**함정**: 보기에 Hexachlorophene(수초손상-스폰지), Nicotine·Amphetamine·Cocaine(신경전도 이상 다른 항목)이 섞인다. 'glutamate 수용체 작용제 = 흥분독' + 'Chinese restaurant syndrome = 작열감' 두 키워드를 잡으면 EAAs로 확정.",
+"variant_note": "두 진술(a: glutamatergic 과활성→흥분독 / b: Chinese restaurant syndrome 작열감)을 주고 '이것은 무엇인가'를 묻는 매칭형. 보기는 같은 신경독성 단원의 다른 물질(Hexachlorophene·Nicotine·Amphetamine·Cocaine)을 distractor로 깔고 정답만 EAAS. [2023-기말]Q0284. Chinese restaurant syndrome·burning sensation·excitotoxin 키워드만 바꿔 재출제 가능.",
+"qids": [
+"Q0284"
+]
+},
+{
+"cid": 49,
+"part": "neuro",
+"theme": "파상풍(tetanus) 독소의 억제성 신경전달물질(glycine) 분비 차단",
+"concept": "**기전 (억제성 신경전달 차단 → 탈억제성 강직)**\n- 파상풍 독소(tetanospasmin)는 중추신경계 신경세포에서 **억제성 신경전달물질의 분비를 차단**한다. 차단되는 대표 억제성 전달물질이 **glycine(글리신)**이다(GABA도 억제성이나 본 문항의 빈칸 정답은 glycine).\n- 억제 신호가 사라지면 운동뉴런이 탈억제되어 **통제 불가능한 강한 전신성 근육수축(강직)**이 일어난다.\n- 강의 근거: 억제성 시스템 개념은 lec-03 Slide 039(global p.39) 'GABAergic system(억제성)→Cl⁻ 채널 개방→과분극→흥분 억제, 경련 방지'에서 다루며, 억제성 전달물질 차단=경련·강직이라는 논리가 그대로 적용된다. (파상풍 구체 사례는 교재 보충.)\n\n**함정**: 빈칸 보기에 흥분성 전달물질 **glutamate**(반대 작용), 호르몬 **oxytocin**, 신경펩타이드 **encephalin(엔케팔린)**, 그리고 독소 이름 자체인 **tetanospasmin**을 섞는다. '억제성 신경전달물질' 조건에 맞는 것은 glycine 하나뿐 — glutamate는 흥분성이라 즉시 소거, tetanospasmin은 빈칸에 들어갈 '전달물질'이 아니라 독소 자체라 함정.",
+"variant_note": "동일 빈칸채우기 지문('파상풍 독소는 ()와 같은 억제성 신경전달물질의 분비를 차단')을 회차마다 보기 순서·문항 수만 바꿔 반복. [2024-기말]Q0271(4지선다, glycine=2번)·[2025-기말]Q0171(5지선다, tetanospasmin을 추가 distractor로 넣고 glycine=5번). 정답은 항상 glycine으로 고정, 선지 위치와 distractor(특히 tetanospasmin 추가)만 변형.",
+"qids": [
+"Q0271",
+"Q0171"
+]
+},
+{
+"cid": 50,
+"part": "hepato",
+"theme": "장기별 독성 평가지표 매칭 — 간 기능 평가 항목 고르기(GFAP·NK·BUN·전도검사 함정)",
+"concept": "**교차형: 보기 안에 여러 장기의 독성 평가지표를 섞고 '간(肝)' 것만 고르는 문항**\n- **간 기능/손상 평가 = 정답 항목**: e.혈청 효소(AST·ALT·ALP·GGT), g.혈액 암모니아(요소회로 부전→고암모니아혈증), i.혈장 단백(알부민·응고인자 합성), k.빌리루빈(담즙·황달 지표), l.콜레스테롤(지질 합성). 근거: 간독성 단원 lec-06 Slide 093~094(global p.93~94) '간 효소·빌리루빈·암모니아 모니터링, 혈장 단백질·콜레스테롤 합성', e.적혈구 검사는 간의 조혈 관련으로 정답에 포함됨.\n- **타 장기 지표 = 함정(오답)**:\n  - 🔴 **a. GFAP = 신경독성 평가**(별아교세포 astrogliosis 지표, lec-03 Slide 040 global p.40 'GFAP 측정 ELISA로 astrogliosis 평가'). → 신경 단원 지식을 간 문항에 함정으로 넣은 교차 포인트.\n  - b. NK세포독성/활성 = **면역독성** 평가.\n  - d. BUN·creatinine, h. 사구체여과율(GFR) = **신장독성** 평가.\n  - j. 전도검사 = **심장독성** 평가.\n\n**판정 요령**: 'a(GFAP)·b(NK)·d/h(신장)·j(심장)'가 들어간 보기는 전부 제외. 정답은 e·f·g·i·k·l 조합. 강의안 정답 보기는 4번(a,b,g,i,k,l)으로 기재되어 있으나 a·b는 명백히 간 지표가 아니므로 **족보 기재 정답은 신뢰하지 말 것** — 강의안 근거로는 e·f·g·i·k·l(신경GFAP·면역NK·신장BUN·심장전도검사를 모두 뺀 조합)이 정합적이다.",
+"variant_note": "동일 표(a~l 12개 항목, 각 항목에 '(○○독성 평가)' 꼬리표)를 주고 '간 기능/손상 평가 항목을 모두 고르시오' 복수정답형. 회차마다 표 셀 배치·일부 항목 유무(c·d·j 빈칸 처리)만 다름. [2022-기말]Q0365·[2023-기말]Q0295 거의 동일. 핵심은 GFAP=신경·NK=면역·BUN/GFR=신장·전도검사=심장이라는 '장기별 지표 매칭'을 외워 함정 항목을 솎아내는 것. 같은 골격으로 '신장 평가 항목 고르기'·'신경독성 평가 항목 고르기' 등 장기만 바꿔 변형 출제될 수 있음.",
+"qids": [
+"Q0295",
+"Q0365"
+]
+},
+{
+"cid": 51,
+"part": "renal",
+"theme": "신장기능 평가 표지자·지표 매칭 (GFR·청소율·inulin/creatinine/PAH·BUN·erythropoietin)",
+"concept": "**신장 손상 평가의 핵심은 \"각 지표가 무엇을 측정하며, 어느 방향(여과/분비/재흡수)으로 움직이는가\"를 정확히 매칭하는 것**이다. (강의안 Slide 122~124)\n\n- **청소율 공식** CLx = Ux × V / Px. CL=1이면 여과만(분비·재흡수 없음), CL<1이면 재흡수됨, CL>1이면 분비됨. 청소율 측정으로 GFR을 정량 평가한다.\n- **3대 표지자 (공통점: 셋 다 재흡수 안 됨 — 차이는 \"분비\"에만 있음)**\n  - **Inulin = 외인성(exogenous) 물질**. 혈장단백질 비결합, 여과만 되고 분비·재흡수 없음 → GFR의 가장 정확한 표준. ★함정: 족보는 inulin을 \"내인성\"이라 적어 오답을 만든다.\n  - **Creatinine = 내인성(endogenous) 물질**. 자유 여과 + 소량 분비 → GFR 근사치(임상 표지자), GFR을 약간 과대평가. ★함정: 족보는 creatinine을 \"외인성\"이라 뒤바꿔 오답을 만든다.\n  - **PAH = 여과 + 적극적 분비** → GFR이 아니라 신혈장류(RPF) 측정용.\n- **크기 관계 RBF > RPF > GFR**, 여과분획 FF = GFR/RPF ≈ 0.20.\n- **BUN(혈액요소질소)**: GFR의 포괄적·간접 지표이긴 하나 **민감도가 낮아 신기능이 상당히 소실된 \"후기\"에야 상승**한다. ★함정: \"신장기능 상실 초기부터 증가한다\"는 표현은 틀림(세뇨관 기능 변화·요분석이 GFR 변화보다 먼저 나타남, Slide 126).\n- **Erythropoietin**: 신피질 세뇨관 상피세포·사구체 주변 세포가 분비. **세포 손상 시 erythropoietin 합성은 \"감소\"** → 만성 신부전의 빈혈을 유발(Slide 125 동반이상 \"빈혈\"). ★함정: \"세포 손상이 erythropoietin 합성을 증가시킨다\"는 표현은 정반대 오답.\n\n**출제자가 노리는 4대 함정**: ① inulin/creatinine의 내인성↔외인성 뒤바꾸기, ② BUN을 \"초기 상승 지표\"로 둔갑, ③ 세포 손상이 erythropoietin을 \"증가\"시킨다는 역방향 진술, ④ 청소율·마취 필요 여부 같은 절차적 곁가지. 본질만 잡으면 선지 표현이 바뀌어도 흔들리지 않는다.",
+"variant_note": "동일 문항이 회차·형식만 바꿔 재출제된 사실상 1쌍의 변형. 두 문항 모두 동일한 6개 진술(a~f: GFR 측정 원리 / 청소율·마취 / inulin 내·외인성 / creatinine 내·외인성 / BUN 초기상승 / erythropoietin 증가)을 그대로 사용한다. [2023-기말] Q0297은 6개 진술을 5지선다 '선지' 자체로 나열하고 옳지 않은 것 묶음(c·d·e·f)을 답으로, [2022-기말] Q0367은 같은 6개 진술을 a~f로 제시한 뒤 'a,b,d,f / a,b,c,d / b,d,e,f / c,,e,f / a,d,e,f' 5개 조합 중에서 고르게 변형(정답 묶음은 동일하게 c·d·e·f 계열). 향후에는 (1) 옳은 것을 고르라고 부정→긍정 전환, (2) inulin·creatinine만 뒤바꾼 단문형, (3) PAH를 'GFR 측정용'으로 오기한 선지 추가, (4) BUN·erythropoietin 방향만 1개 끼워넣는 형태로 재변형 가능성이 높다.",
+"qids": [
+"Q0297",
+"Q0367"
+]
+},
+{
+"cid": 52,
+"part": "genotox",
+"theme": "유전독성평가의 문제점·한계 (위양성·종간외삽·규제판정의 한계)",
+"concept": "유전독성시험(Ames·염색체이상·소핵 등)은 발암성·기형·생식독성의 1차 스크리닝일 뿐 **확정 진단이 아니다**. 핵심 한계 4가지를 외워두면 변형에 안 흔들린다.\n- **① 복구능력 < 유발횟수**: 시험관 조건은 고용량·단기 노출이라 돌연변이가 과대평가된다. 「복구능력이 유발횟수를 *크게 상회*한다」는 서술은 **틀림**(거꾸로 됨). 강의안 21장: DNA 손상→복제오류→수선오류/미수선→돌연변이 *고정* (lec 슬라이드 204, 16588줄).\n- **② 원핵-포유류 시스템 차이는 맞는 한계**: bacteria(Ames)의 돌연변이가 복잡한 포유류 생체시스템과 다르다 → 이건 *옳은* 비판이라 「틀린 것 고르기」에서 답이 *되면 안 됨*.\n- **③ 양성결과 = 부적합 결정의 *결정적* 사유? 아니다**: 양성은 추가 in vivo·포유류 시험을 *유발*하는 신호일 뿐, 단독으로 개발 부적합을 확정하지 못함 → 「결정적 사유」 서술은 **틀림**(강의안 16809~16811줄: 양성 시 추가시험 수행).\n- **④ 돌연변이 발생률 ∝ 인체 발암성? 비례 아님**: 상관은 있으나 단순 *비례관계*는 성립 안 함 → **틀림**.\n- **⑤ 동물-사람 해독효소·대사율 차이 큼 → 옳은 한계**(종간외삽 한계, 탈리도마이드 사례 138·153줄). 답으로 *되면 안 됨*.\n**함정 핵심**: 회차마다 '틀린 것을 *모두* 고르라'의 정답 개수가 달라 보이지만, 본질은 **①③④가 틀린 서술, ②⑤는 옳은 한계**라는 점은 불변. 출제자는 정답 키를 바꿔(2개/4개/5개) 같은 5선지를 재활용한다.",
+"variant_note": "동일 5선지 문항을 정답 키만 바꿔 3회 반복: [2022-기말 Q0373]은 ③④(2개), [2024-기말 Q0245]는 ①③④⑤(4개), [2023-기말 Q0303]은 ①②③④⑤(전부)로 기재. ※족보 정답키 신뢰도 낮음 — 강의안 근거 독립판정으로는 '틀린 서술'은 ①③④이며 ②⑤는 옳은 한계. 변형 포인트는 '몇 개가 틀렸나'를 흔들어 헷갈리게 하는 것.",
+"qids": [
+"Q0245",
+"Q0303",
+"Q0373"
+]
+},
+{
+"cid": 53,
+"part": "genotox",
+"theme": "유전독성시험 배터리 식별 (Ames+염색체이상/TK+소핵+S9 → '유전독성시험')",
+"concept": "5개 단서를 보고 **시험 종류를 역으로 식별**하는 매칭형. 단서 조합이 곧 **유전독성시험 표준 배터리**의 정의다.\n- **박테리아 복귀돌연변이시험 = Ames test**: His⁻ 영양요구 균주가 시험물질로 His⁺로 *복귀(역돌연변이)* → 점돌연변이·frameshift 검출 (강의안 16754~16766줄).\n- **포유류 배양세포 체외 염색체이상시험 / 마우스 림포마 TK시험**: 구조적 염색체 이상(절단·교환·결손) 검출 (16842~16858줄).\n- **설치류 조혈세포 체내 소핵시험(in vivo MN)**: 골수 미성숙 적혈구(PCE) 중 소핵 보유(MNPCE) 빈도로 *체내* 염색체 손상 평가 (16863~16874줄).\n- **용량마다 3매 이상 플레이트**: 통계적 신뢰 확보용 반복.\n- **S9 mix 대사활성화 병행**: 간 S9 분획으로 *체내 대사로 생성되는* 변이원을 모사 (16788~16793줄). → 이 단서 하나만으로도 '유전독성'을 못박을 수 있음.\n**오답 소거**: 면역독성·국소독성·생식발생독성은 이 지표들과 무관. **발암성시험**이 가장 강한 함정 — 유전독성은 발암성의 *1차 관문(스크리닝)*일 뿐 발암성시험 자체가 아님(16809줄). 단서에 '소핵·복귀돌연변이·S9'가 있으면 무조건 **유전독성시험**.",
+"variant_note": "거의 동문제 2회 반복: [2022-기말 Q0350], [2023-기말 Q0279]. 5개 단서·선지 동일, 표기 차이만(S9 mix↔s9 mix) 있고 정답 모두 ⑤ 유전독성시험. 변형 여지는 '발암성시험'으로 오답 유도하거나 단서 일부(TK시험/3매 플레이트)를 가감하는 정도.",
+"qids": [
+"Q0350",
+"Q0279"
+]
+},
+{
+"cid": 54,
+"part": "repro",
+"theme": "생식발생독성 — 배아·태아 발생기 감수성 (태반장벽·노출시기·형태/기능 변화)",
+"concept": "임신 중 독성물질이 배아·태아에 미치는 영향의 **시기별 감수성**과 **형태/기능 변화 구분**을 묻는 진위판별형. 강의안 21장(생식발생독성) 슬라이드 137(10164~10199줄) 근거.\n- **(옳음) 태반장벽 통과·태아 축적**: 태반 대사활성은 간보다 낮아 방어가 미약 → 모체 독성이 없어도 태아 내 축적 가능(예: 수은). (10172~10177줄)\n- **(옳음) 난할기·장배형성기**: 이 시기 노출은 주로 *사망(태아흡수)* 또는 형태변화를 유발. 기관형성기 *초기*가 형태이상에 가장 민감(10189줄). 단, 「배반포·난할기에 *형태학적 변화* 유발 가능성이 높다」는 서술은 시기 매칭이 미묘 — 출제자가 '형태변화 vs 사망'을 바꿔 함정으로 씀.\n- **(틀림 핵심) 「형태이상 감수성은 난할기가 *분화 시작하면서 증가*한다」**: 형태이상 최고 감수성은 *기관형성기 초기*이지 난할기 분화 시점이 아님 → 이 선지(c)가 전형적 오답. (10189줄)\n- **(옳음) 기능적 변화는 형태변화 없이도 발생**: 수초형성·면역능·생체이물 대사 등은 육안 기형 없이 출생 전후 미완성으로 나타남(10191~10193줄).\n**함정**: '난할기/장배형성기/기관형성기' 시기와 '형태변화/사망/감수성 증가' 결과를 **교차 바꿔치기**해 진위를 흔든다. 시기→결과 매핑(난할기·장배형성기→사망 우세, 기관형성기 초기→형태기형 최대민감)을 고정해두면 풀린다.",
+"variant_note": "동일 a~d 진위판별 2회: [2022-기말 Q0368](지문 축약형, 정답 b,c=③), [2023-기말 Q0298](a 선지에 '모체 독성 없어도 태아 축적' 설명 추가된 확장형, 정답 b,c=③). 두 회차 모두 핵심 오답은 c(난할기 분화 시작=형태이상 감수성 증가)와 b(난할기에 형태변화 유발). 변형은 a 선지의 서술량 가감·선지 묶음(b,c / b,c,d) 조정.",
+"qids": [
+"Q0368",
+"Q0298"
+]
+},
+{
+"cid": 55,
+"part": "genotox",
+"theme": "다단계 발암과정 — 개시제·촉진제·완전발암제 구분",
+"concept": "발암은 **개시(initiation)→촉진(promotion)→진행→전이**의 다단계. 개시제·촉진제·발암제의 정의 차이를 가르는 진위판별형. 강의안 21장 슬라이드 211~212(17244~17347줄) 근거.\n- **개시제(initiator)**: *단발성·단기* 노출로도 **비가역적** DNA 손상(돌연변이 고정)을 남김. 즉시 제거돼도 효과 지속. 예: 벤조[a]피렌, DMBA, 아플라톡신 B1, 니트로사민(17296~17341줄).\n- **촉진제(promoter)**: 개시된 세포의 증식·클론확장을 촉진, **가역적**(제거 시 회복). *반복·지속적* 자극이 있어야 종양으로 진행. 외부 식품성분·생체호르몬(prolactin 등)도 촉진제로 작용 → 「체내 활용 물질만이다」는 **틀림**(17306줄). 또한 「단기간에 유발」도 **틀림**(촉진은 반복/장기).\n- **완전발암제(carcinogen)**: **개시능+촉진능을 *모두* 가진** 물질만 완전발암제로 분류 → 「하나만 있어도 된다」는 **틀림**(Key Insight 17250줄).\n- 개시는 **유전적 요인으로도** 발생 가능 → 「유전적 요인으로는 발생하지 않는다」는 **틀림**.\n**함정 4종(이 문항이 다 깔아둠)**: ⓐ촉진제=체내물질만(거짓), ⓑ촉진=단기간(거짓), ⓒ발암제=개시·촉진 중 하나만(거짓), ⓓ개시=유전요인 무관(거짓). '개시=비가역/단발, 촉진=가역/반복, 발암제=둘 다 필요'만 박아두면 모든 변형 격파.",
+"variant_note": "[2022-기말 Q0374] 단독. '옳지 않은 것을 모두 고르기' 5지선다(b,d=③). 향후 변형 예상: 개시/촉진의 가역성·작용기간을 서로 바꾸거나, '완전발암제 정의(둘 다 필요)'를 단일선지 정오로 출제. 개시제/촉진제 *예시 물질*(벤조[a]피렌 vs TPA·페놀) 매칭형으로도 변형 가능.",
+"qids": [
+"Q0374"
+]
+},
+{
+"cid": 56,
+"part": "repro",
+"theme": "환경호르몬(내분비계 장애물질 EDCs)의 특성",
+"concept": "EDCs(환경호르몬)의 **6대 특성**을 묻는 진위판별형. 강의안 21장(생식발생독성) 슬라이드 142(10535~10585줄) 근거. 특성을 '느림·축적·광범위·세대간'으로 묶으면 오답이 보인다.\n- **(옳음) 지용성↑ → 지방조직 축적**, 비만 시 보유량 많고 스트레스 시 급격 유출(10548~10552줄).\n- **(옳음) 극미량(나노~ppt)으로도 생식기능 이상**(10535~10539줄).\n- **(옳음) 차세대(친/차세대)에 영향** — 만성독성과 달리 세대 간 전달(10538줄).\n- **(옳음) 먹이사슬 통한 생물농축·생물증폭**(DDT 물오리 7천배, PCB 갈매기 2천5백만배, 10554~10558줄).\n- **(옳음) 자연분해 미생물 부재 → 환경 장기 잔류**(반감기 DDT 10년·다이옥신 7~8년, 10542·10561줄).\n- **(틀림 핵심) 「체내 대사가 빨리 일어난다」**: 정반대 — *대사·배출이 느려* 장기 잔류(10541줄)가 EDC의 본질.\n- **(틀림 핵심) 「국소적으로만 분포한다」**: 대기·수계 이동으로 *전 지구적 확산*(북극곰서도 검출), 체내도 지방조직 광역 축적 → 국소 분포 아님(10566~10569줄).\n**함정**: '느린 대사/광역 분포'라는 EDC 본질을 정반대로 뒤집은 선지(a 빠른 대사, c 국소 분포)가 오답. 나머지 '지용성·극미량·세대간·먹이사슬·잔류'는 전부 옳은 특성이라 답이 *되면 안 됨*.",
+"variant_note": "[2022-기말 Q0369] 단독. a~g 7개 서술 중 틀린 것 묶음 고르기(정답 a,c=②). 변형 예상: '빠른 대사'(a)·'국소 분포'(c)를 다른 표현으로 바꾸거나, 'BPA·coumestrol·프탈레이트' 같은 구체 물질 특성(여성화·sheep clover disease)을 끼워 출제. 핵심 오답 축(느린 대사를 빠르다고, 광역 분포를 국소라고)은 불변.",
+"qids": [
+"Q0369"
+]
+},
+{
+"cid": 57,
+"part": "resp",
+"theme": "호흡기독성 종합 OX (기도 상피 장벽·세포 감수성·자극성 기체·경구 폐독성)",
+"concept": "호흡기독성의 '대원칙'을 한 문항에 a~f 6개 진술로 몰아넣은 종합형이다. 강의안 근거로 정리하면:\n- **장벽**: 기관지 상피는 tight junction이 촘촘해 수용성 물질 통과가 어렵다(강의안 슬라이드 51 '고밀도 상피 접착결합'). → 옳은 진술.\n- **세포 감수성**: 자극성 기체에 가장 취약한 것은 '섬모세포(ciliated cell)'다(슬라이드 52 '섬모세포가 화학물질에 감수성이 높아 쉽게 사멸/탈락'). 따라서 '섬모세포 감수성이 낮고 술잔세포가 높다'는 진술은 **뒤집힌 함정**(틀림).\n- **자극성 기체 반응**: 섬모세포 상실·사멸·탈락(슬라이드 52), 비만세포·평활근에서 histamine·leukotriene 분비 → 기관지 수축·호흡곤란(슬라이드 56 천식 항목)은 옳다.\n- **비흡입(경구) 폐독성**: '경구 노출 물질은 폐에 지연성 독성을 일으키지 않는다'는 **명백히 틀림**. paraquat가 반례(슬라이드 49·59: 비흡입 경로로 폐 표적). 단 paraquat 축적 세포는 **type 2 alveolar(폐포)세포**이지 'type 2 liver cell'이 아니므로(슬라이드 50·59), 'liver cell'로 바꾼 변형(Q0285 f)은 틀린 진술.\n**함정**: ① 섬모/술잔세포 감수성 방향 뒤집기 ② '지연성 독성 없음' 단정 ③ paraquat 축적 세포를 폐포→간으로 바꿔치기. 세 군데가 핵심 오답 트랩이다.",
+"variant_note": "동일 a~f 진술 세트를 공유하되 '정답 묶음 자체'를 다르게 묻는다. Q0355(2022-기말)는 paraquat 진술이 정상(type 2 alveolar)이라 틀린 건 b·e뿐 → 답 'a,b,e'(보기상 ④로 표기)·실제 틀린건 b,e. Q0285(2023-기말)는 f를 'type 2 liver cell'로 변조해 틀린 진술을 b·e·f 3개로 늘리고, 선지를 글자 묶음(abef/bcdef 등)으로 제시. 같은 본문, 선지 포장만 바꿔 반복 출제되는 전형.",
+"qids": [
+"Q0355",
+"Q0285"
+]
+},
+{
+"cid": 58,
+"part": "resp",
+"theme": "Paraquat 특이 폐독성 기전 (polyamine 흡수·redox cycling·ROS·type I/II 폐포세포)",
+"concept": "혈류매개(Blood-borne) 폐독소 paraquat의 기전을 5지선다로 묻는다. 강의안 슬라이드 59·60 핵심:\n- **흡수**: 경구 노출 후 폐로 이동, **polyamine uptake/transporter system(+OCT)**으로 type I·II 폐포세포에 특이적 고농도 축적(슬라이드 60).\n- **활성화 위치**: paraquat는 간 MFO가 '활성화'시키는 약물이 아니라, **세포 내에서 직접 환원형(PQ+ free radical)으로 전환→재산화되는 redox cycle**로 ROS를 무한 증폭하고 NADPH를 고갈시킨다(슬라이드 60). → '간 MFO에 의해 활성화'라는 진술은 **틀림**(monocrotaline·CCl4와 혼동 유도).\n- **병변**: type I·II 폐포세포 광범위 괴사 → 포상수종·출혈 → diffuse interstitial fibrosis(지연성)(슬라이드 56·59). 강의안엔 'type1 괴사 후 type2로 대체'(슬라이드 55)도 옳은 흐름.\n- **치료 함정**: paraquat 중독은 **산소가 redox cycle을 가속**시켜 오히려 악화된다(슬라이드 56 '산소 흡입 시 증상 급격히 악화'). → '산소 흡입으로 치료한다'는 **반드시 틀린 함정**.\n**함정**: ① 활성화 장기를 '간'으로 ② 축적 세포를 간세포로 ③ 산소요법이 치료라는 거짓.",
+"variant_note": "두 문항 모두 '옳지 않은 것'을 고르며 동일 함정을 재사용. Q0356(2022-기말)은 단일 진술 5지선다, 틀린 건 ②(간 MFO 활성화)·⑤(산소 치료). Q0286(2023-기말)은 a~e로 잘게 쪼개 'a 간실질 괴사·b 간 상피 고농도 분포'까지 추가해 틀린 진술을 a,b,d,e로 확장(축적부위를 폐→간으로, 급성→만성섬유증 시점 변조). 회차마다 '간 vs 폐' 바꿔치기와 '산소 치료' 거짓이 단골.",
+"qids": [
+"Q0356",
+"Q0286"
+]
+},
+{
+"cid": 59,
+"part": "resp",
+"theme": "Air-borne agent 물질 식별 — 석면(Asbestos)",
+"concept": "서술형 설명을 주고 물질명을 고르는 식별형. 강의안 슬라이드 57의 석면(Asbestos) 정의가 그대로 출제된다:\n- 공기매개 대표 독성물질, **석면 광산·오래된 건물 절연/단열/방화벽 철거 시 노출**.\n- **길이 2μm 이내**: 폐포벽 콜라겐 축적 → 섬유증, **asbestos bodies(섬유를 둘러싼 단백질성 물질) 관찰**.\n- (대조) 길이 10μm 이상: 대식세포 완전 탐식 실패 → 지속 자극·염증·ROS로 발암 유도.\n- 질환: 석면폐증·악성 중피종·폐암.\n**오답 후보 감별**: Silica(규소)는 직경 5μm 이내 입자, 급성 규폐증·대식세포 사멸(슬라이드 57); Ozone은 천식·폐수종·Clara/섬모세포 손상(슬라이드 58); Naphthalene은 CYP1A1/2F2로 quinone 대사활성화(슬라이드 58); Paraquat은 blood-borne 제초제. **'asbestos bodies'와 '2μm 콜라겐 축적'이 석면 확정 키워드**.\n**함정**: 'silicosis도 섬유증·1~2년 내 사망' 이미지 때문에 silica로 끌리지만, asbestos bodies 언급이 결정적 단서.",
+"variant_note": "Q0231(2024-기말)·Q0357(2022-기말) 모두 동일 지문(석면 광산·2μm·asbestos bodies)으로 정답 Asbestos. 선지 후보 풀(Naphthaline/Silica/Paraquat/Asbestos/Ozone)도 거의 동일하게 재사용. 식별형이라 지문은 거의 안 바뀌고 선지 순서/번호만 바뀌는 복붙형 재출제.",
+"qids": [
+"Q0231",
+"Q0357"
+]
+},
+{
+"cid": 60,
+"part": "hepato",
+"theme": "흡입(호흡)경로를 통한 생체이물 흡수 — 폐 혈류·표면적·간 일차통과 회피",
+"concept": "독동학 '흡수 경로' 단원과 교차하지만 호흡기 구조 지식으로 판정한다. 핵심 사실:\n- 폐는 **심박출량의 100%**를 받고 기관지~폐포 분지로 거대 표면적 제공(흡수 빠름). → 옳음.\n- **모세혈관상(capillary bed) 노출 비율**: 강의안 슬라이드 51은 '모세관이 폐포 표면적의 **80% 이상**을 덮음'이라 명시. 문항의 '**90%**'는 **수치 변조 함정**(틀림).\n- **부위 무관 확산·축적**: 화학물질은 해부학적 부위(상부 vs 하부, 입경별 침착)에 따라 다르게 침착된다(슬라이드 53·54 침착 4기전, 56 부위별 손상). '해부학적 부위와 관계없이 확산·퇴적·축적'은 **틀림**.\n- **간 일차통과 회피**: 폐 흡수 물질은 간 first-pass를 **거치지 않고** 폐정맥→심장→체순환으로 직접 진입(흡입의 약동학적 이점). '간 일차통과 후 심장으로'는 **틀림**.\n- 수동확산이 흡수에 중요 → 옳음.\n**함정**: ① 80%→90% 수치 변조 ② '부위 무관' 단정 ③ 간 first-pass 유무 뒤집기.",
+"variant_note": "Q0326(2022-중간 '틀린 것 2가지')·Q0184(2024-중간 '틀린 것 모두')는 a~e 진술이 사실상 동일. 정답도 동일하게 '90% 수치'와 '간 일차통과' 진술이 틀림(Q0326 답 ②·④). Q0184는 c('부위 무관')도 틀린 진술로 넣었으나 정답 키는 'c,d' 묶음(④)으로 제시 — 같은 진술 풀에서 어느 묶음을 정답키로 삼느냐만 회차별로 바뀌는 변형. 수치(80%↔90%)·first-pass가 단골 트랩.",
+"qids": [
+"Q0326",
+"Q0184"
+]
+},
+{
+"cid": 61,
+"part": "resp",
+"theme": "세기관지-폐포관 접합부 CYP 고감수성 세포 — Clara(Club) 세포",
+"concept": "빈칸 채우기 식별형. 강의안 슬라이드 50·51 핵심:\n- **Clara 세포(=Club 세포)**: 위치 = **세기관지와 폐포관의 접속부**, '화학물질 감수성이 매우 높음'으로 명시(슬라이드 50). CYP(P450)가 **가장 많이** 분포하는 세포로, 대사 활성화에 의한 독성의 표적(슬라이드 51·58 오존 표적, 종합매트릭스 슬라이드 64 'CYP 고농도: Clara·II형 폐포세포').\n- 오답 감별: 섬모세포·술잔세포 = mucociliary clearance(상피), 마크로파지 = 입자 식작용, 섬유아세포 = 간질·폐섬유증 유발. 접합부+화학물질 고감수성 키워드는 Clara 세포 단독.\n**함정**: '감수성 높음'을 섬모세포(자극성 기체 취약)와 혼동시키지만, '세기관지-폐포관 접합부+CYP 대사활성화' 맥락이면 Clara/Club. 교과서 'Clara'와 최신 'Club' 명칭 혼용도 주의.",
+"variant_note": "Q0252(2024-기말) 단독. 빈칸형 식별 문항이라 '섬모세포 감수성/CYP 분포 세포'를 묻는 OX형(클러스터1·5)으로도 변형될 소지가 큼. Clara=Club 명칭 변경, 접합부 위치, CYP 최다 분포가 변형의 출발점.",
+"qids": [
+"Q0252"
+]
+},
+{
+"cid": 62,
+"part": "cardio",
+"theme": "심혈관(심장) 독성 작용기전 4유형 — 수축장애·에너지대사·미세구조·2차적(간접) 요인",
+"concept": "심혈관독성 단원. 강의안 슬라이드 기준 4가지 기전:\n- **① 수축 기능 장애**: 코브라독·내독소(endotoxin)는 **Ca²⁺ 항상성** 교란으로 근육원섬유 손상·수축 저해, halothane도 **칼슘 항상성** 조절 장애로 수축 저해(강의안 4724~4725행). → 문항의 '**나트륨(Na⁺) 항상성** 교란'은 **이온 변조 함정**(틀림, 실제는 Ca²⁺).\n- **② 에너지대사 장애**: 미토콘드리아 파괴·세포호흡 장애로 ATP 생합성 억제 → 심장 기능 손상(4727행). → 옳음.\n- **③ 2차적(간접) 요인**: 혈액량 감소(hypovolemia)→systemic vasoconstriction→빈맥·심근 허혈/손상(4885행). → 옳음.\n- **신장-심장 연결**: 신장 질환의 전해질(K⁺·Ca²⁺)·**산-염기 불균형은 부정맥·수축력 저하 등 심장 수축·전도에 영향을 준다**(4886행). → '영향을 미치지 않는다'는 **명백히 틀림**.\n**함정**: ① Ca²⁺를 Na⁺로 바꾼 이온 트랩(첫 선지) ② 산-염기 불균형이 '영향 없다'는 부정문 트랩(마지막 선지). 이 둘이 항상 정답(틀린 것).",
+"variant_note": "Q0289(2023-기말)·Q0233(2024-기말)·Q0359(2022-기말) 세 회차가 4개 선지·문구까지 거의 글자 그대로 동일한 복붙형. 정답도 매 회차 동일하게 ①(나트륨→실제 칼슘)·④(산-염기 영향 없다)가 '틀린 것'. 변형은 표현만 미세하게(halothane 영문 병기 등) 다듬는 수준 — 사실상 같은 문제의 반복 출제.",
+"qids": [
+"Q0289",
+"Q0233",
+"Q0359"
+]
+},
+{
+"cid": 63,
+"part": "hepato",
+"theme": "간 괴사 구역별 분류 — 중심 소엽성(Zone 3) 괴사 식별",
+"concept": "설명 5줄을 주고 괴사 형태를 고르는 식별형. 강의안 슬라이드(간독성, 7537~7607행) 'Zone별 괴사':\n- **중심 소엽성(Zone 3, centrilobular) 괴사**: 위치 = **중심정맥 주위 간세포**(CYP 효소 고농도 지역). 가장 흔한 괴사 형태. **재생 회복 가능**하나 인접 동양혈관(sinusoid) 내피 손상 시 섬유화. 동반 = 순환계 부전·급성 빈혈·저산소증. **주 원인 = 심장/조혈(造血) 인자에 손상을 주는 독성물질**(7578~7591행). 대표물질 CCl4·acetaminophen 과량·halothane·ethanol·aflatoxin.\n- 문항 5단서(가장 흔함/중심정맥 주위/재생 회복/내피손상 시 섬유화/심장·조혈인자 손상물질)가 Zone 3 정의와 정확히 일치 → 정답 '중심 소엽성 괴사'.\n- 오답 감별: Zone 1(문맥 주위)=소화기 흡수 독소(thioacetamide·allyl alcohol·LPS), Zone 2(중간)=barbiturate·phenytoin·저용량 CCl4, 광범위(전소엽성)=재생 불가·영구 섬유화(인·Amanita·쇼크).\n**함정**: '심장/조혈인자 손상 물질'·'중심정맥 주위'를 Zone 1(문맥)과 헷갈리게 하거나, '재생 가능'을 '광범위 괴사(재생 불가)'와 섞어 흔든다. CYP 고농도=Zone 3 연결이 핵심.",
+"variant_note": "Q0363(2022-기말)·Q0236(2024-기말)·Q0293(2023-기말) 세 회차가 동일한 5단서 지문·동일 정답(③ 중심 소엽성 괴사)으로 반복. 선지 풀(중간구역/문맥주위/중심소엽성/광범위/간 섬유모세포 괴사)도 거의 동일. 식별형 복붙 재출제 — 변형은 선지 표기('광범위'↔'소엽성') 한두 개 교체뿐.",
+"qids": [
+"Q0363",
+"Q0236",
+"Q0293"
+]
+},
+{
+"cid": 64,
+"part": "hepato",
+"theme": "간 섬유화·간경변 + 핵심 세포(쿠퍼 vs 간 별세포 HSC) + 감염성 간염(개 아데노바이러스)",
+"concept": "여러 간독성 소주제를 묶은 '틀린 것 모두 고르기'. 강의안 근거:\n- **개 아데노바이러스**: 개과 전염성 간염, 심한 간염 증상, **강아지 감수성 높고 사망률 높음**(7709~7710행). → 옳음.\n- **섬유화 발생 시점**: 섬유화는 **만성 손상의 피할 수 없는 치유 반응**으로, 지속적 손상→HSC 활성화→콜라겐 축적→간경변(7856~7858·7939행). 문항의 '**급성 노출 시** 간세포 손상이 섬유성 물질로 대체'는 **시점 변조 함정**(틀림 — 급성은 보통 괴사·회복, 섬유화는 만성).\n- **염증·담즙정체 장기화 → 콜라겐 합성**: 만성 자극이 섬유발생 우세로 콜라겐 축적(7858·7940행). → 옳음.\n- **섬유화 핵심 세포**: 콜라겐 합성·비타민A 저장으로 섬유화를 주도하는 것은 **간 별세포(HSC, Ito cell)**이지 **쿠퍼세포(대식세포)**가 아니다(슬라이드 Correction Box, 5699~5728행에서 명시적 오류 교정). → '쿠퍼세포가 섬유화에 핵심'은 **틀림**(쿠퍼↔HSC 바꿔치기).\n- **간경변 비가역성**: 섬유화 → 혈류 방해 → 간경변 → 회복 불능(7858·7939행). → 옳음.\n**함정**: ① 섬유화를 '급성'에 결부 ② 섬유화 주역 세포를 '쿠퍼세포'로 변조(강의안이 일부러 오류 교정으로 강조한 지점이라 단골 출제).",
+"variant_note": "Q0294(2023-기말)·Q0364(2022-기말)는 5개 선지가 글자까지 동일한 복붙형. 정답도 동일하게 ②(급성→실제 만성)·④(쿠퍼세포→실제 HSC)가 '틀린 것'. 강의안 Correction Box의 쿠퍼 vs 간 별세포 구분과 섬유화 '만성' 시점이 변형의 핵심 축 — 회차가 달라도 이 두 함정은 고정.",
+"qids": [
+"Q0294",
+"Q0364"
+]
+}
+];

@@ -288,6 +288,7 @@ const PARTLBL={altmethod:'10 동물대체 시험법',cro:'11 임상시험·CRO',
 const PARTCOL={altmethod:'#ff6b6b',cro:'#ff924c',neuro:'#ffd93d',resp:'#6bcb77',cardio:'#f15e6c',hepato:'#e0a44a',renal:'#4d96ff',repro:'#a66cff',eyeskin:'#22c1c3',hemato:'#c0392b',immuno:'#9b59b6',genotox:'#e84393',gakron:'#74b9ff'};
 const NOSUM=q=>q.origin!=='summary'&&q.origin!=='preview';
 const FILTERS=[
+  ['🎯 찐족보정리 (변형묶음+개념)','#ff3b30','JJIN'],
   ['🆕 예상문항 몰아풀기','#1ED760','EXAM'],
   ['📝 개념예제 몰아풀기','#7ee0c0','BASIC'],
   ['📕 족보기출 몰아풀기','#ffb74d','JOKBO'],
@@ -376,7 +377,7 @@ function setEq(a,b){a=[...a].sort();b=[...b].sort();return a.length===b.length&&
 function renderSidebar(){
   const nav=document.getElementById('filterNav');nav.innerHTML='';
   FILTERS.forEach((f,idx)=>{
-    const n=(typeof f[2]==='function')?QUESTIONS.filter(f[2]).length:soloListFor(f[2]).length;
+    const n=f[2]==='JJIN'?(typeof CLUSTERS!=='undefined'?CLUSTERS.length:0):(typeof f[2]==='function')?QUESTIONS.filter(f[2]).length:soloListFor(f[2]).length;
     const b=document.createElement('button');
     b.className='nav-item'+(ST.filter===idx?' active':'');
     b.innerHTML=`<span style="display:flex;align-items:center"><span class="nav-dot" style="background:${f[1]}"></span>${f[0]}</span><span class="count">${n}</span>`;
@@ -472,8 +473,34 @@ function renderSolo(){
   main.innerHTML=h;main.scrollTop=0;
 }
 window.soloMove=function(d){const list=soloList();let idx=(ST.soloIdx||0)+d;idx=Math.max(0,Math.min(list.length-1,idx));ST.soloIdx=idx;save();renderSolo();};
+function renderJjin(){
+  const main=document.getElementById('main');
+  const byp={}; (typeof CLUSTERS!=='undefined'?CLUSTERS:[]).forEach(c=>{(byp[c.part]=byp[c.part]||[]).push(c)});
+  let h='<div class="topbar"><h1>🎯 찐족보정리 <span class="cnt">변형묶음 '+(typeof CLUSTERS!=='undefined'?CLUSTERS.length:0)+'개 · 개념+기출</span></h1><input class="search" id="search" placeholder="🔍 주제 검색" value="'+esc(curTerm)+'" oninput="onSearch(this.value)"></div>';
+  let term=(curTerm||'').toLowerCase();
+  PARTORDER.forEach(p=>{
+    if(!byp[p])return;
+    let cls=byp[p];
+    if(term)cls=cls.filter(c=>((c.theme||'')+(c.concept||'')).toLowerCase().includes(term));
+    if(!cls.length)return;
+    h+='<div class="grp"><div class="grphd"><span class="pl" style="color:'+(PARTCOL[p]||'#999')+'">'+(PARTLBL[p]||p)+'</span><span class="pill pill-tag">'+cls.length+' 묶음</span></div>';
+    cls.forEach(cl=>{
+      const qs=LABQ.filter(q=>q.cid===cl.cid);
+      h+='<div class="concard" style="border-left-color:#ff3b30">';
+      h+='<div class="preview-title" style="color:#ff6b6b">📌 '+esc(cl.theme)+' <span style="font-size:12px;color:var(--text-subdued)">('+qs.length+'문항)</span></div>';
+      h+='<div class="explanation" style="margin:4px 0 10px">'+md(cl.concept)+'</div>';
+      if(cl.variant_note)h+='<div class="flagr" style="text-align:left;color:var(--c-multi)">🔁 변형패턴: '+esc(cl.variant_note)+'</div>';
+      qs.forEach(q=>h+=cardHtml(q));
+      h+='</div>';
+    });
+    h+='</div>';
+  });
+  if(!Object.keys(byp).length)h+='<div class="empty-card">클러스터 데이터 없음</div>';
+  main.innerHTML=h;bindSearch();
+}
 function render(){
   applyTheme();renderSidebar();
+  if(FILTERS[ST.filter][2]==='JJIN')return renderJjin();
   if(isSolo())return renderSolo();
   const f=FILTERS[ST.filter][2];
   const list=QUESTIONS.filter(f);
