@@ -11791,7 +11791,7 @@ const LABQ = [
 "id": 411
 },
 {
-"part": "hemato",
+"part": "gakron",
 "unit": "",
 "topic": "혈액·골수독성(범혈구감소증) 및 면역독성 — 벤젠(Benzene)과 다이옥신(TCDD)의 표적 독성물질 매칭",
 "type": "single",
@@ -11819,7 +11819,7 @@ const LABQ = [
 "id": 412
 },
 {
-"part": "cardio",
+"part": "gakron",
 "unit": "",
 "topic": "내외부기생충약 Ivermectin 식별 (효과 스펙트럼·흡충/조충 제외·콜리/Old English Sheep",
 "type": "single",
@@ -11982,7 +11982,7 @@ const LABQ = [
 "id": 418
 },
 {
-"part": "hepato",
+"part": "gakron",
 "unit": "",
 "topic": "고양이 glucuronidation(UGT/GT) 결핍 — 아세트아미노펜·salicylate 종 특이 감수성",
 "type": "single",
@@ -12010,7 +12010,7 @@ const LABQ = [
 "id": 419
 },
 {
-"part": "repro",
+"part": "gakron",
 "unit": "",
 "topic": "에틸렌 글리콜(EG, 부동액) 중독 — 가장 간단한 2가 알코올, 단맛, oxalate 생성에 의한 급성 신",
 "type": "single",
@@ -12094,7 +12094,7 @@ const LABQ = [
 "id": 422
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "금속 중독 — 화학적 형태(무기 vs 유기)에 따른 표적장기 차이 (무기 비소·수은→간·신장·소화기, 유기/",
 "type": "single",
@@ -12206,7 +12206,7 @@ const LABQ = [
 "id": 426
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "Ivermectin의 작용기전 — GABA 수용체 효능제 작용 및 흡충·조충에 무효한 이유(GABA성 신경계",
 "type": "single",
@@ -12234,7 +12234,7 @@ const LABQ = [
 "id": 427
 },
 {
-"part": "repro",
+"part": "gakron",
 "unit": "",
 "topic": "에틸렌 글리콜(부동액) 중독 — 2가 알코올, oxalate 생성, 칼슘옥살산 결정에 의한 급성 신부전, 개",
 "type": "single",
@@ -12346,7 +12346,7 @@ const LABQ = [
 "id": 431
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "신경독성 — 축삭손상/신경세포손상 원인물질 매칭 (메틸수은·γ-Diketones(n-hexane 대사산물)·",
 "type": "single",
@@ -12428,7 +12428,7 @@ const LABQ = [
 "id": 434
 },
 {
-"part": "resp",
+"part": "gakron",
 "unit": "",
 "topic": "공기매개 폐 독성물질(Air-borne agents) 식별 — 석면(Asbestos)에 의한 폐 섬유증·As",
 "type": "single",
@@ -12739,7 +12739,7 @@ const LABQ = [
 "id": 445
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "유기인계(organophosphate) 식별 — 비가역적 AChE 억제, 살서제 오용, 내장 섭취 2차(re",
 "type": "single",
@@ -12795,7 +12795,7 @@ const LABQ = [
 "id": 447
 },
 {
-"part": "cardio",
+"part": "gakron",
 "unit": "",
 "topic": "거대고리락톤(아베멕틴계) 내외부기생충약 Ivermectin의 약리·독성 특성 식별",
 "type": "single",
@@ -12822,7 +12822,7 @@ const LABQ = [
 "id": 448
 },
 {
-"part": "repro",
+"part": "gakron",
 "unit": "",
 "topic": "에틸렌 글리콜(부동액) 중독 — 신장독성/알코올·글리콜",
 "type": "single",
@@ -12908,7 +12908,7 @@ const LABQ = [
 "id": 451
 },
 {
-"part": "hemato",
+"part": "gakron",
 "unit": "",
 "topic": "고양이의 NSAIDs/살리실산·아세트아미노펜 민감성 — 간 glucuronyl transferase(gluc",
 "type": "single",
@@ -12936,7 +12936,7 @@ const LABQ = [
 "id": 452
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "살충제 분류 — 유기인계(organophosphate)의 AChE 억제 및 parathion→paraoxon",
 "type": "single",
@@ -13048,7 +13048,7 @@ const LABQ = [
 "id": 456
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "신경독성 — 축삭손상(axonopathy) 및 신경세포손상(neuronopathy) 대표 독성물질 짝짓기",
 "type": "single",
@@ -13556,7 +13556,7 @@ const LABQ = [
 "id": 474
 },
 {
-"part": "cardio",
+"part": "gakron",
 "unit": "",
 "topic": "Ivermectin(아이버멕틴) — 광범위 내·외부기생충약(거대고리락톤/Avermectin)의 적응증·민감 ",
 "type": "single",
@@ -13583,7 +13583,7 @@ const LABQ = [
 "id": 475
 },
 {
-"part": "repro",
+"part": "gakron",
 "unit": "",
 "topic": "에틸렌 글리콜(EG) 중독 — 부동액·단맛·옥살산(oxalate)에 의한 급성 신부전, 고양이 고감수성",
 "type": "single",
@@ -13609,6 +13609,163 @@ const LABQ = [
 "flag": false,
 "flagReason": "",
 "id": 476
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "선택적 독성(selective toxicity) 개념 + 파라콰트 폐 선택독성 + 납 경구노출 표적장기",
+"type": "multi",
+"q": "독성물질에 의해 손상을 입는 세포나 조직, 장기는 선택적이다. 선택적 독성에 대해 설명한 것 중 틀린 것을 모두 고르시오.",
+"choices": [
+"어떤 독성물질의 독성작용이 특정한 종류의 생물체 또는 생물체의 특정 부위의 조직에서만 관찰되는 경우에 이러한 독성을 선택적 독성이라 한다.",
+"제초제 파라콰트는 노출 경로 의존적으로 폐에서 선택적으로 높은 독성을 나타낸다.",
+"선택적 독성이 발생하는 이유로 어떤 일부 종류의 생물체들에서 친화적이기 때문이고 표적 수용체와는 관련이 없다.",
+"독성물질의 분해 능력이 어떤 일부 종류의 생물체 또는 특정 부위의 조직에서 다른 종류에 비해 더욱 높거나 또는 낮은 경우가 있다.",
+"납이 경구로 노출된 때에는 신장이 일차표적 장기로 손상을 받는다."
+],
+"answer": [
+1,
+3,
+4,
+5
+],
+"explain": "발문과 선지 ①(선택적 독성의 정의)·③(발생이유=친화성, 수용체 무관)·④(종/조직별 분해능력 차이)는 독성학 '총론(선택적 독성 개념·발생기전)'에 속하는 내용으로, 2026 기말 강의안(장기독성 각론 14장)에는 '선택적 독성'을 개념으로 정의하거나 그 발생이유(친화성·표적수용체·대사분해 차이)를 체계적으로 설명한 슬라이드가 없다. 강의안은 선택독성의 '개별 예시'(6-OHDA→도파민신경 DAT 선택흡수 line 2115-2117, 파라콰트→폐 polyamine transporter 축적)만 제시할 뿐, ①의 정의문·③의 '수용체 무관' 주장·④의 '분해능력 차이' 일반론을 강의안 문장으로 직접 대조해 참/거짓을 단정할 수 없다(외부지식/중간범위 총론 필요). 따라서 unsupported_options=①③④. 다만 ②는 Slide 049·052~053에서 '파라콰트가 경구 등 노출경로 의존적으로 폐를 선택 표적'한다고 명시되어 참(=틀린 선지 아님)으로 확정되고, ⑤는 Slide 226에서 납의 핵심표적이 'CNS·조혈계·신장'이며 일차표적은 CNS·조혈계(어린동물·빈혈·basophilic stippling)임이 명시되어 '신장이 일차표적'은 강의안 기준 틀린 선지로 확정된다. 즉 ②⑤는 강의안으로 판정 가능하나 ①③④가 총론 의존이라 verdict=suspect. (족보답 2,3,5와 비교: 강의안 기준 ②는 오히려 참이므로 족보의 ②선택은 강의안과 불일치, ③⑤는 틀린 선지로 일치하나 ③은 강의안 직접근거 부족.)\n\n**Claude 재판정 정답**: ①③④⑤\n**족보 표기답**: 2, 3, 5 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2025-중간",
+"exams": [
+"2025-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
+"id": 477
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "독성에 영향을 미치는 건강상태·환경 요인(영양상태, 식이, 체온) — 총론(host/environmental",
+"type": "multi",
+"q": "독성에 영향을 미치는 건강상태 요인에 대한 것으로 틀린 것은?\na. 영양상태, 섭취한 동식물의 종류, 각종 질환 보유 여부 등에 따라 특정 독성물질의 독성이 영향을 받음\nb. 아세트아미노펜은 고단백 식이로 인해 독성이 증가하고 약효가 상승한다.\nc. 안티피린은 채식을 선호하는 인종보다 육류를 선호하는 인종에서 대사가 수월하여 약효가 높아진다.\nd. 암페타민은 저체온에서 독성이 증가한다.\ne. DDT는 저체온에서 독성이 증가한다.",
+"choices": [
+"모두 맞음",
+"ab",
+"abc",
+"bcd",
+"bcde"
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(독성에 영향을 미치는 건강상태/환경 요인: 영양·식이·체온)는 옛 중간범위 '총론(독성 영향 요인·숙주/환경 요인)'에 속한다. 2026 기말 강의안(14장 장기독성 각론)에는 대사효소 유도/억제·간독성 위험 요인 맥락에서 '영양상태·질병·나이·유전·영양 결핍(GSH↓)'이 일반론으로만 언급되어 선지 a 정도만 지지 가능하다. 그러나 b의 '고단백 식이→아세트아미노펜 독성·약효 상승', c의 안티피린(강의안 전체 Grep 결과 부재)·인종/식이별 대사 차이, d·e의 '암페타민/DDT 저체온 시 독성 증가'라는 체온-독성 관계는 강의안 어디에도 없다(체온/온도는 피부흡수·온도의존성결정 맥락만 존재). 다수 선지(c·d·e)가 강의안 외부지식(옛 총론·약리/독성동태 일반지식)을 요구하므로 5개 선지를 강의안만으로 전부 판정할 수 없다 → suspect.\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 4 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2025-중간",
+"exams": [
+"2025-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c, d, e",
+"id": 478
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "독성물질과 표적 분자(작용 부위) 짝짓기 — aflatoxin·복어독(tetrodotoxin)·CO·사염화탄",
+"type": "multi",
+"q": "아래의 독성물질과 표적 분자가 잘못 짝지어진 것을 고르시오.",
+"choices": [
+"aflatoxin - DNA 아데닌",
+"복어독 tetratoxin - acetylcholine esterase",
+"CO - 적혈구의 혈색소",
+"사염화탄소 - 막지질",
+"유기인계 - 나트륨 통로"
+],
+"answer": [
+1,
+3,
+4,
+5
+],
+"explain": "강의안 전체로 판정 시: ④(CCl4-막지질)은 지질과산화/세포막 손상 근거로 '옳은 짝'임이 확인되고, ⑤(유기인계-나트륨통로)는 Slide 227에서 유기인계 표적=AChE, Na+채널=유기염소계로 명시되어 '틀린 짝'임이 확정된다. 그러나 ①(aflatoxin-DNA '아데닌')은 강의안이 'DNA 손상'까지만 적고 결합 염기가 adenine인지 명시하지 않아 진위 판정 불가, ②(복어독 tetrodotoxin-AChE)는 tetrodotoxin/복어독이 강의안 어디에도 등장하지 않아 판정 불가, ③(CO-적혈구 혈색소)은 CO가 CNS장애 예시·교재 목차로만 나오고 혈색소 결합(carboxyhemoglobin) 기전이 강의안에 없어 판정 불가다. '잘못 짝지어진 것 하나'를 고르려면 ①②③이 모두 옳은 짝임을 확인해야 하는데 이는 옛 중간범위 총론/외부지식을 요구하므로, 1개 이상 선지가 강의안 무근거 → suspect로 판정한다.\n\n**Claude 재판정 정답**: ①③④⑤\n**족보 표기답**: 3 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2025-중간",
+"exams": [
+"2025-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③",
+"id": 479
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "골수독성·면역독성 — 특정 독성물질(benzene, TCDD) 기전 식별",
+"type": "multi",
+"q": "다음 빈칸에 들어갈 말로 각각 알맞은 것을 고르시오.\n(     )은 CYP에 의하여 hydroquinone으로 되고, 이것은 골수에서 myeloperoxidase에 의해 반응성 quinoid 대사체로 활성화되고 ROS를 생산하여 골수에서 원조세포를 손상시켜 범혈구감소증을 유발한다. 이와 같은 조혈세포의 파괴로 인하여 면역 기능을 담당하는 림프구 전구세포가 감소한다.\n(     )은 가장 강력한 면역억제 효과를 갖는 독성물질로써 소량에 의해서 조혈계 및 면역계에 독성을 일으킨다. 이것의 분자적 기전은 잘 알려져 있지 않으나 이는 흉선 피질의 상피세포를 포함한 T 세포의 분화를 억제한다. 특히 흉선 T 세포의 성숙과 분화시기에 영향을 미친다. 또한 이것은 흉선 피질의 상피세포를 손상시킬 뿐만 아니라 Ca2+ 의존성 endonuclease를 활성화시켜 피질세포의 세포자멸을 유도한다.",
+"choices": [
+"TRAIL - Benzene",
+"TCDD - Benzene",
+"Caspase - TRAIL",
+"Benzene - TCDD",
+"TCDD - Caspase"
+],
+"answer": [
+2,
+3,
+4,
+5
+],
+"explain": "두 번째 빈칸(TCDD)은 강의안 근거가 충분하다: Slide 230에서 2,3,7,8-TCDD를 '가장 강력한 다이옥신'이자 주요 독성이 '면역억제'인 물질로 명시하고, Slide 190은 면역억제 원인물질로 '다이옥신류'를 든다. 따라서 '가장 강력한 면역억제 효과를 갖는 독성물질=TCDD'는 강의안만으로 판정 가능하다. 반면 첫 번째 빈칸(Benzene)의 핵심 식별 기전 — CYP에 의한 hydroquinone 전환, 골수 myeloperoxidase에 의한 반응성 quinoid 대사체 활성화, ROS 생성에 의한 원조세포(조혈모세포) 손상→범혈구감소증 — 은 강의안 어디에도 서술되지 않는다. Slide 173은 '골수생성 저하→범혈구감소증' 일반 경로만 보여줄 뿐 벤젠·hydroquinone·myeloperoxidase를 명시하지 않고, 벤젠은 단지 '자유기 생성'(line 7391) 및 'DNA 손상/발암'(line 16524) 물질로만 등장한다. 선지 판정 측면: ① TRAIL(강의안에 전혀 없음)·③ Caspase·⑤ Caspase는 독성물질이 아니라 사멸 관련 단백질로 두 빈칸의 '독성물질' 맥락에 부적합하나, 강의안에는 TRAIL/Caspase가 두 빈칸 기전과 무관함을 직접 보여주는 근거가 없다(TRAIL은 등장조차 안 함). 또한 ②④⑤가 공유하는 정답 식별 근거인 benzene→hydroquinone→myeloperoxidase 골수 기전 자체가 강의안에 없어, 강의안만으로는 'Benzene이 첫 빈칸'이라고 적극 확정하기 어렵다(벤젠이 골수 독성·범혈구감소증 유발 물질이라는 직접 진술 부재). 정답 ④는 일반 독성학 총론·옛 중간범위 지식으로 추론 가능하나 제공된 기말강의안 14장만으로는 첫 빈칸의 식별 기전 근거가 결여되므로 suspect로 판정한다. 강의안 기준 가장 합당한 답은 ④ Benzene - TCDD(족보답 4와 일치)이며, TCDD 빈칸은 in_scope이나 Benzene 식별 기전이 unsupported.\n\n**Claude 재판정 정답**: ②③④⑤\n**족보 표기답**: 4 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2025-중간",
+"exams": [
+"2025-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ④, ⑤",
+"id": 480
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "해독제(antidote)-중독물질 짝짓기: atropine/EDTA/dimercaprol/ethanol/me",
+"type": "multi",
+"q": "다음 중 해독제와 그에 대한 설명이 올바르게 짝지어진 것은?\n| a. atropine sulfate | ㄱ. 유기인계 살충제와 같은 cholinesterase 억제제 중독 시 muscarine 성 수용체의 길항제로 사용한다. |\n| --- | --- |\n| b. EDTA | ㄴ. 납과 아연 중독의 킬레이트화 처치에 사용된다. |\n| c. dimercarprol | ㄷ. 비소중독에 대한 우수한 해독제이며, 수은과 안티몬 및 납중독에도 사용될 수 있다. |\n| d. 에탄올 (20%) | ㄹ. ethylene glycol 섭식과 중독의 영향을 감소시킨다. |\n| e. methylene blue | ㅁ. 질산염과 아질산염 또는 염소산염 중독으로부터 초래되는 메트헤모글로빈증에 효과적이다. |\n| f. paralidoxime chloride (2-PAM) | ㅂ. 유기인계 살충제에 대한 반작용제이다. |\n| g. sodium thiosulfate | ㅅ. 청산중독의 처치에 사용된다. |",
+"choices": [
+"a-ㄱ, b-ㄴ, c-ㄷ, d-ㅂ, e-ㄹ, f-ㅁ, g-ㅅ",
+"a-ㄱ, b-ㄴ, c-ㄷ, d-ㄹ, e-ㅁ, f-ㅂ, g-ㅅ",
+"a-ㄴ, b-ㅁ, c-ㄷ, d-ㄹ, e-ㅂ, f-ㅅ, g-ㄱ",
+"a-ㄷ, b-ㄹ, c-ㅁ, d-ㅅ, e-ㄱ, f-ㄴ, g-ㄱ",
+"a-ㄴ, b-ㄱ, c-ㄹ, d-ㅁ, e-ㄷ, f-ㅅ, g-ㅂ"
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(해독제-중독물질 짝짓기)는 강의안에 부분적으로 등장한다. 유기인계 해독제 atropine+2-PAM(Slide 225), 에틸렌글리콜 해독제 ethanol/4-MP(Slide 229)는 명확히 근거가 있어 a-ㄱ, d-ㄹ, f-ㅂ 매칭은 검증 가능하다. 그러나 정답을 확정하려면 b(EDTA→납·아연 킬레이션), c(dimercaprol/BAL→비소·수은·안티몬·납), e(methylene blue→메트헤모글로빈증), g(sodium thiosulfate→청산)의 해독제-중독물질 연결을 모두 판정해야 한다. dimercaprol·methylene blue·sodium thiosulfate라는 해독제 이름은 강의안 전체(234슬라이드) 어디에도 등장하지 않으며(검색상 '염화메틸렌(methylene chloride)' 인덱스 항목만 존재), 금속독성 요약표(Slide 226)는 납·아연·비소·수은의 기전만 제시할 뿐 해독제 칸이 아예 없다. EDTA는 알칼리 안구화상 치료 맥락(Slide 155)에만 나오고 중금속 킬레이션 해독제로 제시되지 않는다. 따라서 4개 선지(b·c·e·g)가 강의안 근거 없이 옛 총론/임상 해독제 지식(중간 범위)을 요구하므로 verdict=suspect.\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 2 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2025-중간",
+"exams": [
+"2025-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, e, g",
+"id": 481
 },
 {
 "part": "neuro",
@@ -13637,7 +13794,101 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ③, ④, ⑤",
-"id": 477
+"id": 482
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "산화적 스트레스 방어계(GSH·SOD·Catalase·Metallothionein)와 물질·기능 짝짓기",
+"type": "multi",
+"q": "산화적 스트레스 방어계의 종류와 물질을 알맞게 짝지은 것은?\n| 종류 | 설명 |\n|---|---|\n| a. GSH | ㄱ. 비효소적 자유기 포착자. 산화된 단백질의 sulfhydryl기를 환원. |\n| b. SOD | ㄴ. 구리와 아연 이온 의존성 효소. O2-를 H2O2로 전환을 촉매함. |\n| c. Catalase | ㄷ. 과산화소체에 고농도로 존재. H2O2를 H2O로 전환을 촉매함. |\n| d. Methallothionein | ㄹ. 아연, cadmium 등을 투여하면 급속히 출현하는 금속 결합 단백질로, 중금속을 격리. |",
+"choices": [
+"a-ㄷ, b-ㄹ, c-ㄱ, d-ㄴ",
+"a-ㄱ, b-ㄴ, c-ㄹ, d-ㄷ",
+"a-ㄹ, b-ㄴ, c-ㄱ, d-ㄷ",
+"a-ㄷ, b-ㄴ, c-ㄱ, d-ㄹ",
+"a-ㄱ, b-ㄴ, c-ㄷ, d-ㄹ"
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(산화적 스트레스 방어계의 물질-기능 짝짓기)와 4개 물질(GSH·SOD·Catalase·Metallothionein)은 강의안에 존재한다. Slide 113이 SOD(O2-→H2O2)·Catalase(H2O2→H2O)·GSH(sulfhydryl amino acid)를 직접 제시하고, Slide 107은 catalase-과산화소체 연결을, Slide 226/117은 metallothionein-cadmium 결합을 제시하므로 정답 짝짓기 ⑤는 강의안 등식·물질 정체성만으로 1:1 도출 가능하다(족보답 5와 일치). 그러나 개별 설명문구 일부는 강의안 어디에도 명시되지 않아 진위 검증 불가: (1) b-ㄴ의 'SOD가 구리와 아연 이온 의존성 효소'라는 Cu/Zn 보조인자 서술 — 강의안은 SOD 반응식만 제시하고 금속 보조인자 언급 없음. (2) d-ㄹ의 'metallothionein이 아연·cadmium 투여 시 급속히 출현하는 금속 결합 단백질로 중금속을 격리' — 강의안은 metallothionein-cadmium 결합과 신장 축적만 언급, Zn/Cd 유도성·격리 기능 서술 없음. (3) a-ㄱ의 'GSH가 비효소적 자유기 포착자로 산화된 단백질의 sulfhydryl기를 환원' — 강의안은 GSH를 GPx/GR 효소계 및 sulfhydryl amino acid로 분류할 뿐 '비효소적 포착자·단백질 sulfhydryl 환원' 서술 없음. 이들 세부 서술은 옛 중간범위 총론(자유기·항산화 방어 기전)·외부지식을 요구하므로 suspect로 판정. 짝짓기 정답 자체는 강의안 범위 물질·등식으로 도출되나, 선지 문장의 완전 검증은 강의안 밖 지식 필요.\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 5 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2024-중간",
+"exams": [
+"2024-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b-ㄴ, d-ㄹ, a-ㄱ",
+"id": 483
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "유기인산염·카바메이트의 AChE 억제 가역성/비가역성, 노출원, 파라티온→파라옥손 생체활성화",
+"type": "multi",
+"q": "유기인산염, 카바메이트에 대한 아래 설명 중 틀린 것을 모두 고른 것은?\na. 유기인산염은 아세틸콜린에스터레이스를 가역적으로 억제시켜 독성을 증가시킨다.\nb. 카바메이트는 아세틸콜린에스터레이스를 비가역적으로 억제시켜 독성을 증가시킨다.\nc. 카바메이트는 농약, 해충 퇴치 목걸이로 쓰여 광범위한 중독원이다.\nd. 카바메이트는 파리, 개미 등 미끼의 주성분으로 쓰여 광범위한 중독원이 존재한다.\ne. 파라옥손이 파라티온으로 전환되면 10배 이상의 높은 독성이 발현된다.",
+"choices": [
+"a b c",
+"a b c d",
+"a b d e",
+"a c d",
+"a b e"
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(유기인계·카바메이트의 AChE 억제와 노출원)는 강의안 각론 25장 요약(Slide 227)·눈피부 동공반사 장·neuro 축삭손상 장에 분명히 존재한다. 선지 a·b의 가역성/비가역성 판정은 Slide 227 '유기인계 비가역적, 카바메이트 가역적' 한 줄로 정확히 판정 가능하다. 그러나 정답 선지를 가르는 d·e는 강의안에 근거가 없다: (1) d의 '파리·개미 미끼 주성분' 카바메이트 노출원은 강의안 노출원 목록(동식물용 살충제 용도변경, 개용 살충제의 고양이 사용)에 없다. (2) e의 '파라옥손→파라티온 전환 10배 독성'이라는 생체활성화 명제는 강의안에 전환 사실·방향·배수 어느 것도 없다(키워드 Grep 전부 무매치, 이 부분은 옛 중간범위 총론 생체활성화/대사 영역에 해당). 한 선지라도 강의안 근거가 없으면 정답 선지 조합을 강의안만으로 확정할 수 없으므로 verdict=suspect, unsupported_options=[d,e].\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 5 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2024-중간",
+"exams": [
+"2024-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d, e",
+"id": 484
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "유기염소계(organochlorine) 농약/살충제 — 환경잔류·지용성 축적·EDCs(환경호르몬) 특성",
+"type": "multi",
+"q": "유기염소계에 관한 설명으로 틀린 것을 모두 고르시오.\na. 자연계에서 분해기전이 거의 없어 호수바닥의 침전물 등 환경에서 장시간 잔류한다.\nb. 1950-70년대 초반까지 농약으로 광범위하게 사용되어 오염된 토양이나 쓰레기처리장으로부터 지속적으로 누출되었다.\nc. 디페닐 지방족 화합물, 방향족 탄화수소, 사이클로디엔화합물이 포함된다.\nd. 수용성이 높아 생태계 먹이사슬의 상위단계에 있는 동물 및 인간에 축적되어 내분비계 장애물질, 일명 환경호르몬의 주종을 이루고 있다\ne. 현재 유기염소계 농약은 아예 사용하고 있지 않다.",
+"choices": [
+"a, c",
+"b, d, e",
+"c, e",
+"d, e"
+],
+"answer": [
+1,
+2,
+3,
+4
+],
+"explain": "발문 주제(유기염소계)와 핵심 특성(환경잔류·자연분해 부재·지용성 지방조직 축적·먹이사슬 농축·EDCs/환경호르몬)은 26장 유기염소계 각론 요약(Slide 226)과 17장 내분비계 장애물질(EDCs) 슬라이드(Slide 143·145)에 명확히 수록되어 out_of_scope는 아니다. 선지 a는 '자연분해 거의 없음·토양·수계·퇴적물 장기 잔류'(Slide 226·143)로 참 판정 가능하고, 선지 d는 '지용성'이라는 강의안 서술과 '수용성이 높아'가 정면 모순되어 거짓 판정 가능하다. 그러나 (1) 선지 c의 화학적 하위분류 용어(디페닐 지방족 화합물·방향족 탄화수소·사이클로디엔 화합물)는 강의안 어디에도 없고, (2) 선지 b의 '1950~70년대 초반 광범위 사용·쓰레기처리장 누출'이라는 역사적 세부도 강의안에 없으며(외부지식/옛 총론 필요), (3) 선지 e의 '현재 유기염소계 농약을 아예 사용하지 않는다'는 전면적 사용중단 주장은 강의안이 DDT 사용 금지만 언급할 뿐 유기염소계 전체의 완전 미사용을 확인·반증할 근거가 없다. '틀린 것을 모두 고르시오' 형식상 모든 선지의 참/거짓을 판정해야 정답을 확정할 수 있는데 b·c·e가 강의안만으로 판정 불가하므로 verdict=suspect로 판정한다.\n\n**Claude 재판정 정답**: ①②③④\n**족보 표기답**: 4 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2024-중간",
+"exams": [
+"2024-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, e",
+"id": 485
 },
 {
 "part": "genotox",
@@ -13665,7 +13916,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①",
-"id": 478
+"id": 486
 },
 {
 "part": "repro",
@@ -13696,7 +13947,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
-"id": 479
+"id": 487
 },
 {
 "part": "gakron",
@@ -13728,7 +13979,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ④",
-"id": 480
+"id": 488
 },
 {
 "part": "gakron",
@@ -13757,7 +14008,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 481
+"id": 489
 },
 {
 "part": "gakron",
@@ -13787,10 +14038,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 482
+"id": 490
 },
 {
-"part": "repro",
+"part": "gakron",
 "unit": "",
 "topic": "살서제(rodenticide) 종류 식별 — 설치류 저항성으로 거의 사용하지 않는 살서제",
 "type": "multi",
@@ -13816,7 +14067,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ⑤",
-"id": 483
+"id": 491
 },
 {
 "part": "gakron",
@@ -13845,7 +14096,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 484
+"id": 492
 },
 {
 "part": "gakron",
@@ -13874,7 +14125,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 485
+"id": 493
 },
 {
 "part": "gakron",
@@ -13905,7 +14156,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 486
+"id": 494
 },
 {
 "part": "gakron",
@@ -13936,7 +14187,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 487
+"id": 495
 },
 {
 "part": "neuro",
@@ -13964,7 +14215,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ③, ④",
-"id": 488
+"id": 496
 },
 {
 "part": "gakron",
@@ -13994,7 +14245,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d, e, f, g",
-"id": 489
+"id": 497
 },
 {
 "part": "genotox",
@@ -14023,7 +14274,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④, ⑤",
-"id": 490
+"id": 498
 },
 {
 "part": "resp",
@@ -14055,7 +14306,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d",
-"id": 491
+"id": 499
 },
 {
 "part": "hepato",
@@ -14086,7 +14337,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 492
+"id": 500
 },
 {
 "part": "renal",
@@ -14120,7 +14371,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ⑥",
-"id": 493
+"id": 501
 },
 {
 "part": "genotox",
@@ -14150,7 +14401,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 494
+"id": 502
 },
 {
 "part": "repro",
@@ -14182,10 +14433,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④",
-"id": 495
+"id": 503
 },
 {
-"part": "resp",
+"part": "gakron",
 "unit": "",
 "topic": "기관지 확장제(adrenergic β-receptor agonist) 중독 — albuterol(개에서 가장",
 "type": "multi",
@@ -14212,7 +14463,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ④",
-"id": 496
+"id": 504
 },
 {
 "part": "gakron",
@@ -14244,10 +14495,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④, ⑤",
-"id": 497
+"id": 505
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "유기인산염·카바메이트의 AChE 억제 기전(가역/비가역)과 살충제 중독원·생물활성화(parathion→par",
 "type": "multi",
@@ -14276,7 +14527,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): d, e",
-"id": 498
+"id": 506
 },
 {
 "part": "gakron",
@@ -14307,7 +14558,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c, e",
-"id": 499
+"id": 507
 },
 {
 "part": "gakron",
@@ -14335,10 +14586,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ⑤",
-"id": 500
+"id": 508
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "알코올·글리콜 독성 (메탄올 종간 감수성·포름산 대사·에탄올 발암성)",
 "type": "multi",
@@ -14367,7 +14618,101 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, c, d",
-"id": 501
+"id": 509
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "선택적 독성(selective toxicity)의 정의와 발생 기전 + 표적장기(파라쿼트→폐, 카드뮴→신장)",
+"type": "multi",
+"q": "독성물질에 의해 손상을 입는 세포나 조직, 장기는 선택적이다. 선택적 독성에 대해 설명한 것 중 틀린 것을 고르시오.",
+"choices": [
+"어떤 독성물질의 독성작용이 특정한 종류의 생물체 또는 생물체의 특정 부위의 조직에서만 관찰되는 경우에 이러한 독성을 선택적 독성이라 한다.",
+"카드뮴(cadmium)이 경구(oral)로 노출될 때에는 신장(kidney)이 일차표적 장기로 손상을 받는다.",
+"제초제 파라쿼트(paraquat)는 노출 경로 의존적으로 폐에서 선택적으로 높은 독성을 나타낸다.",
+"선택적 독성이 발생하는 이유로 독성물질의 표적 수용체가 어떤 일부 종류의 생물체들에서만 존재하여 친화적이기 때문이다.",
+"독성물질의 분해 능력이 어떤 일부 종류의 생물체 또는 특정 부위의 조직에서 다른 종류에 비해 더욱 높거나 또는 낮은 경우가 있다."
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(선택적 독성·표적장기 선택성)와 구체적 예시 선지 ②(카드뮴→신장)·③(파라쿼트→폐)·⑤(종/조직별 분해능 차이)는 기말 강의안(신장독성 Slide117, 호흡기독성 Slide049 등, 혈액 종특이적 대사 맵)에서 명확히 근거를 찾을 수 있어 in_scope 요소다. 그러나 선지 ①(선택적 독성의 형식적 정의: 특정 종·특정 부위 조직에서만 독성 관찰)과 선지 ④(표적 수용체가 일부 종에만 존재·친화적이라 선택독성 발생)은 선택독성의 '일반 총론 정의·기전 프레임'으로, 기말 강의안은 6-OHDA(DAT/NET 선택흡수)·파라쿼트·카드뮴 같은 개별 각론 예시만 제시할 뿐 이 정의·일반 기전 자체를 정식으로 서술하지 않는다. 즉 ①④의 참/거짓 판정은 옛 중간범위 총론 지식을 요구하므로 강의안만으로 단정 불가 → suspect. CLAUDE.md 교차단원 원칙상 전체 14장을 검토했으나 ①④의 근거 슬라이드를 찾지 못했다.\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 3 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2022-중간",
+"exams": [
+"2022-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ④",
+"id": 510
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "독성에 영향을 미치는 특성/요인 (총론) — 투여경로별 독성 차이, 종간 감수성 차이(아플라톡신 B1), 다",
+"type": "multi",
+"q": "다음 중 독성에 영향을 미치는 특성으로 옳지 않은 것은?",
+"choices": [
+"페노바비탈의 LD50은 경구투여에서 혈관내투여보다 높다",
+"아플라톡신 B1에 의한 간암독성은 랫드(15ppb)가 마우스(10,000ppb이상)보다 민감하다",
+"다이옥신은 대사과정에서 궁극적인 독물로 활성화되어 경구투여에서가 피하나 복강내 주사보다 높은 독성을 갖는다.",
+"살충제인 말라티온에 대해 포유류는 분해효소가 있어 해충보다 독성이 높다.",
+"반추류는 thiamine(vitamin B1)을 가져 thiaminase를 함유하는 고사리 중독에서 독성이 덜하다."
+],
+"answer": [
+1,
+2,
+3,
+4,
+5
+],
+"explain": "발문 주제(독성에 영향을 미치는 특성/요인 — 투여경로·종차·생물활성화·선택독성)는 강영선 교수 옛 중간(총론) 범위다. 기말강의안 14장은 장기독성 각론으로, 등장하는 물질(말라티온·아플라톡신 B1·다이옥신·페노바비탈)이 모두 무관한 각론 맥락(동공반사·EHC·POPs/발암·종양촉진제)에서만 언급될 뿐, 5개 선지의 핵심 비교 진술(투여경로별 LD50, 종간 감수성 수치, 대사활성화 경로별 독성, 선택독성 방향, 반추류 thiaminase 중독 감수성)을 참/거짓으로 판정할 근거가 강의안 어디에도 없다. 발문 주제 자체가 통째로 부재한 out_of_scope까지는 아니나(개별 물질은 등장), 모든 선지가 강의안 근거 없음 → suspect, unsupported_options=전 선지.\n\n**Claude 재판정 정답**: ①②③④⑤\n**족보 표기답**: 4 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2022-중간",
+"exams": [
+"2022-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): 1, 2, 3, 4, 5",
+"id": 511
+},
+{
+"part": "gakron",
+"unit": "",
+"topic": "독성물질-표적분자 짝짓기 (총론: 독성 기전/표적분자) — CO·TTX·CCl4·유기인제",
+"type": "multi",
+"q": "아래의 독성 물질과 표적분자가 잘못 짝지어진 것 2개를 모두 고르시오.",
+"choices": [
+"CO - 적혈구의 혈색소(Hb)",
+"복어독인 tetradotoxin(TTX) -",
+"사염화탄소 - 지질",
+"유기인제 살충제 -"
+],
+"answer": [
+1,
+2,
+3,
+4
+],
+"explain": "발문 주제(독성물질-표적분자 짝짓기)는 옛 중간범위 총론(독성 기전/표적분자)에 속한다. 2026 기말 강의안(14장 장기독성 각론)에서 선지③(CCl4-지질)·선지④(유기인제-AChE)는 근거가 있으나, 선지①(CO-혈색소 Hb) 짝은 강의안이 CO를 전자전달계 억제제로만 다루고 Hb 표적을 진술하지 않아 검증 불가, 선지②(TTX 복어독)는 tetrodotoxin/복어/TTX 키워드가 강의안 전체에 0건이라 표적분자 근거가 전무하다. 1개 이상(실제 2개) 선지가 강의안 근거 없음 → suspect, unsupported_options=[1,2]. (추가로 입력 q 파일에서 선지 2·4의 표적분자 텍스트가 잘려 있어 원문 자체도 불완전함을 부기한다.)\n\n**Claude 재판정 정답**: ①②③④\n**족보 표기답**: 2, 4 (⚠️ 불일치 — Claude 재판정 신뢰)",
+"origin": "jokbo",
+"exam": "2022-중간",
+"exams": [
+"2022-중간"
+],
+"freq": 0,
+"cardOrder": 999,
+"flag": true,
+"flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): 1, 2",
+"id": 512
 },
 {
 "part": "gakron",
@@ -14397,10 +14742,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d, e, f, g",
-"id": 502
+"id": 513
 },
 {
-"part": "resp",
+"part": "gakron",
 "unit": "",
 "topic": "조류 호흡기계 생리학적 차이와 흡입독성 감수성 (avian respiratory physiology and ",
 "type": "multi",
@@ -14429,7 +14774,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, b, c, d",
-"id": 503
+"id": 514
 },
 {
 "part": "gakron",
@@ -14461,7 +14806,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): A, B, D, E",
-"id": 504
+"id": 515
 },
 {
 "part": "hepato",
@@ -14493,7 +14838,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): e",
-"id": 505
+"id": 516
 },
 {
 "part": "renal",
@@ -14525,7 +14870,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): b, c, f",
-"id": 506
+"id": 517
 },
 {
 "part": "repro",
@@ -14554,7 +14899,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ②, ③, ④",
-"id": 507
+"id": 518
 },
 {
 "part": "gakron",
@@ -14582,7 +14927,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ④, ①",
-"id": 508
+"id": 519
 },
 {
 "part": "gakron",
@@ -14614,10 +14959,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ①, ③, ④, ⑤",
-"id": 509
+"id": 520
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "유기인계·카바메이트계 살충제의 AChE 억제 기전(가역/비가역)·생체활성화·제품 용도",
 "type": "multi",
@@ -14646,7 +14991,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ③, ④, ⑤",
-"id": 510
+"id": 521
 },
 {
 "part": "gakron",
@@ -14678,7 +15023,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): c",
-"id": 511
+"id": 522
 },
 {
 "part": "gakron",
@@ -14706,10 +15051,10 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): ②, ①, ⑤",
-"id": 512
+"id": 523
 },
 {
-"part": "neuro",
+"part": "gakron",
 "unit": "",
 "topic": "알코올과 글리콜 독성 (에탄올·메탄올·이소프로필 알코올): 메탄올→포름산 시신경독성/실명, 에탄올 발암성, ",
 "type": "multi",
@@ -14738,7 +15083,7 @@ const LABQ = [
 "cardOrder": 999,
 "flag": true,
 "flagReason": "⚠️ 일부 선지가 이번 강의안 밖(범위 의심): a, e",
-"id": 513
+"id": 524
 }
 ];
 const CORE = [];
